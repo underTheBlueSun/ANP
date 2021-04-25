@@ -45,14 +45,14 @@ struct KoreanView: View {
                 
 //            } // ScrollView
             .background(Color.white)
-//            .navigationBarTitle("홈", displayMode: .inline)
-//            .navigationBarColor(backgroundColor: .systemTeal, tintColor: .white)
+            .navigationBarTitle("홈", displayMode: .inline)
+            .navigationBarColor(backgroundColor: .systemTeal, tintColor: .white)
 //            .navigationBarItems(trailing: Button(action: { koreanViewModel.openNewPage.toggle() }) {
 //                Image(systemName: "gearshape.fill")
 //                    .font(.title2)
 //            })
                 .toolbar {
-                                ToolbarItem(placement: .primaryAction) {
+                                ToolbarItem(placement: .navigationBarTrailing) {
                                     Menu {
                                         Picker(selection: $sort, label: Text("Sorting options")) {
                                             Text("Size").tag(0)
@@ -61,7 +61,8 @@ struct KoreanView: View {
                                         }
                                     }
                                     label: {
-                                        Label("Sort", systemImage: "arrow.up.arrow.down")
+//                                        Label("Sort", systemImage: "gearshape.fill")
+                                        Image(systemName: "gearshape.fill").font(.title2).foregroundColor(.white)
                                     }
                                 }
                             }

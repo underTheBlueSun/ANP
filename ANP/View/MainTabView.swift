@@ -116,11 +116,11 @@ private extension MainTabView {
   
   var activity: some View {
     SetUp()
-    .onAppear(perform: { print("설정") })
+    .onAppear(perform: { print("검색") })
     .tag(Tabs.activity)
     .tabItem {
         Image(systemName: "figure.stand.line.dotted.figure.stand")
-        Text("설정")
+        Text("검색")
     }
 
   }
@@ -130,7 +130,7 @@ private extension MainTabView {
 struct MainTabView_Previews: PreviewProvider {
   static var previews: some View {
     MainTabView()
-//        .environmentObject(KoreanViewModel())
+        .environmentObject(KoreanViewModel())
         .environmentObject(Store())
     
   }

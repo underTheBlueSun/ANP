@@ -14,6 +14,8 @@ struct KoreanView: View {
     
     @EnvironmentObject private var store: Store
     
+    @State private var sort: Int = 0
+    
     
     var body: some View {
 
@@ -43,19 +45,27 @@ struct KoreanView: View {
                 
 //            } // ScrollView
             .background(Color.white)
-            .navigationBarTitle("홈", displayMode: .inline)
-            .navigationBarColor(backgroundColor: .systemTeal, tintColor: .white)
+//            .navigationBarTitle("홈", displayMode: .inline)
+//            .navigationBarColor(backgroundColor: .systemTeal, tintColor: .white)
 //            .navigationBarItems(trailing: Button(action: { koreanViewModel.openNewPage.toggle() }) {
-//                Image(systemName: "plus.circle.fill")
+//                Image(systemName: "gearshape.fill")
 //                    .font(.title2)
 //            })
-                    .navigationBarItems(trailing: HStack {
-                        TextField("주소", text: $koreanViewModel.test1).frame(width: 100)
-                        Button(action: { koreanViewModel.openNewPage.toggle() }) {
-                            Image(systemName: "plus.circle.fill")
-                                .font(.title2)
-                        }
-                    })
+                .toolbar {
+                                ToolbarItem(placement: .primaryAction) {
+                                    Menu {
+                                        Picker(selection: $sort, label: Text("Sorting options")) {
+                                            Text("Size").tag(0)
+                                            Text("Date").tag(1)
+                                            Text("Location").tag(2)
+                                        }
+                                    }
+                                    label: {
+                                        Label("Sort", systemImage: "arrow.up.arrow.down")
+                                    }
+                                }
+                            }
+            
 //            .fullScreenCover(isPresented: $koreanViewModel.openNewPage) {
 
 //            }
@@ -69,7 +79,7 @@ struct KoreanView: View {
 struct KoreanView_Previews: PreviewProvider {
     static var previews: some View {
         KoreanView()
-//            .environmentObject(KoreanViewModel())
+            .environmentObject(KoreanViewModel())
             .environmentObject(Store())
     }
 }

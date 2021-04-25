@@ -115,10 +115,7 @@ private extension MainTabView {
   }
   
   var activity: some View {
-    VStack {
-        Text("설정")
-        TextField("주소", text: $koreanViewModel.test1).frame(width: 100)
-    } // VStack
+    SetUp()
     .onAppear(perform: { print("설정") })
     .tag(Tabs.activity)
     .tabItem {

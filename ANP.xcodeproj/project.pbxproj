@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1545B21E263523120044CE04 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 1545B21D263523120044CE04 /* Realm */; };
 		1545B220263523120044CE04 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1545B21F263523120044CE04 /* RealmSwift */; };
+		1545B22326354D480044CE04 /* SetUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1545B22226354D480044CE04 /* SetUp.swift */; };
 		15963B032633F96A0063A634 /* ANPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15963B022633F96A0063A634 /* ANPApp.swift */; };
 		15963B052633F96A0063A634 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15963B042633F96A0063A634 /* ContentView.swift */; };
 		15963B072633F96A0063A634 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15963B062633F96A0063A634 /* Assets.xcassets */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1545B22226354D480044CE04 /* SetUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUp.swift; sourceTree = "<group>"; };
 		15963AFF2633F96A0063A634 /* ANP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ANP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15963B022633F96A0063A634 /* ANPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANPApp.swift; sourceTree = "<group>"; };
 		15963B042633F96A0063A634 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -103,8 +105,10 @@
 		15963B122633F9E50063A634 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				15A4B1F0263400D400B2919D /* Korean */,
+				15A4B1F12634017400B2919D /* KoreanView.swift */,
+				15A4B204263518CE00B2919D /* Home.swift */,
 				15963B152633FA4B0063A634 /* MainTabView.swift */,
+				1545B22226354D480044CE04 /* SetUp.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -132,15 +136,6 @@
 				15A4B20026350ACD00B2919D /* BundleExtension.swift */,
 			);
 			path = Support;
-			sourceTree = "<group>";
-		};
-		15A4B1F0263400D400B2919D /* Korean */ = {
-			isa = PBXGroup;
-			children = (
-				15A4B1F12634017400B2919D /* KoreanView.swift */,
-				15A4B204263518CE00B2919D /* Home.swift */,
-			);
-			path = Korean;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +226,7 @@
 				15963B162633FA4B0063A634 /* MainTabView.swift in Sources */,
 				15A4B1F52634038D00B2919D /* KoreanViewModel.swift in Sources */,
 				15963B1B2633FB060063A634 /* ColorExtension.swift in Sources */,
+				1545B22326354D480044CE04 /* SetUp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

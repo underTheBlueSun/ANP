@@ -9,7 +9,9 @@ import SwiftUI
 
 struct MainTabView: View {
 
-    @StateObject var koreanViewModel = KoreanViewModel()
+    @EnvironmentObject var koreanViewModel: KoreanViewModel
+    
+//    @EnvironmentObject private var store: Store
 
     
     init() {
@@ -58,7 +60,12 @@ private extension MainTabView {
     
     var korean: some View {
         KoreanView()
-            .environmentObject(koreanViewModel)
+            .onAppear(perform: {
+                print("국어")
+                
+            })
+//            .environmentObject(koreanViewModel)
+//            .environmentObject(Store)
             .tag(Tabs.korean)
             .tabItem {
               Image(systemName: "house.fill")
@@ -67,23 +74,20 @@ private extension MainTabView {
     }
     
   var math: some View {
-    
+
     Text("수학")
-    //    UriBanView()
-//        .environmentObject(homeViewModelData)
-//        .environmentObject(studentViewModelData)
-//        .environmentObject(growthViewModelData)
-//        .environmentObject(subjectViewModelData)
-//        .environmentObject(counselViewModelData)
+        .onAppear(perform: { print("수학") })
         .tag(Tabs.math)
         .tabItem {
             Image(systemName: "person.2.fill")
             Text("수학")
         }
+
   }
     
     var society: some View {
         Text("사회")
+            .onAppear(perform: { print("사회") })
 //        GrowthView()
 //            .environmentObject(homeViewModelData)
 //            .environmentObject(studentViewModelData)
@@ -97,6 +101,7 @@ private extension MainTabView {
   
   var science: some View {
     Text("과학")
+        .onAppear(perform: { print("과학") })
 //    SubjectView()
 //        .environmentObject(homeViewModelData)
 //        .environmentObject(studentViewModelData)
@@ -110,16 +115,17 @@ private extension MainTabView {
   }
   
   var activity: some View {
-    Text("창체")
-//    CounselView()
-//        .environmentObject(homeViewModelData)
-//        .environmentObject(studentViewModelData)
-//        .environmentObject(counselViewModelData)
-      .tag(Tabs.activity)
-        .tabItem {
-            Image(systemName: "figure.stand.line.dotted.figure.stand")
-            Text("창체")
-        }
+    VStack {
+        Text("설정")
+        TextField("주소", text: $koreanViewModel.test1).frame(width: 100)
+    } // VStack
+    .onAppear(perform: { print("설정") })
+    .tag(Tabs.activity)
+    .tabItem {
+        Image(systemName: "figure.stand.line.dotted.figure.stand")
+        Text("설정")
+    }
+
   }
     
 }
@@ -127,5 +133,8 @@ private extension MainTabView {
 struct MainTabView_Previews: PreviewProvider {
   static var previews: some View {
     MainTabView()
+//        .environmentObject(KoreanViewModel())
+        .environmentObject(Store())
+    
   }
 }

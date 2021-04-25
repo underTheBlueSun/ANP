@@ -12,6 +12,9 @@ struct ANPApp: App {
     var body: some Scene {
         WindowGroup {
             MainTabView()
+                .environmentObject(Store())
+                .environmentObject(KoreanViewModel())
+//            MainTabView()
         }
     }
 }

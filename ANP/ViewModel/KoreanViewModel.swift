@@ -11,5 +11,6 @@ import SwiftUI
 class KoreanViewModel: ObservableObject {
     
     @Published var openNewPage = false
+    @Published var test1 = "국어"
     
 }

@@ -9,68 +9,56 @@ import SwiftUI
 
 struct KoreanView: View {
 
-    // 초기화 하면서 fetch 한다
     @EnvironmentObject var koreanViewModel: KoreanViewModel
-    
     @EnvironmentObject private var store: Store
+    @State var selectedGrade = UserDefaults.standard.string(forKey: "Grade") ?? ""
     
-    @State private var sort: Int = 0
-    
+    let grades = ["3학년 1학기", "3학년 2학기", "4학년 1학기", "4학년 2학기", "5학년 1학기", "5학년 2학기", "6학년 1학기", "6학년 2학기"]
     
     var body: some View {
-
         NavigationView {
-//            ScrollView {
-                List {
-                  ForEach(store.products) { product in
-                    HStack {
-                        TextField("주소", text: $koreanViewModel.test1).frame(width: 100)
-                        Text(product.imageName)
-                        Image(product.imageName)
-                            .resizable()
-                            .frame(width: 150, height: 100)
-                            .cornerRadius(15)
-                    }
-//
+            List {
+              ForEach(store.products) { product in
+                HStack {
+                    TextField("주소", text: $koreanViewModel.test1).frame(width: 100)
+                    Text(product.imageName)
+                    Image(product.imageName)
+                        .resizable()
+                        .frame(width: 150, height: 100)
+                        .cornerRadius(15)
+                }
 //                    HStack {
 //                      ProductRow(product: product, quickOrder: self.$quickOrder)
 //                      NavigationLink(destination: ProductDetailView(product: product)) {
 //                        EmptyView()
 //                      }.frame(width: 0).hidden()
 //                    }
-                  }
-                  .listRowBackground(Color.background)
-                }
-                .background(Color.background)
-                
-//            } // ScrollView
+              } // ForEach
+            } // List
             .background(Color.white)
             .navigationBarTitle("홈", displayMode: .inline)
             .navigationBarColor(backgroundColor: .systemTeal, tintColor: .white)
-//            .navigationBarItems(trailing: Button(action: { koreanViewModel.openNewPage.toggle() }) {
-//                Image(systemName: "gearshape.fill")
-//                    .font(.title2)
-//            })
-                .toolbar {
-                                ToolbarItem(placement: .navigationBarTrailing) {
-                                    Menu {
-                                        Picker(selection: $sort, label: Text("Sorting options")) {
-                                            Text("Size").tag(0)
-                                            Text("Date").tag(1)
-                                            Text("Location").tag(2)
-                                        }
-                                    }
-                                    label: {
-//                                        Label("Sort", systemImage: "gearshape.fill")
-                                        Image(systemName: "gearshape.fill").font(.title2).foregroundColor(.white)
-                                    }
-                                }
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Menu {
+                        
+                        ForEach(grades, id: \.self) { grade in
+//                                            Text($0)
+                            Button(action: {
+                                UserDefaults.standard.set(grade, forKey: "Grade")
+                                selectedGrade = UserDefaults.standard.string(forKey: "Grade") ?? ""
+                            }) {
+                                Label(grade, systemImage: "circle.grid.cross.left.fill")
                             }
-            
-//            .fullScreenCover(isPresented: $koreanViewModel.openNewPage) {
-
-//            }
-            
+                        }
+                        
+                    } // Menu
+                    label: {
+                        Text(selectedGrade).foregroundColor(.white).font(.system(size: 15))
+                        Image(systemName: "gearshape.fill").font(.title2).foregroundColor(.white)
+                    }
+                } // ToolbarItem
+            } // toolbar
         } // NavigationView
         .navigationViewStyle(StackNavigationViewStyle())
 

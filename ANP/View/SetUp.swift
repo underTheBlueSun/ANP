@@ -16,6 +16,10 @@ struct SetUp: View {
     
     // UserDefaults 테스트
     @State private var tapCount = UserDefaults.standard.integer(forKey: "Tap")
+    @State var selectedGrade1 = ""
+    
+    let buttonLabel_31 = "3학년 1학기"
+    let buttonLabel_32 = "3학년 2학기"
     
     var body: some View {
 
@@ -40,9 +44,21 @@ struct SetUp: View {
                 Section {
                     // UserDefaults 테스트
                     Button("Tap count: \(tapCount)") {
-                        self.tapCount += 1
-                        UserDefaults.standard.set(self.tapCount, forKey: "Tap")
+//                        self.tapCount += 1
+//                        UserDefaults.standard.set(self.tapCount, forKey: "Tap")
+                        UserDefaults.standard.set(self.buttonLabel_31, forKey: "Grade")
+                        selectedGrade1 = UserDefaults.standard.string(forKey: "Grade") ?? ""
                     }
+                    
+                    Button("Tap count: \(tapCount)") {
+//                        self.tapCount += 1
+//                        UserDefaults.standard.set(self.tapCount, forKey: "Tap")
+                        UserDefaults.standard.set(self.buttonLabel_32, forKey: "Grade")
+                        selectedGrade1 = UserDefaults.standard.string(forKey: "Grade") ?? ""
+                    }
+                    
+//                    Text("Tap count1: \(selectedGrade1 ?? "")")
+                    Text("Tap count2: \(selectedGrade1)")
                 }
                 
             }

@@ -107,11 +107,11 @@ private extension MainTabView {
   
   var activity: some View {
     SetUp()
-    .onAppear(perform: { print("검색") })
+    .onAppear(perform: { print("설정") })
     .tag(Tabs.activity)
     .tabItem {
-        Image(systemName: "figure.stand.line.dotted.figure.stand")
-        Text("검색")
+        Image(systemName: "gearshape.fill")
+        Text("설정")
     }
 
   }

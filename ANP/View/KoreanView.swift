@@ -56,7 +56,7 @@ struct KoreanView: View {
                     } // Menu
                     label: {
                         Text(selectedGrade).foregroundColor(.white).font(.system(size: 15))
-                        Image(systemName: "gearshape.fill").font(.title2).foregroundColor(.white)
+                        Image(systemName: "magnifyingglass").font(.title2).foregroundColor(.white)
                     }
                 } // ToolbarItem
             } // toolbar

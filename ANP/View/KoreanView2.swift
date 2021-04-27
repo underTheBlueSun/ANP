@@ -7,10 +7,10 @@
 
 import SwiftUI
 
-struct KoreanView: View {
+struct KoreanView2: View {
 
     @EnvironmentObject var koreanViewModel: KoreanViewModel
-    @EnvironmentObject private var aNPJsonUpload: ANPJsonUpload
+    @EnvironmentObject private var store: Store
     @State var selectedGrade = UserDefaults.standard.string(forKey: "Grade") ?? ""
     
     let grades = ["3학년 1학기", "3학년 2학기", "4학년 1학기", "4학년 2학기", "5학년 1학기", "5학년 2학기", "6학년 1학기", "6학년 2학기"]
@@ -18,15 +18,14 @@ struct KoreanView: View {
     var body: some View {
         NavigationView {
             List {
-                ForEach(aNPJsonUpload.anps) { anp in
+              ForEach(store.products) { product in
                 HStack {
                     TextField("주소", text: $koreanViewModel.test1).frame(width: 100)
-                    Text(anp.activityName)
-                    Text(anp.chapter)
-//                    Image(anp.needs)
-//                        .resizable()
-//                        .frame(width: 150, height: 100)
-//                        .cornerRadius(15)
+                    Text(product.imageName)
+                    Image(product.imageName)
+                        .resizable()
+                        .frame(width: 150, height: 100)
+                        .cornerRadius(15)
                 }
 //                    HStack {
 //                      ProductRow(product: product, quickOrder: self.$quickOrder)
@@ -66,11 +65,11 @@ struct KoreanView: View {
     }
 }
 
-struct KoreanView_Previews: PreviewProvider {
+struct KoreanView2_Previews: PreviewProvider {
     static var previews: some View {
-        KoreanView()
+        KoreanView2()
             .environmentObject(KoreanViewModel())
-            .environmentObject(ANPJsonUpload())
+            .environmentObject(Store())
     }
 }
 

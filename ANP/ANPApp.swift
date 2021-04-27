@@ -10,9 +10,10 @@ import SwiftUI
 @main
 struct ANPApp: App {
     var body: some Scene {
+        
         WindowGroup {
             MainTabView()
-                .environmentObject(Store())
+                .environmentObject(ANPJsonUpload())
                 .environmentObject(KoreanViewModel())
 //            MainTabView()
         }

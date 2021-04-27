@@ -24,6 +24,12 @@
 		15A4B1FE2635099E00B2919D /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A4B1FD2635099E00B2919D /* Store.swift */; };
 		15A4B20126350ACD00B2919D /* BundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A4B20026350ACD00B2919D /* BundleExtension.swift */; };
 		15A4B205263518CE00B2919D /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A4B204263518CE00B2919D /* Home.swift */; };
+		FAFCFC2626379F0400FA4988 /* KoreanView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFCFC2526379F0400FA4988 /* KoreanView2.swift */; };
+		FAFCFC2926379F2400FA4988 /* KoreanView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFCFC2826379F2400FA4988 /* KoreanView3.swift */; };
+		FAFCFC2C26379F4100FA4988 /* KoreanView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFCFC2B26379F4100FA4988 /* KoreanView4.swift */; };
+		FAFCFC2F2637CB3900FA4988 /* ANPData.json in Resources */ = {isa = PBXBuildFile; fileRef = FAFCFC2E2637CB3900FA4988 /* ANPData.json */; };
+		FAFCFC322637CC0B00FA4988 /* ANP01.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFCFC312637CC0B00FA4988 /* ANP01.swift */; };
+		FAFCFC362637D4C200FA4988 /* ANPJsonUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFCFC352637D4C200FA4988 /* ANPJsonUpload.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +50,12 @@
 		15A4B1FD2635099E00B2919D /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		15A4B20026350ACD00B2919D /* BundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleExtension.swift; sourceTree = "<group>"; };
 		15A4B204263518CE00B2919D /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		FAFCFC2526379F0400FA4988 /* KoreanView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoreanView2.swift; sourceTree = "<group>"; };
+		FAFCFC2826379F2400FA4988 /* KoreanView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoreanView3.swift; sourceTree = "<group>"; };
+		FAFCFC2B26379F4100FA4988 /* KoreanView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoreanView4.swift; sourceTree = "<group>"; };
+		FAFCFC2E2637CB3900FA4988 /* ANPData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ANPData.json; sourceTree = "<group>"; };
+		FAFCFC312637CC0B00FA4988 /* ANP01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ANP01.swift; path = ANP/View/ANP01.swift; sourceTree = SOURCE_ROOT; };
+		FAFCFC352637D4C200FA4988 /* ANPJsonUpload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANPJsonUpload.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +102,7 @@
 				15A4B1FA2635081900B2919D /* Product.swift */,
 				15A4B1FD2635099E00B2919D /* Store.swift */,
 				15A4B1ED2633FFDE00B2919D /* ProductData.json */,
+				FAFCFC2E2637CB3900FA4988 /* ANPData.json */,
 			);
 			path = ANP;
 			sourceTree = "<group>";
@@ -109,6 +122,9 @@
 				15A4B204263518CE00B2919D /* Home.swift */,
 				15963B152633FA4B0063A634 /* MainTabView.swift */,
 				1545B22226354D480044CE04 /* SetUp.swift */,
+				FAFCFC2526379F0400FA4988 /* KoreanView2.swift */,
+				FAFCFC2826379F2400FA4988 /* KoreanView3.swift */,
+				FAFCFC2B26379F4100FA4988 /* KoreanView4.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -117,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				15A4B1F42634038D00B2919D /* KoreanViewModel.swift */,
+				FAFCFC352637D4C200FA4988 /* ANPJsonUpload.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -124,6 +141,7 @@
 		15963B142633F9FD0063A634 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FAFCFC312637CC0B00FA4988 /* ANP01.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -203,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				15963B0A2633F96A0063A634 /* Preview Assets.xcassets in Resources */,
+				FAFCFC2F2637CB3900FA4988 /* ANPData.json in Resources */,
 				15963B072633F96A0063A634 /* Assets.xcassets in Resources */,
 				15A4B1EE2633FFDE00B2919D /* ProductData.json in Resources */,
 			);
@@ -215,17 +234,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAFCFC2626379F0400FA4988 /* KoreanView2.swift in Sources */,
 				15A4B1F22634017400B2919D /* KoreanView.swift in Sources */,
 				15A4B1FB2635081900B2919D /* Product.swift in Sources */,
+				FAFCFC322637CC0B00FA4988 /* ANP01.swift in Sources */,
 				15963B052633F96A0063A634 /* ContentView.swift in Sources */,
 				15A4B205263518CE00B2919D /* Home.swift in Sources */,
 				15A4B1FE2635099E00B2919D /* Store.swift in Sources */,
 				15A4B1F82634064C00B2919D /* NavigationBarColor.swift in Sources */,
 				15A4B20126350ACD00B2919D /* BundleExtension.swift in Sources */,
 				15963B032633F96A0063A634 /* ANPApp.swift in Sources */,
+				FAFCFC2C26379F4100FA4988 /* KoreanView4.swift in Sources */,
 				15963B162633FA4B0063A634 /* MainTabView.swift in Sources */,
+				FAFCFC2926379F2400FA4988 /* KoreanView3.swift in Sources */,
 				15A4B1F52634038D00B2919D /* KoreanViewModel.swift in Sources */,
 				15963B1B2633FB060063A634 /* ColorExtension.swift in Sources */,
+				FAFCFC362637D4C200FA4988 /* ANPJsonUpload.swift in Sources */,
 				1545B22326354D480044CE04 /* SetUp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

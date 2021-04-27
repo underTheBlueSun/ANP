@@ -9,10 +9,8 @@ import SwiftUI
 
 struct MainTabView: View {
 
-    @EnvironmentObject var koreanViewModel: KoreanViewModel
-    
-    @EnvironmentObject private var aNPJsonUpload: ANPJsonUpload
-
+//    @EnvironmentObject var koreanViewModel: KoreanViewModel
+//    @EnvironmentObject private var aNPJsonUpload: ANPJsonUpload
     
     init() {
         UITabBar.appearance().barTintColor = UIColor.tertiaryLabel
@@ -66,7 +64,7 @@ private extension MainTabView {
   var math: some View {
 
 //    Text("수학")
-    KoreanView()
+    KoreanView2()
         .onAppear(perform: { print("수학") })
         .tag(Tabs.math)
         .tabItem {
@@ -78,7 +76,7 @@ private extension MainTabView {
     
     var society: some View {
 //        Text("사회")
-        KoreanView2()
+        KoreanView3()
             .onAppear(perform: { print("사회") })
 //        GrowthView()
 //            .environmentObject(homeViewModelData)
@@ -93,7 +91,7 @@ private extension MainTabView {
   
   var science: some View {
 //    Text("과학")
-    KoreanView3()
+    KoreanView4()
         .onAppear(perform: { print("과학") })
 //    SubjectView()
 //        .environmentObject(homeViewModelData)

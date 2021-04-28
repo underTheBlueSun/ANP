@@ -11,7 +11,8 @@
 		1545B220263523120044CE04 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1545B21F263523120044CE04 /* RealmSwift */; };
 		1545B22326354D480044CE04 /* SetUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1545B22226354D480044CE04 /* SetUp.swift */; };
 		1545B23C263961180044CE04 /* MathView01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1545B23B263961180044CE04 /* MathView01.swift */; };
-		1545B23F263961D50044CE04 /* Curriculum02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1545B23E263961D50044CE04 /* Curriculum02.swift */; };
+		1545B23F263961D50044CE04 /* Curriculum01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1545B23E263961D50044CE04 /* Curriculum01.swift */; };
+		1545B242263962470044CE04 /* ANP01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1545B241263962470044CE04 /* ANP01.swift */; };
 		15963B032633F96A0063A634 /* ANPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15963B022633F96A0063A634 /* ANPApp.swift */; };
 		15963B052633F96A0063A634 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15963B042633F96A0063A634 /* ContentView.swift */; };
 		15963B072633F96A0063A634 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15963B062633F96A0063A634 /* Assets.xcassets */; };
@@ -30,14 +31,14 @@
 		FAFCFC2926379F2400FA4988 /* SocietyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFCFC2826379F2400FA4988 /* SocietyView.swift */; };
 		FAFCFC2C26379F4100FA4988 /* ScienceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFCFC2B26379F4100FA4988 /* ScienceView.swift */; };
 		FAFCFC2F2637CB3900FA4988 /* ANPData.json in Resources */ = {isa = PBXBuildFile; fileRef = FAFCFC2E2637CB3900FA4988 /* ANPData.json */; };
-		FAFCFC322637CC0B00FA4988 /* ANP01.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFCFC312637CC0B00FA4988 /* ANP01.swift */; };
 		FAFCFC362637D4C200FA4988 /* JsonUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFCFC352637D4C200FA4988 /* JsonUpload.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1545B22226354D480044CE04 /* SetUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUp.swift; sourceTree = "<group>"; };
 		1545B23B263961180044CE04 /* MathView01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "\U0010MathView01.swift"; sourceTree = "<group>"; };
-		1545B23E263961D50044CE04 /* Curriculum02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Curriculum02.swift; sourceTree = "<group>"; };
+		1545B23E263961D50044CE04 /* Curriculum01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Curriculum01.swift; sourceTree = "<group>"; };
+		1545B241263962470044CE04 /* ANP01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANP01.swift; sourceTree = "<group>"; };
 		15963AFF2633F96A0063A634 /* ANP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ANP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15963B022633F96A0063A634 /* ANPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANPApp.swift; sourceTree = "<group>"; };
 		15963B042633F96A0063A634 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,7 +59,6 @@
 		FAFCFC2826379F2400FA4988 /* SocietyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocietyView.swift; sourceTree = "<group>"; };
 		FAFCFC2B26379F4100FA4988 /* ScienceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScienceView.swift; sourceTree = "<group>"; };
 		FAFCFC2E2637CB3900FA4988 /* ANPData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ANPData.json; sourceTree = "<group>"; };
-		FAFCFC312637CC0B00FA4988 /* ANP01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ANP01.swift; path = ANP/View/ANP01.swift; sourceTree = SOURCE_ROOT; };
 		FAFCFC352637D4C200FA4988 /* JsonUpload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonUpload.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -142,8 +142,8 @@
 		15963B142633F9FD0063A634 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				FAFCFC312637CC0B00FA4988 /* ANP01.swift */,
-				1545B23E263961D50044CE04 /* Curriculum02.swift */,
+				1545B23E263961D50044CE04 /* Curriculum01.swift */,
+				1545B241263962470044CE04 /* ANP01.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -251,7 +251,6 @@
 			files = (
 				15A4B1F22634017400B2919D /* KoreanView.swift in Sources */,
 				15A4B1FB2635081900B2919D /* Product.swift in Sources */,
-				FAFCFC322637CC0B00FA4988 /* ANP01.swift in Sources */,
 				15963B052633F96A0063A634 /* ContentView.swift in Sources */,
 				15A4B1FE2635099E00B2919D /* Store.swift in Sources */,
 				1545B23C263961180044CE04 /* MathView01.swift in Sources */,
@@ -261,9 +260,10 @@
 				15963B032633F96A0063A634 /* ANPApp.swift in Sources */,
 				FAFCFC2C26379F4100FA4988 /* ScienceView.swift in Sources */,
 				15963B162633FA4B0063A634 /* MainTabView.swift in Sources */,
-				1545B23F263961D50044CE04 /* Curriculum02.swift in Sources */,
+				1545B23F263961D50044CE04 /* Curriculum01.swift in Sources */,
 				FAFCFC2926379F2400FA4988 /* SocietyView.swift in Sources */,
 				15A4B1F52634038D00B2919D /* KoreanViewModel.swift in Sources */,
+				1545B242263962470044CE04 /* ANP01.swift in Sources */,
 				15963B1B2633FB060063A634 /* ColorExtension.swift in Sources */,
 				FAFCFC362637D4C200FA4988 /* JsonUpload.swift in Sources */,
 				1545B22326354D480044CE04 /* SetUp.swift in Sources */,

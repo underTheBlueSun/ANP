@@ -1,14 +1,14 @@
 //
-//  ANP01.swift
+//  ANP02.swift
 //  ANP
 //
-//  Created by macbook on 2021/04/27.
+//  Created by underTheBlueSun on 2021/04/28.
 //
 
 import SwiftUI
 import RealmSwift
 
-class ANP01: Object,Identifiable, Codable{
+class ANP02: Object,Identifiable, Codable{
     @objc dynamic var uuid: String = UUID().uuidString
     @objc dynamic var grade = ""
     @objc dynamic var semester = ""
@@ -22,4 +22,5 @@ class ANP01: Object,Identifiable, Codable{
     @objc dynamic var picture = ""
     @objc dynamic var range = ""
 }
+
 

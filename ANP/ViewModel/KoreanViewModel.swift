@@ -10,10 +10,8 @@ import RealmSwift
 
 class KoreanViewModel: ObservableObject {
     
-    @Published var openNewPage = false
-    @Published var test1 = "국어"
-    
-
+    @Published var grade = ""
+    @Published var semester = ""
       
     }
 

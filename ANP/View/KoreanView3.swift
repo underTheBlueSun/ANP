@@ -20,7 +20,7 @@ struct KoreanView3: View {
             List {
                 ForEach(aNPJsonUpload.anps) { anp in
                 HStack {
-                    TextField("주소", text: $koreanViewModel.test1).frame(width: 100)
+//                    TextField("주소", text: $koreanViewModel.test1).frame(width: 100)
                     Text(anp.activityName)
                     Text(anp.chapter)
 //                    Image(anp.needs)

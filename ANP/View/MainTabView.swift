@@ -64,7 +64,7 @@ private extension MainTabView {
   var math: some View {
 
 //    Text("수학")
-    MathView()
+    MathView01()
         .onAppear(perform: { print("수학") })
         .tag(Tabs.math)
         .tabItem {

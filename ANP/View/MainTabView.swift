@@ -64,7 +64,7 @@ private extension MainTabView {
   var math: some View {
 
 //    Text("수학")
-    KoreanView2()
+    MathView()
         .onAppear(perform: { print("수학") })
         .tag(Tabs.math)
         .tabItem {
@@ -76,7 +76,7 @@ private extension MainTabView {
     
     var society: some View {
 //        Text("사회")
-        KoreanView3()
+        SocietyView()
             .onAppear(perform: { print("사회") })
 //        GrowthView()
 //            .environmentObject(homeViewModelData)
@@ -91,7 +91,7 @@ private extension MainTabView {
   
   var science: some View {
 //    Text("과학")
-    KoreanView4()
+    ScienceView()
         .onAppear(perform: { print("과학") })
 //    SubjectView()
 //        .environmentObject(homeViewModelData)
@@ -122,7 +122,7 @@ struct MainTabView_Previews: PreviewProvider {
   static var previews: some View {
     MainTabView()
         .environmentObject(KoreanViewModel())
-        .environmentObject(ANPJsonUpload())
+//        .environmentObject(JsonUpload())
     
   }
 }

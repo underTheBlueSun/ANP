@@ -1,5 +1,5 @@
 //
-//  KoreanView.swift
+//  ScienceView.swift
 //  ANP
 //
 //  Created by underTheBlueSun on 2021/04/24.
@@ -7,18 +7,13 @@
 
 import SwiftUI
 
-struct KoreanView: View {
+struct ScienceView: View {
 
     @EnvironmentObject var koreanViewModel: KoreanViewModel
     
     var body: some View {
         NavigationView {
             List {
-                Button(action: {
-                    koreanViewModel.deleteData()
-                }, label: {
-                     Text("컬리삭제").font(.title2)
-                })
                 ForEach(koreanViewModel.curriculums) { curriculum in
                 HStack {
                     Text(curriculum.grade)
@@ -46,9 +41,9 @@ struct KoreanView: View {
     }
 }
 
-struct KoreanView_Previews: PreviewProvider {
+struct ScienceView_Previews: PreviewProvider {
     static var previews: some View {
-        KoreanView()
+        ScienceView()
             .environmentObject(KoreanViewModel())
     }
 }

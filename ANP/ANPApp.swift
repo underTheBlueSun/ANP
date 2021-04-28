@@ -13,9 +13,9 @@ struct ANPApp: App {
         
         WindowGroup {
             MainTabView()
-                .environmentObject(ANPJsonUpload())
+                .environmentObject(JsonUpload())
                 .environmentObject(KoreanViewModel())
-//            MainTabView()
+//            SearchDefaultRealm()
         }
     }
 }

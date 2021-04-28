@@ -8,7 +8,7 @@
 import SwiftUI
 import RealmSwift
 
-class ANP02: Object,Identifiable, Codable{
+class ANP01: Object,Identifiable, Codable{
     @objc dynamic var uuid: String = UUID().uuidString
     @objc dynamic var grade = ""
     @objc dynamic var semester = ""

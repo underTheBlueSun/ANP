@@ -9,17 +9,17 @@ import SwiftUI
 
 struct MathView01: View {
 
-    @EnvironmentObject var MathView01Model: MathView01Model
+    @EnvironmentObject var koreanViewModel: KoreanViewModel
     
     var body: some View {
         NavigationView {
             List {
                 Button(action: {
-                    MathView01Model.deleteData()
+                    koreanViewModel.deleteData()
                 }, label: {
                      Text("컬리삭제").font(.title2)
                 })
-                ForEach(MathView01Model.curriculums) { curriculum in
+                ForEach(koreanViewModel.curriculums) { curriculum in
                 HStack {
                     Text(curriculum.grade)
                     Text(curriculum.semester)
@@ -49,7 +49,7 @@ struct MathView01: View {
 struct MathView01_Previews: PreviewProvider {
     static var previews: some View {
         MathView01()
-            .environmentObject(MathView01Model())
+            .environmentObject(KoreanViewModel())
     }
 }
 

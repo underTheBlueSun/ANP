@@ -18,7 +18,7 @@ struct MainTabView: View {
     }
     
     private enum Tabs {
-      case korean, math, society, science, activity
+      case korean, math, society, science, setup
     }
 
     @State private var selectedTab: Tabs = .korean
@@ -33,7 +33,7 @@ struct MainTabView: View {
         math
         society
         science
-        activity
+        setup
       }
       
     }
@@ -105,10 +105,10 @@ private extension MainTabView {
         }
   }
   
-  var activity: some View {
+  var setup: some View {
     SetUp()
     .onAppear(perform: { print("설정") })
-    .tag(Tabs.activity)
+    .tag(Tabs.setup)
     .tabItem {
         Image(systemName: "gearshape.fill")
         Text("설정")
@@ -122,7 +122,7 @@ struct MainTabView_Previews: PreviewProvider {
   static var previews: some View {
     MainTabView()
         .environmentObject(KoreanViewModel())
-//        .environmentObject(JsonUpload())
+        .environmentObject(JsonUpload())
     
   }
 }

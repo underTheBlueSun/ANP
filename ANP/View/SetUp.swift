@@ -60,18 +60,26 @@ struct SetUp: View {
             }
             .navigationBarTitle("홈", displayMode: .inline)
             .navigationBarColor(backgroundColor: .systemTeal, tintColor: .white)
-            .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    Button(action: {
-                        UserDefaults.standard.set(self.selectedGrade, forKey: "Grade")
-                        UserDefaults.standard.set(self.selectedSemester, forKey: "Semester")
-                        koreanViewModel.grade = UserDefaults.standard.string(forKey: "Grade") ?? ""
-                        koreanViewModel.semester = UserDefaults.standard.string(forKey: "Semester") ?? ""
-                    }, label: { Text("저장").font(.title2).foregroundColor(.white) })
-                } // ToolbarItem
-            } // toolbar
+//            .toolbar {
+//                ToolbarItem(placement: .navigationBarTrailing) {
+//                    Button(action: {
+//                        UserDefaults.standard.set(self.selectedGrade, forKey: "Grade")
+//                        UserDefaults.standard.set(self.selectedSemester, forKey: "Semester")
+//                        koreanViewModel.grade = UserDefaults.standard.string(forKey: "Grade") ?? ""
+//                        koreanViewModel.semester = UserDefaults.standard.string(forKey: "Semester") ?? ""
+//                    }, label: { Text("저장").font(.title2).foregroundColor(.white) })
+//                } // ToolbarItem
+//            } // toolbar
         } // NavigationView
         .navigationViewStyle(StackNavigationViewStyle())
+        // userdefaults에 학년학기 저장
+        .onDisappear(perform: {
+            UserDefaults.standard.set(self.selectedGrade, forKey: "Grade")
+            UserDefaults.standard.set(self.selectedSemester, forKey: "Semester")
+            koreanViewModel.grade = UserDefaults.standard.string(forKey: "Grade") ?? ""
+            koreanViewModel.semester = UserDefaults.standard.string(forKey: "Semester") ?? ""
+            
+        })
 
     }
 }

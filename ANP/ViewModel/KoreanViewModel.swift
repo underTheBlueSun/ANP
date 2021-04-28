@@ -10,7 +10,7 @@ import RealmSwift
 
 class KoreanViewModel: ObservableObject {
     
-    // 설정에서 저장버튼 클릭시 koreanViewModel.grade = UserDefaults.standard.string(forKey: "Grade") ?? ""
+    // 설정에서 onDisappear시 koreanViewModel.grade = UserDefaults.standard.string(forKey: "Grade") ?? ""
     @Published var grade = ""
     @Published var semester = ""
     // Fetched Data

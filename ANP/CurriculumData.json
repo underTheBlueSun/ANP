@@ -4,7 +4,7 @@
       "grade":"3학년",
       "semester":"1학기",
       "subject":"국어",
-      "chapter":"1단원",
+      "chapter":1,
       "chapName":"재미가 톡톡톡",
       "page":30
    },
@@ -13,7 +13,7 @@
       "grade":"3학년",
       "semester":"1학기",
       "subject":"국어",
-      "chapter":"2단원",
+      "chapter":2,
       "chapName":"문단의 짜임",
       "page":66
    },
@@ -22,7 +22,7 @@
       "grade":"3학년",
       "semester":"1학기",
       "subject":"국어",
-      "chapter":"3단원",
+      "chapter":3,
       "chapName":"알맞은 높임 표현",
       "page":86
    },
@@ -31,7 +31,7 @@
       "grade":"3학년",
       "semester":"1학기",
       "subject":"국어",
-      "chapter":"4단원",
+      "chapter":4,
       "chapName":"내 마음을 편지에 담아",
       "page":108
    },
@@ -40,7 +40,7 @@
       "grade":"3학년",
       "semester":"1학기",
       "subject":"국어",
-      "chapter":"5단원",
+      "chapter":5,
       "chapName":"중요한 내용을 적어요",
       "page":134
    },
@@ -49,7 +49,7 @@
       "grade":"3학년",
       "semester":"1학기",
       "subject":"국어",
-      "chapter":"6단원",
+      "chapter":6,
       "chapName":"일이 일어난 까닭",
       "page":168
    },
@@ -58,7 +58,7 @@
       "grade":"3학년",
       "semester":"1학기",
       "subject":"국어",
-      "chapter":"7단원",
+      "chapter":7,
       "chapName":"반갑다, 국어사전",
       "page":186
    },
@@ -67,7 +67,7 @@
       "grade":"3학년",
       "semester":"1학기",
       "subject":"국어",
-      "chapter":"8단원",
+      "chapter":8,
       "chapName":"의견이 있어요",
       "page":212
    },
@@ -76,7 +76,7 @@
       "grade":"3학년",
       "semester":"1학기",
       "subject":"국어",
-      "chapter":"9단원",
+      "chapter":9,
       "chapName":"어떤 내용일까",
       "page":238
    },
@@ -85,7 +85,7 @@
       "grade":"3학년",
       "semester":"1학기",
       "subject":"국어",
-      "chapter":"10단원",
+      "chapter":10,
       "chapName":"문학의 향기",
       "page":266
    },
@@ -94,7 +94,7 @@
       "grade":"3학년",
       "semester":"2학기",
       "subject":"국어",
-      "chapter":"1단원",
+      "chapter":1,
       "chapName":"작품을 보고 느낌을 나누어요",
       "page":34
    },
@@ -103,7 +103,7 @@
       "grade":"3학년",
       "semester":"2학기",
       "subject":"국어",
-      "chapter":"2단원",
+      "chapter":2,
       "chapName":"중심 생각을 찾아요",
       "page":66
    },
@@ -112,7 +112,7 @@
       "grade":"3학년",
       "semester":"2학기",
       "subject":"국어",
-      "chapter":"3단원",
+      "chapter":3,
       "chapName":"자신의 경험을 글로 써요",
       "page":96
    },
@@ -121,7 +121,7 @@
       "grade":"3학년",
       "semester":"2학기",
       "subject":"국어",
-      "chapter":"4단원",
+      "chapter":4,
       "chapName":"감동을 나타내요",
       "page":120
    },
@@ -130,7 +130,7 @@
       "grade":"3학년",
       "semester":"2학기",
       "subject":"국어",
-      "chapter":"5단원",
+      "chapter":5,
       "chapName":"바르게 대화해요",
       "page":164
    },
@@ -139,7 +139,7 @@
       "grade":"3학년",
       "semester":"2학기",
       "subject":"국어",
-      "chapter":"6단원",
+      "chapter":6,
       "chapName":"마음을 담아 글로 써요",
       "page":186
    },
@@ -148,7 +148,7 @@
       "grade":"3학년",
       "semester":"2학기",
       "subject":"국어",
-      "chapter":"7단원",
+      "chapter":7,
       "chapName":"글을 읽고 소개해요",
       "page":212
    },
@@ -157,7 +157,7 @@
       "grade":"3학년",
       "semester":"2학기",
       "subject":"국어",
-      "chapter":"8단원",
+      "chapter":8,
       "chapName":"글의 흐름을 생각해요",
       "page":238
    },
@@ -166,7 +166,7 @@
       "grade":"3학년",
       "semester":"2학기",
       "subject":"국어",
-      "chapter":"9단원",
+      "chapter":9,
       "chapName":"작품속 인물이 되어",
       "page":268
    },
@@ -175,7 +175,7 @@
       "grade":"3학년",
       "semester":"1학기",
       "subject":"수학",
-      "chapter":"1단원",
+      "chapter":1,
       "chapName":"덧셈과 뺄셈",
       "page":8
    },
@@ -184,7 +184,7 @@
       "grade":"3학년",
       "semester":"1학기",
       "subject":"수학",
-      "chapter":"2단원",
+      "chapter":2,
       "chapName":"평면도형",
       "page":28
    },
@@ -193,7 +193,7 @@
       "grade":"3학년",
       "semester":"1학기",
       "subject":"수학",
-      "chapter":"3단원",
+      "chapter":3,
       "chapName":"나눗셈",
       "page":50
    },
@@ -202,7 +202,7 @@
       "grade":"3학년",
       "semester":"1학기",
       "subject":"수학",
-      "chapter":"4단원",
+      "chapter":4,
       "chapName":"곱셈",
       "page":68
    },
@@ -211,7 +211,7 @@
       "grade":"3학년",
       "semester":"1학기",
       "subject":"수학",
-      "chapter":"5단원",
+      "chapter":5,
       "chapName":"길이와 시간",
       "page":86
    },
@@ -220,7 +220,7 @@
       "grade":"3학년",
       "semester":"1학기",
       "subject":"수학",
-      "chapter":"6단원",
+      "chapter":6,
       "chapName":"분수와 소수",
       "page":110
    },
@@ -229,7 +229,7 @@
       "grade":"3학년",
       "semester":"2학기",
       "subject":"수학",
-      "chapter":"1단원",
+      "chapter":1,
       "chapName":"곱셈",
       "page":8
    },
@@ -238,7 +238,7 @@
       "grade":"3학년",
       "semester":"2학기",
       "subject":"수학",
-      "chapter":"2단원",
+      "chapter":2,
       "chapName":"나눗셈",
       "page":32
    },
@@ -247,7 +247,7 @@
       "grade":"3학년",
       "semester":"2학기",
       "subject":"수학",
-      "chapter":"3단원",
+      "chapter":3,
       "chapName":"원",
       "page":58
    },
@@ -256,7 +256,7 @@
       "grade":"3학년",
       "semester":"2학기",
       "subject":"수학",
-      "chapter":"4단원",
+      "chapter":4,
       "chapName":"분수",
       "page":76
    },
@@ -265,7 +265,7 @@
       "grade":"3학년",
       "semester":"2학기",
       "subject":"수학",
-      "chapter":"5단원",
+      "chapter":5,
       "chapName":"들이와 무게",
       "page":96
    },
@@ -274,7 +274,7 @@
       "grade":"3학년",
       "semester":"2학기",
       "subject":"수학",
-      "chapter":"6단원",
+      "chapter":6,
       "chapName":"자료의 정리",
       "page":122
    },
@@ -283,7 +283,7 @@
       "grade":"3학년",
       "semester":"1학기",
       "subject":"사회",
-      "chapter":"1단원",
+      "chapter":1,
       "chapName":"우리 고장의 모습",
       "page":10
    },
@@ -292,7 +292,7 @@
       "grade":"3학년",
       "semester":"1학기",
       "subject":"사회",
-      "chapter":"2단원",
+      "chapter":2,
       "chapName":"우리가 알아보는 고장 이야기",
       "page":52
    },
@@ -301,7 +301,7 @@
       "grade":"3학년",
       "semester":"1학기",
       "subject":"사회",
-      "chapter":"3단원",
+      "chapter":3,
       "chapName":"교통과 통신 수단의 변화",
       "page":96
    },
@@ -310,7 +310,7 @@
       "grade":"3학년",
       "semester":"2학기",
       "subject":"사회",
-      "chapter":"1단원",
+      "chapter":1,
       "chapName":"환경에 따라 다른 삶의 모습",
       "page":8
    },
@@ -319,7 +319,7 @@
       "grade":"3학년",
       "semester":"2학기",
       "subject":"사회",
-      "chapter":"2단원",
+      "chapter":2,
       "chapName":"시대마다 다른 삶의 모습",
       "page":50
    },
@@ -328,7 +328,7 @@
       "grade":"3학년",
       "semester":"2학기",
       "subject":"사회",
-      "chapter":"3단원",
+      "chapter":3,
       "chapName":"가족의 형태와 역할 변화",
       "page":94
    },
@@ -337,7 +337,7 @@
       "grade":"3학년",
       "semester":"1학기",
       "subject":"과학",
-      "chapter":"1단원",
+      "chapter":1,
       "chapName":"과학자는 어떻게 탐구할까요?",
       "page":10
    },
@@ -346,7 +346,7 @@
       "grade":"3학년",
       "semester":"1학기",
       "subject":"과학",
-      "chapter":"2단원",
+      "chapter":2,
       "chapName":"물질의 성질",
       "page":25
    },
@@ -355,7 +355,7 @@
       "grade":"3학년",
       "semester":"1학기",
       "subject":"과학",
-      "chapter":"3단원",
+      "chapter":3,
       "chapName":"동물의 한살이",
       "page":46
    },
@@ -364,7 +364,7 @@
       "grade":"3학년",
       "semester":"1학기",
       "subject":"과학",
-      "chapter":"4단원",
+      "chapter":4,
       "chapName":"자석의 이용",
       "page":70
    },
@@ -373,7 +373,7 @@
       "grade":"3학년",
       "semester":"1학기",
       "subject":"과학",
-      "chapter":"5단원",
+      "chapter":5,
       "chapName":"지구의 모습",
       "page":96
    },
@@ -382,7 +382,7 @@
       "grade":"3학년",
       "semester":"2학기",
       "subject":"과학",
-      "chapter":"1단원",
+      "chapter":1,
       "chapName":"재미있는 나의 탐구",
       "page":10
    },
@@ -391,7 +391,7 @@
       "grade":"3학년",
       "semester":"2학기",
       "subject":"과학",
-      "chapter":"2단원",
+      "chapter":2,
       "chapName":"동물의 생활",
       "page":22
    },
@@ -400,7 +400,7 @@
       "grade":"3학년",
       "semester":"2학기",
       "subject":"과학",
-      "chapter":"3단원",
+      "chapter":3,
       "chapName":"지표의 변화",
       "page":47
    },
@@ -409,7 +409,7 @@
       "grade":"3학년",
       "semester":"2학기",
       "subject":"과학",
-      "chapter":"4단원",
+      "chapter":4,
       "chapName":"물질의 상태",
       "page":68
    },
@@ -418,7 +418,7 @@
       "grade":"3학년",
       "semester":"2학기",
       "subject":"과학",
-      "chapter":"5단원",
+      "chapter":5,
       "chapName":"소리의 성질",
       "page":92
    },
@@ -427,7 +427,7 @@
       "grade":"4학년",
       "semester":"1학기",
       "subject":"국어",
-      "chapter":"1단원",
+      "chapter":1,
       "chapName":"생각과 느낌을 나누어요",
       "page":30
    },
@@ -436,7 +436,7 @@
       "grade":"4학년",
       "semester":"1학기",
       "subject":"국어",
-      "chapter":"2단원",
+      "chapter":2,
       "chapName":"내용을 간추려요",
       "page":64
    },
@@ -445,7 +445,7 @@
       "grade":"4학년",
       "semester":"1학기",
       "subject":"국어",
-      "chapter":"3단원",
+      "chapter":3,
       "chapName":"느낌을 살려 말해요",
       "page":88
    },
@@ -454,7 +454,7 @@
       "grade":"4학년",
       "semester":"1학기",
       "subject":"국어",
-      "chapter":"4단원",
+      "chapter":4,
       "chapName":"일에 대한 의견",
       "page":114
    },
@@ -463,7 +463,7 @@
       "grade":"4학년",
       "semester":"1학기",
       "subject":"국어",
-      "chapter":"5단원",
+      "chapter":5,
       "chapName":"내가 만든 이야기",
       "page":138
    },
@@ -472,7 +472,7 @@
       "grade":"4학년",
       "semester":"1학기",
       "subject":"국어",
-      "chapter":"6단원",
+      "chapter":6,
       "chapName":"회의를 해요",
       "page":174
    },
@@ -481,7 +481,7 @@
       "grade":"4학년",
       "semester":"1학기",
       "subject":"국어",
-      "chapter":"7단원",
+      "chapter":7,
       "chapName":"사전은 내 친구",
       "page":194
    },
@@ -490,7 +490,7 @@
       "grade":"4학년",
       "semester":"1학기",
       "subject":"국어",
-      "chapter":"8단원",
+      "chapter":8,
       "chapName":"이런 제안 어때요",
       "page":224
    },
@@ -499,7 +499,7 @@
       "grade":"4학년",
       "semester":"1학기",
       "subject":"국어",
-      "chapter":"9단원",
+      "chapter":9,
       "chapName":"자랑스러운 한글",
       "page":246
    },
@@ -508,7 +508,7 @@
       "grade":"4학년",
       "semester":"1학기",
       "subject":"국어",
-      "chapter":"10단원",
+      "chapter":10,
       "chapName":"인물의 마음을 알아봐요",
       "page":274
    },
@@ -517,7 +517,7 @@
       "grade":"4학년",
       "semester":"2학기",
       "subject":"국어",
-      "chapter":"1단원",
+      "chapter":1,
       "chapName":"이어질 장면을 생각해요",
       "page":36
    },
@@ -526,7 +526,7 @@
       "grade":"4학년",
       "semester":"2학기",
       "subject":"국어",
-      "chapter":"2단원",
+      "chapter":2,
       "chapName":"마음을 전하는 글을 써요",
       "page":66
    },
@@ -535,7 +535,7 @@
       "grade":"4학년",
       "semester":"2학기",
       "subject":"국어",
-      "chapter":"3단원",
+      "chapter":3,
       "chapName":"바르고 공손하게",
       "page":84
    },
@@ -544,7 +544,7 @@
       "grade":"4학년",
       "semester":"2학기",
       "subject":"국어",
-      "chapter":"4단원",
+      "chapter":4,
       "chapName":"이야기 속 세상",
       "page":110
    },
@@ -553,7 +553,7 @@
       "grade":"4학년",
       "semester":"2학기",
       "subject":"국어",
-      "chapter":"5단원",
+      "chapter":5,
       "chapName":"의견이 드러나게 글을 써요",
       "page":160
    },
@@ -562,7 +562,7 @@
       "grade":"4학년",
       "semester":"2학기",
       "subject":"국어",
-      "chapter":"6단원",
+      "chapter":6,
       "chapName":"본받고 싶은 인물을 찾아봐요",
       "page":184
    },
@@ -571,7 +571,7 @@
       "grade":"4학년",
       "semester":"2학기",
       "subject":"국어",
-      "chapter":"7단원",
+      "chapter":7,
       "chapName":"독서 감상문을 써요",
       "page":216
    },
@@ -580,7 +580,7 @@
       "grade":"4학년",
       "semester":"2학기",
       "subject":"국어",
-      "chapter":"8단원",
+      "chapter":8,
       "chapName":"생각하며 읽어요",
       "page":248
    },
@@ -589,7 +589,7 @@
       "grade":"4학년",
       "semester":"2학기",
       "subject":"국어",
-      "chapter":"9단원",
+      "chapter":9,
       "chapName":"감동을 나누며 읽어요",
       "page":276
    },
@@ -598,7 +598,7 @@
       "grade":"4학년",
       "semester":"1학기",
       "subject":"수학",
-      "chapter":"1단원",
+      "chapter":1,
       "chapName":"큰 수",
       "page":8
    },
@@ -607,7 +607,7 @@
       "grade":"4학년",
       "semester":"1학기",
       "subject":"수학",
-      "chapter":"2단원",
+      "chapter":2,
       "chapName":"각도",
       "page":34
    },
@@ -616,7 +616,7 @@
       "grade":"4학년",
       "semester":"1학기",
       "subject":"수학",
-      "chapter":"3단원",
+      "chapter":3,
       "chapName":"곱셈과 나눗셈",
       "page":60
    },
@@ -625,7 +625,7 @@
       "grade":"4학년",
       "semester":"1학기",
       "subject":"수학",
-      "chapter":"4단원",
+      "chapter":4,
       "chapName":"평면도형의 이동",
       "page":82
    },
@@ -634,7 +634,7 @@
       "grade":"4학년",
       "semester":"1학기",
       "subject":"수학",
-      "chapter":"5단원",
+      "chapter":5,
       "chapName":"막대그래프",
       "page":108
    },
@@ -643,7 +643,7 @@
       "grade":"4학년",
       "semester":"1학기",
       "subject":"수학",
-      "chapter":"6단원",
+      "chapter":6,
       "chapName":"규칙찾기",
       "page":128
    },
@@ -652,7 +652,7 @@
       "grade":"4학년",
       "semester":"2학기",
       "subject":"수학",
-      "chapter":"1단원",
+      "chapter":1,
       "chapName":"분수의 덧셈과 뺄셈",
       "page":8
    },
@@ -661,7 +661,7 @@
       "grade":"4학년",
       "semester":"2학기",
       "subject":"수학",
-      "chapter":"2단원",
+      "chapter":2,
       "chapName":"삼각형",
       "page":28
    },
@@ -670,7 +670,7 @@
       "grade":"4학년",
       "semester":"2학기",
       "subject":"수학",
-      "chapter":"3단원",
+      "chapter":3,
       "chapName":"소수의 덧셈과 뺄셈",
       "page":48
    },
@@ -679,7 +679,7 @@
       "grade":"4학년",
       "semester":"2학기",
       "subject":"수학",
-      "chapter":"4단원",
+      "chapter":4,
       "chapName":"사각형",
       "page":76
    },
@@ -688,7 +688,7 @@
       "grade":"4학년",
       "semester":"2학기",
       "subject":"수학",
-      "chapter":"5단원",
+      "chapter":5,
       "chapName":"꺾은선 그래프",
       "page":98
    },
@@ -697,7 +697,7 @@
       "grade":"4학년",
       "semester":"2학기",
       "subject":"수학",
-      "chapter":"6단원",
+      "chapter":6,
       "chapName":"다각형",
       "page":116
    },
@@ -706,7 +706,7 @@
       "grade":"4학년",
       "semester":"1학기",
       "subject":"사회",
-      "chapter":"1단원",
+      "chapter":1,
       "chapName":"지역의 위치와 특성",
       "page":6
    },
@@ -715,7 +715,7 @@
       "grade":"4학년",
       "semester":"1학기",
       "subject":"사회",
-      "chapter":"2단원",
+      "chapter":2,
       "chapName":"우리가 알아보는 지역의 역사",
       "page":54
    },
@@ -724,7 +724,7 @@
       "grade":"4학년",
       "semester":"1학기",
       "subject":"사회",
-      "chapter":"3단원",
+      "chapter":3,
       "chapName":"지역의 공공 기관과 주민 참여",
       "page":96
    },
@@ -733,7 +733,7 @@
       "grade":"4학년",
       "semester":"2학기",
       "subject":"사회",
-      "chapter":"1단원",
+      "chapter":1,
       "chapName":"촌락과 도시의 생활 모습",
       "page":6
    },
@@ -742,7 +742,7 @@
       "grade":"4학년",
       "semester":"2학기",
       "subject":"사회",
-      "chapter":"2단원",
+      "chapter":2,
       "chapName":"필요한 것의 생산과 교환",
       "page":50
    },
@@ -751,7 +751,7 @@
       "grade":"4학년",
       "semester":"2학기",
       "subject":"사회",
-      "chapter":"3단원",
+      "chapter":3,
       "chapName":"사회 변화와 문화의 다양성",
       "page":94
    },
@@ -760,7 +760,7 @@
       "grade":"4학년",
       "semester":"1학기",
       "subject":"과학",
-      "chapter":"1단원",
+      "chapter":1,
       "chapName":"과학자처럼 탐구해 볼까요?",
       "page":10
    },
@@ -769,7 +769,7 @@
       "grade":"4학년",
       "semester":"1학기",
       "subject":"과학",
-      "chapter":"2단원",
+      "chapter":2,
       "chapName":"지층과 화석",
       "page":24
    },
@@ -778,7 +778,7 @@
       "grade":"4학년",
       "semester":"1학기",
       "subject":"과학",
-      "chapter":"3단원",
+      "chapter":3,
       "chapName":"식물의 한살이",
       "page":46
    },
@@ -787,7 +787,7 @@
       "grade":"4학년",
       "semester":"1학기",
       "subject":"과학",
-      "chapter":"4단원",
+      "chapter":4,
       "chapName":"물체의 무게",
       "page":74
    },
@@ -796,7 +796,7 @@
       "grade":"4학년",
       "semester":"1학기",
       "subject":"과학",
-      "chapter":"5단원",
+      "chapter":5,
       "chapName":"혼합물의 분리",
       "page":98
    },
@@ -805,7 +805,7 @@
       "grade":"4학년",
       "semester":"2학기",
       "subject":"과학",
-      "chapter":"1단원",
+      "chapter":1,
       "chapName":"식물의 생활",
       "page":10
    },
@@ -814,7 +814,7 @@
       "grade":"4학년",
       "semester":"2학기",
       "subject":"과학",
-      "chapter":"2단원",
+      "chapter":2,
       "chapName":"물의 상태 변화",
       "page":32
    },
@@ -823,7 +823,7 @@
       "grade":"4학년",
       "semester":"2학기",
       "subject":"과학",
-      "chapter":"3단원",
+      "chapter":3,
       "chapName":"그림자와 거울",
       "page":56
    },
@@ -832,7 +832,7 @@
       "grade":"4학년",
       "semester":"2학기",
       "subject":"과학",
-      "chapter":"4단원",
+      "chapter":4,
       "chapName":"화산과 지진",
       "page":80
    },
@@ -841,7 +841,7 @@
       "grade":"4학년",
       "semester":"2학기",
       "subject":"과학",
-      "chapter":"5단원",
+      "chapter":5,
       "chapName":"물의 여행",
       "page":104
    },
@@ -850,7 +850,7 @@
       "grade":"5학년",
       "semester":"1학기",
       "subject":"국어",
-      "chapter":"1단원",
+      "chapter":1,
       "chapName":"대화와 공감",
       "page":34
    },
@@ -859,7 +859,7 @@
       "grade":"5학년",
       "semester":"1학기",
       "subject":"국어",
-      "chapter":"2단원",
+      "chapter":2,
       "chapName":"작품을 감상해요",
       "page":60
    },
@@ -868,7 +868,7 @@
       "grade":"5학년",
       "semester":"1학기",
       "subject":"국어",
-      "chapter":"3단원",
+      "chapter":3,
       "chapName":"글을 요약해요",
       "page":92
    },
@@ -877,7 +877,7 @@
       "grade":"5학년",
       "semester":"1학기",
       "subject":"국어",
-      "chapter":"4단원",
+      "chapter":4,
       "chapName":"글쓰기의 과정",
       "page":122
    },
@@ -886,7 +886,7 @@
       "grade":"5학년",
       "semester":"1학기",
       "subject":"국어",
-      "chapter":"5단원",
+      "chapter":5,
       "chapName":"글쓴이의 주장",
       "page":146
    },
@@ -895,7 +895,7 @@
       "grade":"5학년",
       "semester":"1학기",
       "subject":"국어",
-      "chapter":"6단원",
+      "chapter":6,
       "chapName":"토의하여 해결해요",
       "page":184
    },
@@ -904,7 +904,7 @@
       "grade":"5학년",
       "semester":"1학기",
       "subject":"국어",
-      "chapter":"7단원",
+      "chapter":7,
       "chapName":"기행문을 써요",
       "page":212
    },
@@ -913,7 +913,7 @@
       "grade":"5학년",
       "semester":"1학기",
       "subject":"국어",
-      "chapter":"8단원",
+      "chapter":8,
       "chapName":"아는 것과 새롭게 안 것",
       "page":234
    },
@@ -922,7 +922,7 @@
       "grade":"5학년",
       "semester":"1학기",
       "subject":"국어",
-      "chapter":"9단원",
+      "chapter":9,
       "chapName":"여러 가지 방법으로 읽어요",
       "page":270
    },
@@ -931,7 +931,7 @@
       "grade":"5학년",
       "semester":"1학기",
       "subject":"국어",
-      "chapter":"10단원",
+      "chapter":10,
       "chapName":"주인공이 되어",
       "page":296
    },
@@ -940,7 +940,7 @@
       "grade":"5학년",
       "semester":"2학기",
       "subject":"국어",
-      "chapter":"1단원",
+      "chapter":1,
       "chapName":"마음을 나누며 대화해요",
       "page":28
    },
@@ -949,7 +949,7 @@
       "grade":"5학년",
       "semester":"2학기",
       "subject":"국어",
-      "chapter":"2단원",
+      "chapter":2,
       "chapName":"지식이나 경험을 활용해요",
       "page":60
    },
@@ -958,7 +958,7 @@
       "grade":"5학년",
       "semester":"2학기",
       "subject":"국어",
-      "chapter":"3단원",
+      "chapter":3,
       "chapName":"의견을 조정하며 토의해요",
       "page":92
    },
@@ -967,7 +967,7 @@
       "grade":"5학년",
       "semester":"2학기",
       "subject":"국어",
-      "chapter":"4단원",
+      "chapter":4,
       "chapName":"겪은 일을 써요",
       "page":124
    },
@@ -976,7 +976,7 @@
       "grade":"5학년",
       "semester":"2학기",
       "subject":"국어",
-      "chapter":"5단원",
+      "chapter":5,
       "chapName":"여러 가지 매체 자료",
       "page":186
    },
@@ -985,7 +985,7 @@
       "grade":"5학년",
       "semester":"2학기",
       "subject":"국어",
-      "chapter":"6단원",
+      "chapter":6,
       "chapName":"타당성을 생각하며 토론해요",
       "page":210
    },
@@ -994,7 +994,7 @@
       "grade":"5학년",
       "semester":"2학기",
       "subject":"국어",
-      "chapter":"7단원",
+      "chapter":7,
       "chapName":"중요한 내용을 요약해요",
       "page":269
    },
@@ -1003,7 +1003,7 @@
       "grade":"5학년",
       "semester":"2학기",
       "subject":"국어",
-      "chapter":"8단원",
+      "chapter":8,
       "chapName":"우리말 지킴이",
       "page":272
    },
@@ -1012,7 +1012,7 @@
       "grade":"5학년",
       "semester":"1학기",
       "subject":"수학",
-      "chapter":"1단원",
+      "chapter":1,
       "chapName":"자연수의 혼합계산",
       "page":8
    },
@@ -1021,7 +1021,7 @@
       "grade":"5학년",
       "semester":"1학기",
       "subject":"수학",
-      "chapter":"2단원",
+      "chapter":2,
       "chapName":"약수와 배수",
       "page":26
    },
@@ -1030,7 +1030,7 @@
       "grade":"5학년",
       "semester":"1학기",
       "subject":"수학",
-      "chapter":"3단원",
+      "chapter":3,
       "chapName":"규칙과 대응",
       "page":48
    },
@@ -1039,7 +1039,7 @@
       "grade":"5학년",
       "semester":"1학기",
       "subject":"수학",
-      "chapter":"4단원",
+      "chapter":4,
       "chapName":"약분과 통분",
       "page":64
    },
@@ -1048,7 +1048,7 @@
       "grade":"5학년",
       "semester":"1학기",
       "subject":"수학",
-      "chapter":"5단원",
+      "chapter":5,
       "chapName":"분수의 덧셈과 뺄셈",
       "page":84
    },
@@ -1057,7 +1057,7 @@
       "grade":"5학년",
       "semester":"1학기",
       "subject":"수학",
-      "chapter":"6단원",
+      "chapter":6,
       "chapName":"다각형의 둘레와 넓이",
       "page":108
    },
@@ -1066,7 +1066,7 @@
       "grade":"5학년",
       "semester":"2학기",
       "subject":"수학",
-      "chapter":"1단원",
+      "chapter":1,
       "chapName":"수의 범위와 어림하기",
       "page":8
    },
@@ -1075,7 +1075,7 @@
       "grade":"5학년",
       "semester":"2학기",
       "subject":"수학",
-      "chapter":"2단원",
+      "chapter":2,
       "chapName":"분수의 곱셈",
       "page":30
    },
@@ -1084,7 +1084,7 @@
       "grade":"5학년",
       "semester":"2학기",
       "subject":"수학",
-      "chapter":"3단원",
+      "chapter":3,
       "chapName":"합동과 대칭",
       "page":52
    },
@@ -1093,7 +1093,7 @@
       "grade":"5학년",
       "semester":"2학기",
       "subject":"수학",
-      "chapter":"4단원",
+      "chapter":4,
       "chapName":"소수의 곱셈",
       "page":76
    },
@@ -1102,7 +1102,7 @@
       "grade":"5학년",
       "semester":"2학기",
       "subject":"수학",
-      "chapter":"5단원",
+      "chapter":5,
       "chapName":"직육면체",
       "page":98
    },
@@ -1111,7 +1111,7 @@
       "grade":"5학년",
       "semester":"2학기",
       "subject":"수학",
-      "chapter":"6단원",
+      "chapter":6,
       "chapName":"평균과 가능성",
       "page":122
    },
@@ -1120,7 +1120,7 @@
       "grade":"5학년",
       "semester":"1학기",
       "subject":"사회",
-      "chapter":"1단원",
+      "chapter":1,
       "chapName":"국토와 우리 생활",
       "page":6
    },
@@ -1129,7 +1129,7 @@
       "grade":"5학년",
       "semester":"1학기",
       "subject":"사회",
-      "chapter":"2단원",
+      "chapter":2,
       "chapName":"인권 존중과 정의로운 사회",
       "page":86
    },
@@ -1138,7 +1138,7 @@
       "grade":"5학년",
       "semester":"2학기",
       "subject":"사회",
-      "chapter":"1단원",
+      "chapter":1,
       "chapName":"옛사람들의 삶과 문화",
       "page":6
    },
@@ -1147,7 +1147,7 @@
       "grade":"5학년",
       "semester":"2학기",
       "subject":"사회",
-      "chapter":"2단원",
+      "chapter":2,
       "chapName":"사회의 새로운 변화와 오늘날의 우리",
       "page":84
    },
@@ -1156,7 +1156,7 @@
       "grade":"5학년",
       "semester":"1학기",
       "subject":"과학",
-      "chapter":"1단원",
+      "chapter":1,
       "chapName":"과학자는 어떻게 탐구할까요?",
       "page":10
    },
@@ -1165,7 +1165,7 @@
       "grade":"5학년",
       "semester":"1학기",
       "subject":"과학",
-      "chapter":"2단원",
+      "chapter":2,
       "chapName":"온도와 열",
       "page":24
    },
@@ -1174,7 +1174,7 @@
       "grade":"5학년",
       "semester":"1학기",
       "subject":"과학",
-      "chapter":"3단원",
+      "chapter":3,
       "chapName":"태양계와 별",
       "page":50
    },
@@ -1183,7 +1183,7 @@
       "grade":"5학년",
       "semester":"1학기",
       "subject":"과학",
-      "chapter":"4단원",
+      "chapter":4,
       "chapName":"용해와 용액",
       "page":74
    },
@@ -1192,7 +1192,7 @@
       "grade":"5학년",
       "semester":"1학기",
       "subject":"과학",
-      "chapter":"5단원",
+      "chapter":5,
       "chapName":"다양한 생물과 우리 생활",
       "page":96
    },
@@ -1201,7 +1201,7 @@
       "grade":"5학년",
       "semester":"2학기",
       "subject":"과학",
-      "chapter":"1단원",
+      "chapter":1,
       "chapName":"재미있는 나의 탐구",
       "page":10
    },
@@ -1210,7 +1210,7 @@
       "grade":"5학년",
       "semester":"2학기",
       "subject":"과학",
-      "chapter":"2단원",
+      "chapter":2,
       "chapName":"생물과 환경",
       "page":24
    },
@@ -1219,7 +1219,7 @@
       "grade":"5학년",
       "semester":"2학기",
       "subject":"과학",
-      "chapter":"3단원",
+      "chapter":3,
       "chapName":"날씨와 우리 생활",
       "page":48
    },
@@ -1228,7 +1228,7 @@
       "grade":"5학년",
       "semester":"2학기",
       "subject":"과학",
-      "chapter":"4단원",
+      "chapter":4,
       "chapName":"물체의 운동",
       "page":74
    },
@@ -1237,7 +1237,7 @@
       "grade":"5학년",
       "semester":"2학기",
       "subject":"과학",
-      "chapter":"5단원",
+      "chapter":5,
       "chapName":"산과 염기",
       "page":98
    },
@@ -1246,7 +1246,7 @@
       "grade":"6학년",
       "semester":"1학기",
       "subject":"국어",
-      "chapter":"1단원",
+      "chapter":1,
       "chapName":"비유하는 표현",
       "page":30
    },
@@ -1255,7 +1255,7 @@
       "grade":"6학년",
       "semester":"1학기",
       "subject":"국어",
-      "chapter":"2단원",
+      "chapter":2,
       "chapName":"이야기를 간추려요",
       "page":52
    },
@@ -1264,7 +1264,7 @@
       "grade":"6학년",
       "semester":"1학기",
       "subject":"국어",
-      "chapter":"3단원",
+      "chapter":3,
       "chapName":"짜임새 있게 구성해요",
       "page":94
    },
@@ -1273,7 +1273,7 @@
       "grade":"6학년",
       "semester":"1학기",
       "subject":"국어",
-      "chapter":"4단원",
+      "chapter":4,
       "chapName":"주장과 근거를 판단해요",
       "page":118
    },
@@ -1282,7 +1282,7 @@
       "grade":"6학년",
       "semester":"1학기",
       "subject":"국어",
-      "chapter":"5단원",
+      "chapter":5,
       "chapName":"속담을 활용해요",
       "page":144
    },
@@ -1291,7 +1291,7 @@
       "grade":"6학년",
       "semester":"1학기",
       "subject":"국어",
-      "chapter":"6단원",
+      "chapter":6,
       "chapName":"내용을 추론해요",
       "page":208
    },
@@ -1300,7 +1300,7 @@
       "grade":"6학년",
       "semester":"1학기",
       "subject":"국어",
-      "chapter":"7단원",
+      "chapter":7,
       "chapName":"우리말을 가꾸어요",
       "page":236
    },
@@ -1309,7 +1309,7 @@
       "grade":"6학년",
       "semester":"1학기",
       "subject":"국어",
-      "chapter":"8단원",
+      "chapter":8,
       "chapName":"인물의 삶을 찾아서",
       "page":258
    },
@@ -1318,7 +1318,7 @@
       "grade":"6학년",
       "semester":"1학기",
       "subject":"국어",
-      "chapter":"9단원",
+      "chapter":9,
       "chapName":"마음을 나누는 글을 써요",
       "page":300
    },
@@ -1327,7 +1327,7 @@
       "grade":"6학년",
       "semester":"2학기",
       "subject":"국어",
-      "chapter":"1단원",
+      "chapter":1,
       "chapName":"작품 속 인물과 나",
       "page":34
    },
@@ -1336,7 +1336,7 @@
       "grade":"6학년",
       "semester":"2학기",
       "subject":"국어",
-      "chapter":"2단원",
+      "chapter":2,
       "chapName":"관용 표현을 활용해요",
       "page":84
    },
@@ -1345,7 +1345,7 @@
       "grade":"6학년",
       "semester":"2학기",
       "subject":"국어",
-      "chapter":"3단원",
+      "chapter":3,
       "chapName":"타당한 근거로 글을 써요",
       "page":112
    },
@@ -1354,7 +1354,7 @@
       "grade":"6학년",
       "semester":"2학기",
       "subject":"국어",
-      "chapter":"4단원",
+      "chapter":4,
       "chapName":"효과적으로 발표해요",
       "page":144
    },
@@ -1363,7 +1363,7 @@
       "grade":"6학년",
       "semester":"2학기",
       "subject":"국어",
-      "chapter":"5단원",
+      "chapter":5,
       "chapName":"글에 담긴 생각과 비교해요",
       "page":212
    },
@@ -1372,7 +1372,7 @@
       "grade":"6학년",
       "semester":"2학기",
       "subject":"국어",
-      "chapter":"6단원",
+      "chapter":6,
       "chapName":"정보와 표현 판단하기",
       "page":246
    },
@@ -1381,7 +1381,7 @@
       "grade":"6학년",
       "semester":"2학기",
       "subject":"국어",
-      "chapter":"7단원",
+      "chapter":7,
       "chapName":"글 고쳐쓰기",
       "page":272
    },
@@ -1390,7 +1390,7 @@
       "grade":"6학년",
       "semester":"2학기",
       "subject":"국어",
-      "chapter":"8단원",
+      "chapter":8,
       "chapName":"작품으로 경험하기",
       "page":296
    },
@@ -1399,7 +1399,7 @@
       "grade":"6학년",
       "semester":"1학기",
       "subject":"수학",
-      "chapter":"1단원",
+      "chapter":1,
       "chapName":"분수의 나눗셈",
       "page":8
    },
@@ -1408,7 +1408,7 @@
       "grade":"6학년",
       "semester":"1학기",
       "subject":"수학",
-      "chapter":"2단원",
+      "chapter":2,
       "chapName":"각기둥과 각뿔",
       "page":26
    },
@@ -1417,7 +1417,7 @@
       "grade":"6학년",
       "semester":"1학기",
       "subject":"수학",
-      "chapter":"3단원",
+      "chapter":3,
       "chapName":"소수의 나눗셈",
       "page":48
    },
@@ -1426,7 +1426,7 @@
       "grade":"6학년",
       "semester":"1학기",
       "subject":"수학",
-      "chapter":"4단원",
+      "chapter":4,
       "chapName":"비와 비율",
       "page":72
    },
@@ -1435,7 +1435,7 @@
       "grade":"6학년",
       "semester":"1학기",
       "subject":"수학",
-      "chapter":"5단원",
+      "chapter":5,
       "chapName":"여러가지 그래프",
       "page":92
    },
@@ -1444,7 +1444,7 @@
       "grade":"6학년",
       "semester":"1학기",
       "subject":"수학",
-      "chapter":"6단원",
+      "chapter":6,
       "chapName":"직육면체의 부피와 겉넓이",
       "page":116
    },
@@ -1453,7 +1453,7 @@
       "grade":"6학년",
       "semester":"2학기",
       "subject":"수학",
-      "chapter":"1단원",
+      "chapter":1,
       "chapName":"분수의 나눗셈",
       "page":8
    },
@@ -1462,7 +1462,7 @@
       "grade":"6학년",
       "semester":"2학기",
       "subject":"수학",
-      "chapter":"2단원",
+      "chapter":2,
       "chapName":"소수의 나눗셈",
       "page":28
    },
@@ -1471,7 +1471,7 @@
       "grade":"6학년",
       "semester":"2학기",
       "subject":"수학",
-      "chapter":"3단원",
+      "chapter":3,
       "chapName":"공간과 입체",
       "page":50
    },
@@ -1480,7 +1480,7 @@
       "grade":"6학년",
       "semester":"2학기",
       "subject":"수학",
-      "chapter":"4단원",
+      "chapter":4,
       "chapName":"비례식과 비례배분",
       "page":70
    },
@@ -1489,7 +1489,7 @@
       "grade":"6학년",
       "semester":"2학기",
       "subject":"수학",
-      "chapter":"5단원",
+      "chapter":5,
       "chapName":"원의 넓이",
       "page":90
    },
@@ -1498,7 +1498,7 @@
       "grade":"6학년",
       "semester":"2학기",
       "subject":"수학",
-      "chapter":"6단원",
+      "chapter":6,
       "chapName":"원기둥, 원뿔, 구",
       "page":110
    },
@@ -1507,7 +1507,7 @@
       "grade":"6학년",
       "semester":"1학기",
       "subject":"사회",
-      "chapter":"1단원",
+      "chapter":1,
       "chapName":"우리나라의 정치발전",
       "page":6
    },
@@ -1516,7 +1516,7 @@
       "grade":"6학년",
       "semester":"1학기",
       "subject":"사회",
-      "chapter":"2단원",
+      "chapter":2,
       "chapName":"우리나라의 경제발전",
       "page":78
    },
@@ -1525,7 +1525,7 @@
       "grade":"6학년",
       "semester":"2학기",
       "subject":"사회",
-      "chapter":"1단원",
+      "chapter":1,
       "chapName":"세계 여러 나라의 자연과 문화",
       "page":6
    },
@@ -1534,7 +1534,7 @@
       "grade":"6학년",
       "semester":"2학기",
       "subject":"사회",
-      "chapter":"2단원",
+      "chapter":2,
       "chapName":"통일 한국의 미래와 지구촌의 평화",
       "page":88
    },
@@ -1543,7 +1543,7 @@
       "grade":"6학년",
       "semester":"1학기",
       "subject":"과학",
-      "chapter":"1단원",
+      "chapter":1,
       "chapName":"과학자처럼 탐구해 볼까요?",
       "page":10
    },
@@ -1552,7 +1552,7 @@
       "grade":"6학년",
       "semester":"1학기",
       "subject":"과학",
-      "chapter":"2단원",
+      "chapter":2,
       "chapName":"지구와 달의 운동",
       "page":24
    },
@@ -1561,7 +1561,7 @@
       "grade":"6학년",
       "semester":"1학기",
       "subject":"과학",
-      "chapter":"3단원",
+      "chapter":3,
       "chapName":"여러가지 기체",
       "page":48
    },
@@ -1570,7 +1570,7 @@
       "grade":"6학년",
       "semester":"1학기",
       "subject":"과학",
-      "chapter":"4단원",
+      "chapter":4,
       "chapName":"식물의 구조와 기능",
       "page":72
    },
@@ -1579,7 +1579,7 @@
       "grade":"6학년",
       "semester":"1학기",
       "subject":"과학",
-      "chapter":"5단원",
+      "chapter":5,
       "chapName":"빛과 렌즈",
       "page":96
    },
@@ -1588,7 +1588,7 @@
       "grade":"6학년",
       "semester":"2학기",
       "subject":"과학",
-      "chapter":"1단원",
+      "chapter":1,
       "chapName":"전기의 이용",
       "page":8
    },
@@ -1597,7 +1597,7 @@
       "grade":"6학년",
       "semester":"2학기",
       "subject":"과학",
-      "chapter":"2단원",
+      "chapter":2,
       "chapName":"계절의 변화",
       "page":32
    },
@@ -1606,7 +1606,7 @@
       "grade":"6학년",
       "semester":"2학기",
       "subject":"과학",
-      "chapter":"3단원",
+      "chapter":3,
       "chapName":"연소와 소화",
       "page":54
    },
@@ -1615,7 +1615,7 @@
       "grade":"6학년",
       "semester":"2학기",
       "subject":"과학",
-      "chapter":"4단원",
+      "chapter":4,
       "chapName":"우리 몸의 구조와 기능",
       "page":76
    },
@@ -1624,7 +1624,7 @@
       "grade":"6학년",
       "semester":"2학기",
       "subject":"과학",
-      "chapter":"5단원",
+      "chapter":5,
       "chapName":"에너지와 생활",
       "page":100
    }

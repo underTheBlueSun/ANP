@@ -3,7 +3,7 @@
 //  ANP
 //
 //  Created by underTheBlueSun on 2021/04/24.
-//
+// ..
 
 import SwiftUI
 
@@ -19,7 +19,7 @@ struct ScienceView: View {
                     Text(science.grade)
                     Text(science.semester)
                     Text(science.subject)
-                    Text(science.chapter)
+//                    Text(science.chapter)
                 }
               } // ForEach
             } // List

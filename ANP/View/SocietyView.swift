@@ -3,7 +3,7 @@
 //  ANP
 //
 //  Created by underTheBlueSun on 2021/04/24.
-//
+// .. 
 
 import SwiftUI
 
@@ -19,7 +19,7 @@ struct SocietyView: View {
                     Text(society.grade)
                     Text(society.semester)
                     Text(society.subject)
-                    Text(society.chapter)
+//                    Text(society.chapter)
                 }
               } // ForEach
             } // List

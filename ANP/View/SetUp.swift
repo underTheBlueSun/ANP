@@ -3,7 +3,7 @@
 //  ANP
 //
 //  Created by underTheBlueSun on 2021/04/25.
-//
+// ..
 
 import SwiftUI
 
@@ -54,9 +54,6 @@ struct SetUp: View {
                 Section {
                     Text("개발자 정보")
                 }
-
-
-
             }
             .navigationBarTitle("홈", displayMode: .inline)
             .navigationBarColor(backgroundColor: .systemTeal, tintColor: .white)

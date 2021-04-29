@@ -34,24 +34,27 @@ struct KoreanView: View {
 //                                    .foregroundColor(.red)
 //                            ) { Text(korean.chapName) }.padding(.vertical,3).padding(.horizontal,20)
                     
-//                    Form {
+                    
                         Section {
-                            HStack {
-                                Image(systemName: String(korean.chapter) + ".circle.fill").foregroundColor(.yellow).font(.system(size: 25))
-//                                Text(korean.chapter).font(.system(size: 17)).foregroundColor(.systemTeal)
-                                Text(korean.chapName).font(.system(size: 17))
-                                Spacer()
-                                Text(String(korean.page)).foregroundColor(.gray).font(.system(size: 13))
+                            NavigationLink(destination: Text("aaaa")) {
+                                HStack {
+                                    Image(systemName: String(korean.chapter) + ".circle.fill").foregroundColor(.yellow).font(.system(size: 25))
+    //                                Text(korean.chapter).font(.system(size: 17)).foregroundColor(.systemTeal)
+                                    Text(korean.chapName).font(.system(size: 17))
+                                    Spacer()
+                                    Text(String(korean.page)).foregroundColor(.gray).font(.system(size: 13))
+                                }
+                                .padding(.vertical, 5)
                             }
-                            .padding(.vertical, 5)
-                        }
+                            
+                        } // section
+                        
                         
 //                    }
-                    
               } // ForEach
             } // form
             .background(Color.white)
-            .navigationBarTitle("홈", displayMode: .inline)
+            .navigationBarTitle(curriculumViewModel.grade + " " + curriculumViewModel.semester + "  국어", displayMode: .inline)
             .navigationBarColor(backgroundColor: UIColor(Color.eliBlue), tintColor: .white)
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {

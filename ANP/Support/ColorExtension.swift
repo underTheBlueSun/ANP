@@ -15,6 +15,7 @@ extension Color {
   static let background = Color(UIColor.systemGray6)
   static let tabButtonRed = Color(hex: "#FF6559")
   static let tabbarBackgroud = Color(hex: "#58585D")
+  static let eliBlue = Color(hex: "#4EA9C5")
 }
 
 extension Color {

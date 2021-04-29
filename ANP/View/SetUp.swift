@@ -26,7 +26,7 @@ struct SetUp: View {
 
         NavigationView {
             Form {
-                Section {
+                Section (header: Text("PROFILE")) {
                     Picker("학년 선택", selection: $selectedGrade) {
                         ForEach(grades, id: \.self) {
                             Text($0)
@@ -42,9 +42,11 @@ struct SetUp: View {
                 Section {
                     Text("사용자 설명서")
                 }
+                
                 Section {
                     Text("자주 묻는 질문")
                 }
+                
                 Section {
                     Text("1:1 문의")
                 }
@@ -54,9 +56,9 @@ struct SetUp: View {
                 Section {
                     Text("개발자 정보")
                 }
-            }
+            } // form
             .navigationBarTitle("홈", displayMode: .inline)
-            .navigationBarColor(backgroundColor: .systemTeal, tintColor: .white)
+            .navigationBarColor(backgroundColor: UIColor(Color.eliBlue), tintColor: .white)
 //            .toolbar {
 //                ToolbarItem(placement: .navigationBarTrailing) {
 //                    Button(action: {

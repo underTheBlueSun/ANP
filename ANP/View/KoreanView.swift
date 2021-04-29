@@ -34,9 +34,11 @@ struct KoreanView: View {
 //                    Form {
                         Section {
                             HStack {
-                                Image(systemName: String(korean.chapter) + ".circle.fill").foregroundColor(.systemTeal).font(.system(size: 30))
+                                Image(systemName: String(korean.chapter) + ".circle.fill").foregroundColor(.yellow).font(.system(size: 25))
 //                                Text(korean.chapter).font(.system(size: 17)).foregroundColor(.systemTeal)
                                 Text(korean.chapName).font(.system(size: 17))
+                                Spacer()
+                                Text(String(korean.page)).foregroundColor(.gray).font(.system(size: 13))
                             }
                             .padding(.vertical, 5)
                         }
@@ -47,7 +49,7 @@ struct KoreanView: View {
             } // form
             .background(Color.white)
             .navigationBarTitle("홈", displayMode: .inline)
-            .navigationBarColor(backgroundColor: .systemTeal, tintColor: .white)
+            .navigationBarColor(backgroundColor: UIColor(Color.eliBlue), tintColor: .white)
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button(action: {

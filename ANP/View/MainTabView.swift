@@ -37,7 +37,7 @@ struct MainTabView: View {
       }
       
     }
-    .accentColor(.systemTeal)
+    .accentColor(.eliBlue)
     .edgesIgnoringSafeArea(.top)
     .onAppear(perform: {
     })

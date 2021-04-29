@@ -25,7 +25,7 @@ struct ScienceView: View {
             } // List
             .background(Color.white)
             .navigationBarTitle("홈", displayMode: .inline)
-            .navigationBarColor(backgroundColor: .systemTeal, tintColor: .white)
+            .navigationBarColor(backgroundColor: UIColor(Color.eliBlue), tintColor: .white)
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button(action: {

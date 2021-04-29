@@ -64,7 +64,7 @@ private extension MainTabView {
   var math: some View {
 
 //    Text("수학")
-    MathView01()
+    MathView()
         .onAppear(perform: { print("수학") })
         .tag(Tabs.math)
         .tabItem {
@@ -121,7 +121,8 @@ private extension MainTabView {
 struct MainTabView_Previews: PreviewProvider {
   static var previews: some View {
     MainTabView()
-        .environmentObject(KoreanViewModel())
+//        .environmentObject(KoreanViewModel())
+        .environmentObject(CurriculumViewModel())
         .environmentObject(JsonUpload())
     
   }

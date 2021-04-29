@@ -9,22 +9,22 @@ import SwiftUI
 
 struct KoreanView: View {
 
-    @EnvironmentObject var koreanViewModel: KoreanViewModel
+    @EnvironmentObject var curriculumViewModel: CurriculumViewModel
     
     var body: some View {
         NavigationView {
             List {
                 Button(action: {
-                    koreanViewModel.deleteData()
+                    curriculumViewModel.deleteData()
                 }, label: {
                      Text("컬리삭제").font(.title2)
                 })
-                ForEach(koreanViewModel.curriculums) { curriculum in
+                ForEach(curriculumViewModel.koreans) { korean in
                 HStack {
-                    Text(curriculum.grade)
-                    Text(curriculum.semester)
-                    Text(curriculum.subject)
-                    Text(curriculum.chapter)
+                    Text(korean.grade)
+                    Text(korean.semester)
+                    Text(korean.subject)
+                    Text(korean.chapter)
                 }
               } // ForEach
             } // List
@@ -49,7 +49,7 @@ struct KoreanView: View {
 struct KoreanView_Previews: PreviewProvider {
     static var previews: some View {
         KoreanView()
-            .environmentObject(KoreanViewModel())
+            .environmentObject(CurriculumViewModel())
     }
 }
 

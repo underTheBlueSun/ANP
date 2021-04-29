@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct SetUp: View {
-    @EnvironmentObject var koreanViewModel: KoreanViewModel
+    @EnvironmentObject var curriculumViewModel: CurriculumViewModel
     @State private var selectedGrade = UserDefaults.standard.string(forKey: "Grade") ?? ""
     @State private var selectedSemester = UserDefaults.standard.string(forKey: "Semester") ?? ""
 //    @State private var selectedGrade = "4학년"
@@ -76,8 +76,12 @@ struct SetUp: View {
         .onDisappear(perform: {
             UserDefaults.standard.set(self.selectedGrade, forKey: "Grade")
             UserDefaults.standard.set(self.selectedSemester, forKey: "Semester")
-            koreanViewModel.grade = UserDefaults.standard.string(forKey: "Grade") ?? ""
-            koreanViewModel.semester = UserDefaults.standard.string(forKey: "Semester") ?? ""
+            curriculumViewModel.grade = UserDefaults.standard.string(forKey: "Grade") ?? ""
+            curriculumViewModel.semester = UserDefaults.standard.string(forKey: "Semester") ?? ""
+            curriculumViewModel.fetchKorData()
+            curriculumViewModel.fetchMathData()
+            curriculumViewModel.fetchSocietyData()
+            curriculumViewModel.fetchScienceData()
             
         })
 
@@ -87,7 +91,7 @@ struct SetUp: View {
 struct SetUp_Previews: PreviewProvider {
     static var previews: some View {
         SetUp()
-            .environmentObject(KoreanViewModel())
+            .environmentObject(CurriculumViewModel())
     }
 }
 

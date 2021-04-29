@@ -9,17 +9,17 @@ import SwiftUI
 
 struct ScienceView: View {
 
-    @EnvironmentObject var koreanViewModel: KoreanViewModel
+    @EnvironmentObject var curriculumViewModel: CurriculumViewModel
     
     var body: some View {
         NavigationView {
             List {
-                ForEach(koreanViewModel.curriculums) { curriculum in
+                ForEach(curriculumViewModel.sciences) { science in
                 HStack {
-                    Text(curriculum.grade)
-                    Text(curriculum.semester)
-                    Text(curriculum.subject)
-                    Text(curriculum.chapter)
+                    Text(science.grade)
+                    Text(science.semester)
+                    Text(science.subject)
+                    Text(science.chapter)
                 }
               } // ForEach
             } // List
@@ -44,7 +44,7 @@ struct ScienceView: View {
 struct ScienceView_Previews: PreviewProvider {
     static var previews: some View {
         ScienceView()
-            .environmentObject(KoreanViewModel())
+            .environmentObject(CurriculumViewModel())
     }
 }
 

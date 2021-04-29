@@ -21,7 +21,6 @@ class KoreanViewModel: ObservableObject {
         fetchData()
     }
 
-    // Fetching Data
     func fetchData() {
         guard let dbRef = try? Realm() else { return }
         let results = dbRef.objects(Curriculum01.self)

@@ -1,5 +1,5 @@
 //
-//  MathView01.swift
+//  MathView.swift
 //  ANP
 //
 //  Created by underTheBlueSun on 2021/04/24.
@@ -7,24 +7,24 @@
 
 import SwiftUI
 
-struct MathView01: View {
+struct MathView: View {
 
-    @EnvironmentObject var koreanViewModel: KoreanViewModel
+    @EnvironmentObject var curriculumViewModel: CurriculumViewModel
     
     var body: some View {
         NavigationView {
             List {
                 Button(action: {
-                    koreanViewModel.deleteData()
+                    curriculumViewModel.deleteData()
                 }, label: {
                      Text("컬리삭제").font(.title2)
                 })
-                ForEach(koreanViewModel.curriculums) { curriculum in
+                ForEach(curriculumViewModel.maths) { math in
                 HStack {
-                    Text(curriculum.grade)
-                    Text(curriculum.semester)
-                    Text(curriculum.subject)
-                    Text(curriculum.chapter)
+                    Text(math.grade)
+                    Text(math.semester)
+                    Text(math.subject)
+                    Text(math.chapter)
                 }
               } // ForEach
             } // List
@@ -46,10 +46,10 @@ struct MathView01: View {
     }
 }
 
-struct MathView01_Previews: PreviewProvider {
+struct MathView_Previews: PreviewProvider {
     static var previews: some View {
-        MathView01()
-            .environmentObject(KoreanViewModel())
+        MathView()
+            .environmentObject(CurriculumViewModel())
     }
 }
 

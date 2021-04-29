@@ -13,7 +13,10 @@ struct KoreanView: View {
     
     var body: some View {
         NavigationView {
+            
             Form {
+                Image(systemName: "tray.and.arrow.down.fill")
+                
                 Button(action: {
                     curriculumViewModel.deleteData()
                 }, label: {

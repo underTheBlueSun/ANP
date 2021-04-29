@@ -56,6 +56,7 @@ struct SetUp: View {
                 Section {
                     Text("개발자 정보")
                 }
+                
             } // form
             .navigationBarTitle("홈", displayMode: .inline)
             .navigationBarColor(backgroundColor: UIColor(Color.eliBlue), tintColor: .white)

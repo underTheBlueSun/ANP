@@ -3,7 +3,7 @@
 //  ANP
 //
 //  Created by macbook on 2021/04/27.
-//
+// ..
 
 import Foundation
 import SwiftUI
@@ -16,7 +16,7 @@ final class JsonUpload: ObservableObject {
 
   init(filename: String = "CurriculumData.json") {
     self.curriculums = Bundle.main.decode(filename: filename, as: [Curriculum02].self)
-    // 업로드는 한번만 되게
+    // 업로드는 한번만 되게...
 //    addData()
     if isUploaded == false {
         addData()

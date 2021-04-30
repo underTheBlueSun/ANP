@@ -3,7 +3,7 @@
 //  ANP
 //
 //  Created by underTheBlueSun on 2021/04/25.
-// ..
+// ....
 import SwiftUI
 
 struct SetUp: View {

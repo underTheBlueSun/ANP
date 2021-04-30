@@ -4,7 +4,6 @@
 //
 //  Created by underTheBlueSun on 2021/04/24.
 // ..
-
 import SwiftUI
 import RealmSwift
 
@@ -23,6 +22,7 @@ class CurriculumViewModel: ObservableObject {
         fetchMathData()
         fetchSocietyData()
         fetchScienceData()
+//        print("init")
     }
 
 //    func fetchData() {
@@ -30,7 +30,6 @@ class CurriculumViewModel: ObservableObject {
 //        let results = dbRef.objects(Curriculum03.self)
 //        self.curriculums = results.compactMap({ (curriculum) -> Curriculum03? in return curriculum })
 //    }
-
     func fetchKorData() {
         guard let dbRef = try? Realm() else { return }
         let results = dbRef.objects(Curriculum03.self).filter("grade == '\(grade)' and semester == '\(semester)' and subject == '국어'")
@@ -69,5 +68,3 @@ class CurriculumViewModel: ObservableObject {
     }
       
 }
-
-

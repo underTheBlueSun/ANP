@@ -4,7 +4,6 @@
 //
 //  Created by underTheBlueSun on 2021/04/24.
 // ..
-
 import SwiftUI
 
 @main
@@ -15,7 +14,7 @@ struct ANPApp: App {
             MainTabView()
                 .environmentObject(JsonUpload())
                 .environmentObject(CurriculumViewModel())
-                .environmentObject(KoreanViewModel())
+                .environmentObject(ANPViewModel())
 //            SearchDefaultRealm()
         }
     }

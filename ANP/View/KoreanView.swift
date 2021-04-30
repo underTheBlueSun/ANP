@@ -4,7 +4,6 @@
 //
 //  Created by underTheBlueSun on 2021/04/24.
 // ....
-
 import SwiftUI
 
 struct KoreanView: View {
@@ -36,7 +35,7 @@ struct KoreanView: View {
                     
                     
                         Section {
-                            NavigationLink(destination: Text("aaaa")) {
+                            NavigationLink(destination: ActivityView(subject: korean.subject, chapter: korean.chapter)) {
                                 HStack {
                                     Image(systemName: String(korean.chapter) + ".circle.fill").foregroundColor(.yellow).font(.system(size: 25))
     //                                Text(korean.chapter).font(.system(size: 17)).foregroundColor(.systemTeal)
@@ -77,4 +76,3 @@ struct KoreanView_Previews: PreviewProvider {
             .environmentObject(CurriculumViewModel())
     }
 }
-

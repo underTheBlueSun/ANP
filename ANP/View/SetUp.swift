@@ -4,11 +4,13 @@
 //
 //  Created by underTheBlueSun on 2021/04/25.
 // ..
-
 import SwiftUI
 
 struct SetUp: View {
     @EnvironmentObject var curriculumViewModel: CurriculumViewModel
+//    @EnvironmentObject var koreanViewModel: KoreanViewModel
+    @EnvironmentObject var anpViewModel: ANPViewModel
+    
     @State private var selectedGrade = UserDefaults.standard.string(forKey: "Grade") ?? ""
     @State private var selectedSemester = UserDefaults.standard.string(forKey: "Semester") ?? ""
 //    @State private var selectedGrade = "4학년"
@@ -82,6 +84,12 @@ struct SetUp: View {
             curriculumViewModel.fetchMathData()
             curriculumViewModel.fetchSocietyData()
             curriculumViewModel.fetchScienceData()
+
+//            koreanViewModel.grade = UserDefaults.standard.string(forKey: "Grade") ?? ""
+//            koreanViewModel.semester = UserDefaults.standard.string(forKey: "Semester") ?? ""
+            
+            anpViewModel.grade = UserDefaults.standard.string(forKey: "Grade") ?? ""
+            anpViewModel.semester = UserDefaults.standard.string(forKey: "Semester") ?? ""
             
         })
 
@@ -94,8 +102,3 @@ struct SetUp_Previews: PreviewProvider {
             .environmentObject(CurriculumViewModel())
     }
 }
-
-
-
-
-

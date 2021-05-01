@@ -35,7 +35,7 @@ struct KoreanView: View {
                     
                     
                         Section {
-                            NavigationLink(destination: ActivityView(subject: korean.subject, chapter: korean.chapter)) {
+                            NavigationLink(destination: ActivityView(subject: korean.subject, chapter: korean.chapter, chapName: korean.chapName)) {
                                 HStack {
                                     Image(systemName: String(korean.chapter) + ".circle.fill").foregroundColor(.yellow).font(.system(size: 25))
     //                                Text(korean.chapter).font(.system(size: 17)).foregroundColor(.systemTeal)

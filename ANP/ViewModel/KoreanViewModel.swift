@@ -16,7 +16,7 @@ class KoreanViewModel: ObservableObject {
 
 //    init() {
 //        fetchKorData()
-//    }
+//    } 
     func fetchKorData() {
         guard let dbRef = try? Realm() else { return }
         let results = dbRef.objects(ANP03.self).filter("grade == '\(grade)' and semester == '\(semester)' and subject == '국어' and chapter == \(chapter) ")

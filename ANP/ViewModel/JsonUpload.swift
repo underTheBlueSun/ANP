@@ -22,6 +22,7 @@ final class JsonUpload: ObservableObject {
         // 업로드는 한번만 되게...
 //        addCurriData()
 //        addANPData()
+//        if isUploaded == true {
         if isUploaded == false {
             addCurriData()
             addANPData()

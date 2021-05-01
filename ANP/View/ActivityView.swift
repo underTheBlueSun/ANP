@@ -14,26 +14,39 @@ struct ActivityView: View {
     
     var subject: String
     var chapter: Int
+    var chapName: String
 
-    init(subject: String, chapter: Int) {
+    init(subject: String, chapter: Int, chapName: String) {
         self.subject = subject
         self.chapter = chapter
+        self.chapName = chapName
     }
     
     var body: some View {
 //        NavigationView {
             Form {
+                HStack {
+//                    Image(systemName: String(self.chapter) + ".circle.fill").foregroundColor(.yellow
+                    Text(String(self.chapter) + "단원")
+                        .foregroundColor(.white).padding(.vertical, 2).padding(.horizontal,2)
+                        .background(RoundedRectangle(cornerRadius: 4).fill(Color.yellow).shadow(radius: 0))
+                    Text(self.chapName)
+                }
+                
                 ForEach(anpViewModel.anps) { anp in
-                    Section {
-                        NavigationLink(destination: Text("aaa")) {
+                    Section() {
+                        VStack {
                             HStack {
-                                Image(systemName: String(anp.chapter) + ".circle.fill").foregroundColor(.yellow).font(.system(size: 25))
-//                                Text(korean.chapter).font(.system(size: 17)).foregroundColor(.systemTeal)
-                                Text(anp.time).font(.system(size: 17))
+                                Image(systemName: "square.grid.2x2.fill").foregroundColor(.eliBlue).font(.system(size: 30)).opacity(0.8)
+                                Text(anp.actName).font(.system(size: 22))
                                 Spacer()
-                                Text(String(anp.actName)).foregroundColor(.gray).font(.system(size: 13))
+                                Text(String(anp.time)).foregroundColor(.gray).font(.system(size: 13))
                             }
-                            .padding(.vertical, 5)
+                            HStack {
+                                Text(String(anp.activity)).foregroundColor(.gray).frame(width: 250, height: 80, alignment: .leading).font(.system(size: 13)).padding(.horizontal, 3)
+                                Spacer()
+                            }
+                            
                         }
                     } // section
                 } // ForEach
@@ -64,7 +77,7 @@ struct ActivityView: View {
 
 struct ActivityView_Previews: PreviewProvider {
     static var previews: some View {
-        ActivityView(subject: "국어", chapter: 1)
+        ActivityView(subject: "국어", chapter: 1, chapName: "재미가 톡톡")
             .environmentObject(ANPViewModel())
     }
 }

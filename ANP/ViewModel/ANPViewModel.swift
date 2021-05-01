@@ -14,6 +14,7 @@ class ANPViewModel: ObservableObject {
     @Published var subject = ""
     @Published var chapter = 0
     @Published var anps: [ANP03] = []
+    @Published var activity = ""
 
 //    init() {
 //        fetchKorData()

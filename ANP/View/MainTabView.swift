@@ -56,7 +56,7 @@ private extension MainTabView {
 //            .environmentObject(Store)
             .tag(Tabs.korean)
             .tabItem {
-              Image(systemName: "house.fill")
+              Image(systemName: "book.fill")
               Text("국어")
              }
     }
@@ -68,7 +68,7 @@ private extension MainTabView {
         .onAppear(perform: { print("수학") })
         .tag(Tabs.math)
         .tabItem {
-            Image(systemName: "person.2.fill")
+            Image(systemName: "chart.bar.xaxis")
             Text("수학")
         }
 
@@ -84,7 +84,7 @@ private extension MainTabView {
 //            .environmentObject(growthViewModelData)
         .tag(Tabs.society)
           .tabItem {
-              Image(systemName: "rectangle.stack.person.crop.fill")
+              Image(systemName: "person.2.fill")
               Text("사회")
           }
     }
@@ -94,13 +94,13 @@ private extension MainTabView {
     ScienceView()
         .onAppear(perform: { print("과학") })
 //    SubjectView()
-//        .environmentObject(homeViewModelData)
+//        .environmentObject(homeViewModelData) 
 //        .environmentObject(studentViewModelData)
 //        .environmentObject(subjectViewModelData)
 
       .tag(Tabs.science)
         .tabItem {
-            Image(systemName: "note.text.badge.plus")
+            Image(systemName: "gyroscope")
             Text("과학")
         }
   }

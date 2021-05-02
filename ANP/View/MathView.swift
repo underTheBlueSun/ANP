@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  MathView.swift
 //  ANP
 //
 //  Created by underTheBlueSun on 2021/04/24.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct MathView: View {
     
     @State private var selectedGubun = "짝"
     @State private var junbi = "필기구, A4종이"
@@ -79,9 +79,9 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct MathView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        MathView()
     }
 }
 

@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15023F87263E21790093A764 /* MathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15023F86263E21790093A764 /* MathView.swift */; };
 		1545B21E263523120044CE04 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 1545B21D263523120044CE04 /* Realm */; };
 		1545B220263523120044CE04 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1545B21F263523120044CE04 /* RealmSwift */; };
 		1545B22326354D480044CE04 /* SetUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1545B22226354D480044CE04 /* SetUp.swift */; };
-		1545B23C263961180044CE04 /* MathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1545B23B263961180044CE04 /* MathView.swift */; };
 		1545B23F263961D50044CE04 /* Curriculum01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1545B23E263961D50044CE04 /* Curriculum01.swift */; };
 		1545B242263962470044CE04 /* ANP01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1545B241263962470044CE04 /* ANP01.swift */; };
 		1546E157263C05CB007EB958 /* ANPViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1546E156263C05CB007EB958 /* ANPViewModel.swift */; };
@@ -41,8 +41,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		15023F86263E21790093A764 /* MathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathView.swift; sourceTree = "<group>"; };
 		1545B22226354D480044CE04 /* SetUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUp.swift; sourceTree = "<group>"; };
-		1545B23B263961180044CE04 /* MathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "\U0010MathView.swift"; sourceTree = "<group>"; };
 		1545B23E263961D50044CE04 /* Curriculum01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Curriculum01.swift; sourceTree = "<group>"; };
 		1545B241263962470044CE04 /* ANP01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANP01.swift; sourceTree = "<group>"; };
 		1546E156263C05CB007EB958 /* ANPViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANPViewModel.swift; sourceTree = "<group>"; };
@@ -134,7 +134,7 @@
 			children = (
 				15963B152633FA4B0063A634 /* MainTabView.swift */,
 				15A4B1F12634017400B2919D /* KoreanView.swift */,
-				1545B23B263961180044CE04 /* MathView.swift */,
+				15023F86263E21790093A764 /* MathView.swift */,
 				FAFCFC2826379F2400FA4988 /* SocietyView.swift */,
 				FAFCFC2B26379F4100FA4988 /* ScienceView.swift */,
 				1545B22226354D480044CE04 /* SetUp.swift */,
@@ -269,7 +269,6 @@
 				1546E160263C06C2007EB958 /* ANP03.swift in Sources */,
 				15A4B1F22634017400B2919D /* KoreanView.swift in Sources */,
 				15963B052633F96A0063A634 /* ContentView.swift in Sources */,
-				1545B23C263961180044CE04 /* MathView.swift in Sources */,
 				15A4B1F82634064C00B2919D /* NavigationBarColor.swift in Sources */,
 				FA79BCBA26392EC300731CDF /* SearchDefaultRealm.swift in Sources */,
 				FA79BCBE263A454200731CDF /* CurriculumViewModel.swift in Sources */,
@@ -282,6 +281,7 @@
 				1546E157263C05CB007EB958 /* ANPViewModel.swift in Sources */,
 				FAFCFC2926379F2400FA4988 /* SocietyView.swift in Sources */,
 				FA79BCC2263A4CAA00731CDF /* Curriculum02.swift in Sources */,
+				15023F87263E21790093A764 /* MathView.swift in Sources */,
 				15A4B1F52634038D00B2919D /* KoreanViewModel.swift in Sources */,
 				1546E15D263C0662007EB958 /* KoreanActView.swift in Sources */,
 				1545B242263962470044CE04 /* ANP01.swift in Sources */,

@@ -57,11 +57,16 @@ struct MathView: View {
                     // 놀이내용
                     TextEditor(text: $activity).frame(height: 200)
                     Divider()
-                    Image("IMG_7117")
-                        .resizable()
-                        .frame(width: 310, height: 90)
-                        .cornerRadius(7) // Inner corner radius
-                        .padding(.vertical, 5)
+                    HStack {
+                        Image("apple")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(height: 110)
+                            .cornerRadius(7) // Inner corner radius
+                            .padding(.vertical, 5)
+                        Spacer()
+                    }
+                    
                     
                 } // vstack
             } // section

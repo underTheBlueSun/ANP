@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		15023F87263E21790093A764 /* MathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15023F86263E21790093A764 /* MathView.swift */; };
 		15023F89263FE8D30093A764 /* AddActView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15023F88263FE8D30093A764 /* AddActView.swift */; };
+		15023F8D264019D80093A764 /* ANPData.json in Resources */ = {isa = PBXBuildFile; fileRef = 15023F8C264019D80093A764 /* ANPData.json */; };
 		1545B21E263523120044CE04 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 1545B21D263523120044CE04 /* Realm */; };
 		1545B220263523120044CE04 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1545B21F263523120044CE04 /* RealmSwift */; };
 		1545B22326354D480044CE04 /* SetUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1545B22226354D480044CE04 /* SetUp.swift */; };
@@ -18,7 +19,6 @@
 		1546E15A263C063A007EB958 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1546E159263C063A007EB958 /* ActivityView.swift */; };
 		1546E15D263C0662007EB958 /* KoreanActView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1546E15C263C0662007EB958 /* KoreanActView.swift */; };
 		1546E160263C06C2007EB958 /* ANP03.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1546E15F263C06C2007EB958 /* ANP03.swift */; };
-		1546E165263CBD2E007EB958 /* ANPData.json in Resources */ = {isa = PBXBuildFile; fileRef = 1546E164263CBD2E007EB958 /* ANPData.json */; };
 		15963B032633F96A0063A634 /* ANPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15963B022633F96A0063A634 /* ANPApp.swift */; };
 		15963B052633F96A0063A634 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15963B042633F96A0063A634 /* ContentView.swift */; };
 		15963B072633F96A0063A634 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15963B062633F96A0063A634 /* Assets.xcassets */; };
@@ -44,6 +44,7 @@
 /* Begin PBXFileReference section */
 		15023F86263E21790093A764 /* MathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathView.swift; sourceTree = "<group>"; };
 		15023F88263FE8D30093A764 /* AddActView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddActView.swift; sourceTree = "<group>"; };
+		15023F8C264019D80093A764 /* ANPData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ANPData.json; sourceTree = "<group>"; };
 		1545B22226354D480044CE04 /* SetUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUp.swift; sourceTree = "<group>"; };
 		1545B23E263961D50044CE04 /* Curriculum01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Curriculum01.swift; sourceTree = "<group>"; };
 		1545B241263962470044CE04 /* ANP01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANP01.swift; sourceTree = "<group>"; };
@@ -51,7 +52,6 @@
 		1546E159263C063A007EB958 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 		1546E15C263C0662007EB958 /* KoreanActView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoreanActView.swift; sourceTree = "<group>"; };
 		1546E15F263C06C2007EB958 /* ANP03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANP03.swift; sourceTree = "<group>"; };
-		1546E164263CBD2E007EB958 /* ANPData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ANPData.json; sourceTree = "<group>"; };
 		15963AFF2633F96A0063A634 /* ANP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ANP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15963B022633F96A0063A634 /* ANPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANPApp.swift; sourceTree = "<group>"; };
 		15963B042633F96A0063A634 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -118,7 +118,7 @@
 				15963B0B2633F96A0063A634 /* Info.plist */,
 				15963B082633F96A0063A634 /* Preview Content */,
 				FA79BCC8263A79D400731CDF /* CurriculumData.json */,
-				1546E164263CBD2E007EB958 /* ANPData.json */,
+				15023F8C264019D80093A764 /* ANPData.json */,
 			);
 			path = ANP;
 			sourceTree = "<group>";
@@ -256,7 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA79BCC9263A79D400731CDF /* CurriculumData.json in Resources */,
-				1546E165263CBD2E007EB958 /* ANPData.json in Resources */,
+				15023F8D264019D80093A764 /* ANPData.json in Resources */,
 				15963B0A2633F96A0063A634 /* Preview Assets.xcassets in Resources */,
 				15963B072633F96A0063A634 /* Assets.xcassets in Resources */,
 			);

@@ -13,8 +13,17 @@ class ANPViewModel: ObservableObject {
     @Published var semester = UserDefaults.standard.string(forKey: "Semester") ?? ""
     @Published var subject = ""
     @Published var chapter = 0
-    @Published var anps: [ANP03] = []
+    @Published var chapName = ""
+    @Published var page = 0
+    @Published var time = ""
+    @Published var actName = ""
+    @Published var needs = ""
     @Published var activity = ""
+    @Published var tip = ""
+    @Published var picture = ""
+    @Published var range = "짝"
+    
+    @Published var anps: [ANP03] = []
 
 //    init() {
 //        fetchKorData()

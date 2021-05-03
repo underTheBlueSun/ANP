@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		15023F87263E21790093A764 /* MathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15023F86263E21790093A764 /* MathView.swift */; };
+		15023F89263FE8D30093A764 /* AddActView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15023F88263FE8D30093A764 /* AddActView.swift */; };
 		1545B21E263523120044CE04 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 1545B21D263523120044CE04 /* Realm */; };
 		1545B220263523120044CE04 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1545B21F263523120044CE04 /* RealmSwift */; };
 		1545B22326354D480044CE04 /* SetUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1545B22226354D480044CE04 /* SetUp.swift */; };
@@ -42,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		15023F86263E21790093A764 /* MathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathView.swift; sourceTree = "<group>"; };
+		15023F88263FE8D30093A764 /* AddActView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddActView.swift; sourceTree = "<group>"; };
 		1545B22226354D480044CE04 /* SetUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUp.swift; sourceTree = "<group>"; };
 		1545B23E263961D50044CE04 /* Curriculum01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Curriculum01.swift; sourceTree = "<group>"; };
 		1545B241263962470044CE04 /* ANP01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANP01.swift; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 				1545B22226354D480044CE04 /* SetUp.swift */,
 				1546E159263C063A007EB958 /* ActivityView.swift */,
 				1546E15C263C0662007EB958 /* KoreanActView.swift */,
+				15023F88263FE8D30093A764 /* AddActView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				FA79BCBA26392EC300731CDF /* SearchDefaultRealm.swift in Sources */,
 				FA79BCBE263A454200731CDF /* CurriculumViewModel.swift in Sources */,
 				15A4B20126350ACD00B2919D /* BundleExtension.swift in Sources */,
+				15023F89263FE8D30093A764 /* AddActView.swift in Sources */,
 				15963B032633F96A0063A634 /* ANPApp.swift in Sources */,
 				FAFCFC2C26379F4100FA4988 /* ScienceView.swift in Sources */,
 				15963B162633FA4B0063A634 /* MainTabView.swift in Sources */,

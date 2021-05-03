@@ -15,6 +15,8 @@ struct ActivityView: View {
     var subject: String
     var chapter: Int
     var chapName: String
+    
+    @State var openNewPage = false
 
     init(subject: String, chapter: Int, chapName: String) {
         self.subject = subject
@@ -51,20 +53,27 @@ struct ActivityView: View {
                     } // section
                 } // ForEach
             } // form
-//            .background(Color.white)
-//            .navigationBarTitle(anpViewModel.grade + " " + anpViewModel.semester, displayMode: .inline)
-//            .navigationBarColor(backgroundColor: UIColor(Color.eliBlue), tintColor: .white)
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button(action: {
-//                        검색 기능 구현하기
+                        self.openNewPage.toggle()
                     }, label: {
-                         Image(systemName: "magnifyingglass").font(.title2).foregroundColor(.white)
+                         Image(systemName: "plus.circle.fill").font(.title2).foregroundColor(.white)
                     })
+//                    Button(action: {
+////                        검색 기능 구현하기
+//                    }, label: {
+//                         Image(systemName: "magnifyingglass").font(.title2).foregroundColor(.white)
+//                    })
                 } // ToolbarItem
             } // toolbar
 //        } // NavigationView
 //        .navigationViewStyle(StackNavigationViewStyle())
+        .fullScreenCover(isPresented: $openNewPage) {
+            AddActView(subject: self.subject, chapter: self.chapter, chapName: self.chapName)
+//                .environmentObject(studentViewModelData)
+//                .environmentObject(homeViewModelData)
+        }
         .onAppear() {
             anpViewModel.subject = self.subject
             anpViewModel.chapter = self.chapter

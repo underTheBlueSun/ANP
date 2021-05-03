@@ -3,7 +3,8 @@
 //  ANP
 //
 //  Created by underTheBlueSun on 2021/04/24.
-//
+// 
+
 
 import SwiftUI
 
@@ -30,7 +31,7 @@ struct MathView: View {
                     Image(systemName: "square.grid.2x2.fill").foregroundColor(.eliBlue).font(.system(size: 30)).opacity(0.8)
                     Text("재미가 톡톡").font(.system(size: 20))
                     Spacer()
-                    Text("3~4차시").foregroundColor(.gray).font(.system(size: 13))
+                    Text("1~2차시").foregroundColor(.gray).font(.system(size: 13))
                 }
                 
             }

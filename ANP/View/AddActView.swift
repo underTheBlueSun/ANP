@@ -5,20 +5,16 @@
 //  Created by macbook on 2021/04/30.
 //
 import SwiftUI
-import PhotosUI
 
 struct AddActView: View {
     
     @EnvironmentObject var anpViewModel: ANPViewModel
-    @Environment(\.presentationMode) var presentaion
+    @Environment(\.presentationMode) var presentation
     
     var subject: String
     var chapter: Int
     var chapName: String
     
-    // 사진
-    @State var images: [UIImage] = []
-    @State private var isPresented: Bool = false
     
     // 활동을 입력해야 완료 버튼이 활성화 되게
     @State private var isActivity = false
@@ -42,10 +38,13 @@ struct AddActView: View {
             Form {
                 Section() {
                     HStack {
+//                        Image(systemName: "paintbrush.pointed.fill").foregroundColor(.yellow).font(.system(size: 15))
+//                        TextField("준비물", text: $anpViewModel.needs).font(.system(size: 13)).foregroundColor(.gray)
+                        
                         Image(systemName: "square.grid.2x2.fill").foregroundColor(.eliBlue).font(.system(size: 30)).opacity(0.8)
-                        Text(self.chapName).font(.system(size: 20))
+                        TextField("제목", text: $anpViewModel.actName).font(.system(size: 20))
                         Spacer()
-                        TextField("time", text: $anpViewModel.time).foregroundColor(.gray).font(.system(size: 13)).keyboardType(.phonePad)
+                        TextField("차시", text: $anpViewModel.time).foregroundColor(.gray).font(.system(size: 13)).keyboardType(.phonePad)
                     }
                     
                 }
@@ -53,9 +52,12 @@ struct AddActView: View {
                 Section() {
                     VStack {
                         HStack {
+//                            TextField("차시", text: $anpViewModel.time).foregroundColor(.gray).font(.system(size: 13)).keyboardType(.phonePad)
+//                            Spacer()
                             Image(systemName: "paintbrush.pointed.fill").foregroundColor(.yellow).font(.system(size: 15))
                             TextField("준비물", text: $anpViewModel.needs).font(.system(size: 13)).foregroundColor(.gray)
                             Spacer()
+                            
                             Picker("범위", selection: $anpViewModel.range) {
                                 ForEach(range, id: \.self) {
                                     Text($0)
@@ -68,13 +70,17 @@ struct AddActView: View {
                         } // hstack
                         
                         // 활동내용
-                        TextEditor(text: $anpViewModel.activity).frame(height: 200)
-                        Divider()
-                        Image("IMG_7117")
-                            .resizable()
-                            .frame(width: 310, height: 90)
-                            .cornerRadius(7) // Inner corner radius
-                            .padding(.vertical, 5)
+                        TextEditor(text: $anpViewModel.activity).frame(height: 320)
+//                        Divider()
+//                        HStack {
+//                            Image("IMG_7117")
+//                                .resizable()
+//                                .scaledToFit()
+//                                .frame(height: 110)
+//                                .cornerRadius(7) // Inner corner radius
+//                                .padding(.vertical, 5)
+//                            Spacer()
+//                        }
                         
                     } // vstack
                 } // section
@@ -89,38 +95,31 @@ struct AddActView: View {
                 } // section
                 
             } // form
-            .navigationBarTitle("홈", displayMode: .inline)
+            .navigationBarTitle(String(self.chapter)+". "+self.chapName, displayMode: .inline)
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
                     Button(action: {
 //                            studentViewModelData.updateObject = nil
-                            presentaion.wrappedValue.dismiss()
+                            presentation.wrappedValue.dismiss()
 
                     }, label: {
                         Text("취소")
                     })
                 } // ToolbarItem
-//                ToolbarItem(placement: .navigationBarTrailing) {
-//                    // 성명을 입력해야 완료 버튼 활성화
-////                    if isValidName {
-//                        Button(action: {
-//                            if !images.isEmpty {
-//    //                        studentViewModelData.picture = images[0]
-//                                studentViewModelData.picture = images[images.endIndex-1]
-//                            }
-//                            studentViewModelData.addData(uuid: homeViewModelData.uribanID, presentation: presentaion)
-//
-//                        }, label: {
-//                            Text("완료")
-//                        })
-////                    }
-//
-//                } // ToolbarItem
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button(action: {
+                        anpViewModel.addData(presentation: presentation)
+
+                    }, label: {
+                        Text("완료")
+                    })
+                } // ToolbarItem
             } // toolbar
         } // navigationView
         .onAppear() {
             anpViewModel.subject = self.subject
             anpViewModel.chapter = self.chapter
+            anpViewModel.chapName = self.chapName
             anpViewModel.fetchData()
 //            print("chapter1=", chapter)
         }

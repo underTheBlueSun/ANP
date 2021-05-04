@@ -56,7 +56,7 @@ struct MathView: View {
                     } // hstack
                     
                     // 놀이내용
-                    TextEditor(text: $activity).frame(height: 200)
+                    TextEditor(text: $activity).frame(height: 300)
                     Divider()
                     HStack {
                         Image("apple")

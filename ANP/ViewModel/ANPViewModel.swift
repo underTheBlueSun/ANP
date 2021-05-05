@@ -31,6 +31,7 @@ class ANPViewModel: ObservableObject {
         guard let dbRef = try? Realm() else { return }
         let results = dbRef.objects(ANP03.self).filter("grade == '\(grade)' and semester == '\(semester)' and subject == '\(subject)' and chapter == \(chapter) ")
         self.anps = results.compactMap({ (anp) -> ANP03? in return anp })
+
     }
     
     func addData(presentation: Binding<PresentationMode>) {

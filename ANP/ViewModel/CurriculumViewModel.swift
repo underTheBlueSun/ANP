@@ -34,6 +34,9 @@ class CurriculumViewModel: ObservableObject {
         guard let dbRef = try? Realm() else { return }
         let results = dbRef.objects(Curriculum03.self).filter("grade == '\(grade)' and semester == '\(semester)' and subject == '국어'")
         self.koreans = results.compactMap({ (korean) -> Curriculum03? in return korean })
+        print("1:",grade)
+        print("2:",semester)
+
     }
 
     func fetchMathData() {

@@ -3,7 +3,7 @@
 //  ANP
 //
 //  Created by macbook on 2021/04/30.
-//
+// ....
 import SwiftUI
 
 struct ActivityView: View {
@@ -45,7 +45,7 @@ struct ActivityView: View {
                                 Text(String(anp.time)).foregroundColor(.gray).font(.system(size: 13))
                             }
                             HStack {
-                                Text(String(anp.activity)).foregroundColor(.gray).frame(width: 250, height: 80, alignment: .leading).font(.system(size: 13)).padding(.horizontal, 3)
+                                Text(String(anp.activity)).foregroundColor(.gray).frame(width: 300, height: 80, alignment: .leading).font(.system(size: 13)).padding(.horizontal, 3)
                                 Spacer()
                             }
                             

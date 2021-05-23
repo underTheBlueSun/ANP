@@ -11,13 +11,14 @@ struct Test: View {
     
     var body: some View {
         NavigationView {
-            
+            Text("aaaa11")
             Form {
                 
                 Section {
                     Text("aaaa")
                 }
             }
+            Spacer()
         }
     }
 }

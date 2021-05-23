@@ -23,13 +23,27 @@ class ANPViewModel: ObservableObject {
     @Published var picture = ""
     @Published var range = "짝"
     @Published var anps: [ANP03] = []
+    
+    var rangeFilter = ""
+    var grade_result = ""
+    var semester_result = ""
 
 //    init() {
 //        fetchKorData()
 //    }
     func fetchData() {
+        
+        // 4학년-1학기-3 -> 4-1-3
+        let grade_endIdx: String.Index = grade.index(grade.startIndex, offsetBy: 0)
+        grade_result = String(grade[...grade_endIdx])
+        let semester_endIdx: String.Index = semester.index(grade.startIndex, offsetBy: 0)
+        semester_result = String(semester[...semester_endIdx])
+        range = grade_result + "-" + semester_result + "-" + String(chapter)
+        
         guard let dbRef = try? Realm() else { return }
-        let results = dbRef.objects(ANP03.self).filter("grade == '\(grade)' and semester == '\(semester)' and subject == '\(subject)' and chapter == \(chapter) ")
+        
+//        let results = dbRef.objects(ANP03.self).filter("grade == '\(grade)' and semester == '\(semester)' and subject == '\(subject)' and chapter == \(chapter) or (subject == '\(subject)' and range contains '\(grade)-\(semester)-\(chapter)')")
+        let results = dbRef.objects(ANP03.self).filter("grade == '\(grade)' and semester == '\(semester)' and subject == '\(subject)' and chapter == \(chapter) or (subject == '\(subject)' and range contains '\(range)' ) or (subject == '\(subject)' and range contains 'all' )" )
         self.anps = results.compactMap({ (anp) -> ANP03? in return anp })
 
     }

@@ -49,7 +49,7 @@ private extension MainTabView {
     var korean: some View {
         KoreanView()
             .onAppear(perform: {
-                print("국어")
+//                print("국어")
                 
             })
 //            .environmentObject(koreanViewModel)
@@ -65,7 +65,10 @@ private extension MainTabView {
 
 //    Text("수학")
     MathView()
-        .onAppear(perform: { print("수학") })
+        .onAppear(perform: {
+//            print("수학")
+            
+        })
         .tag(Tabs.math)
         .tabItem {
             Image(systemName: "chart.bar.xaxis")

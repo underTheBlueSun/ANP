@@ -16,7 +16,13 @@ struct ActivityView: View {
     var chapter: Int
     var chapName: String
     
-    @State var openNewPage = false
+    
+//    @State var openNewPage = false
+    
+    // sheet를 멀티로 띄우기 위해
+    @State var activeSheet: ActiveSheet?
+    
+    @State var anp: ANP03?
 
     init(subject: String, chapter: Int, chapName: String) {
         self.subject = subject
@@ -25,60 +31,79 @@ struct ActivityView: View {
     }
     
     var body: some View {
-//        NavigationView {
-            Form {
-                HStack {
-//                    Image(systemName: String(self.chapter) + ".circle.fill").foregroundColor(.yellow
-                    Text(String(self.chapter) + "단원")
-                        .foregroundColor(.white).padding(.vertical, 2).padding(.horizontal,2)
-                        .background(RoundedRectangle(cornerRadius: 4).fill(Color.yellow).shadow(radius: 0))
-                    Text(self.chapName)
-                }
-                
-                ForEach(anpViewModel.anps) { anp in
-                    Section() {
-                        VStack {
-                            HStack {
-                                Image(systemName: "square.grid.2x2.fill").foregroundColor(.eliBlue).font(.system(size: 30)).opacity(0.8)
-                                Text(anp.actName).font(.system(size: 22))
-                                Spacer()
-                                Text(String(anp.time)).foregroundColor(.gray).font(.system(size: 13))
-                            }
-                            HStack {
-                                Text(String(anp.activity)).foregroundColor(.gray).frame(width: 300, height: 80, alignment: .leading).font(.system(size: 13)).padding(.horizontal, 3)
-                                Spacer()
+        Form {
+            HStack {
+                Text(String(self.chapter) + "단원")
+                    .foregroundColor(.white).padding(.vertical, 2).padding(.horizontal,2)
+                    .background(RoundedRectangle(cornerRadius: 4).fill(Color.yellow).shadow(radius: 0))
+                Text(self.chapName)
+            }
+            
+            ForEach(anpViewModel.anps) { anp in
+
+                Section() {
+                    VStack {
+                        HStack {
+                            if anp.grade == "공통" {
+                                Image(systemName: "square.grid.2x2.fill").foregroundColor(.eliBlue).font(.system(size: 25)).opacity(0.8)
+                            }else {
+                                Image(systemName: "square.grid.2x2.fill").foregroundColor(.pink).font(.system(size: 25)).opacity(0.8)
                             }
                             
+                            Text(anp.actName).font(.system(size: 18))
+                            Spacer()
+                            Text(String(anp.time)).foregroundColor(.gray).font(.system(size: 13))
                         }
-                    } // section
-                } // ForEach
-            } // form
-            .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
+                        HStack {
+                            Text(String(anp.activity.replacingOccurrences(of: "\n\n", with: ""))).foregroundColor(.gray).frame(width: 300, height: 50, alignment: .leading).font(.system(size: 13)).padding(.horizontal, 3)
+                            Spacer()
+                        }
+                        NavigationLink(destination: DetailActView(anp: anp)) {
+                            EmptyView()
+                        }
+                        .frame(width: 0, height: 0)
+                        .hidden()
+                    }
+                } // section
+                
+            } // ForEach
+        } // form
+        .navigationBarTitle(String(chapter)+"단원", displayMode: .inline)
+        .toolbar {
+            ToolbarItem(placement: .navigationBarTrailing) {
+                HStack() {
                     Button(action: {
-                        self.openNewPage.toggle()
+    //                        self.openNewPage.toggle()
+                        activeSheet = .first
                     }, label: {
                          Image(systemName: "plus.circle.fill").font(.title2).foregroundColor(.white)
                     })
-//                    Button(action: {
-////                        검색 기능 구현하기
-//                    }, label: {
-//                         Image(systemName: "magnifyingglass").font(.title2).foregroundColor(.white)
-//                    })
-                } // ToolbarItem
-            } // toolbar
-//        } // NavigationView
+                    .padding()
+                    Button(action: {
+                        activeSheet = .second
+                    }, label: {
+                         Image(systemName: "magnifyingglass").font(.title2).foregroundColor(.white)
+                    })
+                }
+                
+            } // ToolbarItem
+        } // toolbar
 //        .navigationViewStyle(StackNavigationViewStyle())
-        .fullScreenCover(isPresented: $openNewPage) {
-            AddActView(subject: self.subject, chapter: self.chapter, chapName: self.chapName)
-//                .environmentObject(studentViewModelData)
-//                .environmentObject(homeViewModelData)
+//        .fullScreenCover(isPresented: $openNewPage) {
+//            AddActView(subject: self.subject, chapter: self.chapter, chapName: self.chapName)
+//        }
+        .fullScreenCover(item: $activeSheet) { item in
+                switch item {
+                case .first:
+                    AddActView(subject: self.subject, chapter: self.chapter, chapName: self.chapName)
+                case .second:
+                    SearchAct()
+                }
         }
         .onAppear() {
             anpViewModel.subject = self.subject
             anpViewModel.chapter = self.chapter
             anpViewModel.fetchData()
-//            print("chapter1=", chapter)
         }
 
     }
@@ -90,3 +115,5 @@ struct ActivityView_Previews: PreviewProvider {
             .environmentObject(ANPViewModel())
     }
 }
+
+

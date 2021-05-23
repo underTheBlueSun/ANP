@@ -9,6 +9,7 @@ import SwiftUI
 struct KoreanView: View {
 
     @EnvironmentObject var curriculumViewModel: CurriculumViewModel
+    @State var openNewPage = false
     
     var body: some View {
         NavigationView {
@@ -35,16 +36,23 @@ struct KoreanView: View {
                     
                     
                         Section {
-                            NavigationLink(destination: ActivityView(subject: korean.subject, chapter: korean.chapter, chapName: korean.chapName)) {
+//                            NavigationLink(destination: ActivityView(subject: korean.subject, chapter: korean.chapter, chapName: korean.chapName)) {
                                 HStack {
                                     Image(systemName: String(korean.chapter) + ".circle.fill").foregroundColor(.yellow).font(.system(size: 25))
     //                                Text(korean.chapter).font(.system(size: 17)).foregroundColor(.systemTeal)
                                     Text(korean.chapName).font(.system(size: 17))
                                     Spacer()
                                     Text(String(korean.page)).foregroundColor(.gray).font(.system(size: 13))
+                                    NavigationLink(destination: ActivityView(subject: korean.subject, chapter: korean.chapter, chapName: korean.chapName)) {
+                                        EmptyView()
+                                    }
+                                    .frame(width: 0, height: 0)
+                                    .hidden()
                                 }
                                 .padding(.vertical, 5)
-                            }
+                                
+                                
+//                            }
                             
                         } // section
                         
@@ -52,13 +60,16 @@ struct KoreanView: View {
 //                    }
               } // ForEach
             } // form
+            .fullScreenCover(isPresented: $openNewPage) {
+                SearchAct()
+            }
             .background(Color.white)
-            .navigationBarTitle(curriculumViewModel.grade + " " + curriculumViewModel.semester + "  국어", displayMode: .inline)
+            .navigationBarTitle(curriculumViewModel.grade + curriculumViewModel.semester, displayMode: .inline)
             .navigationBarColor(backgroundColor: UIColor(Color.eliBlue), tintColor: .white)
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button(action: {
-//                        검색 기능 구현하기
+                        openNewPage.toggle()
                     }, label: {
                          Image(systemName: "magnifyingglass").font(.title2).foregroundColor(.white)
                     })

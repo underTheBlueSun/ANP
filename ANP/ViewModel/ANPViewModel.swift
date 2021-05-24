@@ -43,7 +43,7 @@ class ANPViewModel: ObservableObject {
         guard let dbRef = try? Realm() else { return }
         
 //        let results = dbRef.objects(ANP03.self).filter("grade == '\(grade)' and semester == '\(semester)' and subject == '\(subject)' and chapter == \(chapter) or (subject == '\(subject)' and range contains '\(grade)-\(semester)-\(chapter)')")
-        let results = dbRef.objects(ANP03.self).filter("grade == '\(grade)' and semester == '\(semester)' and subject == '\(subject)' and chapter == \(chapter) or (subject == '\(subject)' and range contains '\(range)' ) or (subject == '\(subject)' and range contains 'all' )" )
+        let results = dbRef.objects(ANP03.self).filter("grade == '\(grade)' and semester == '\(semester)' and subject == '\(subject)' and chapter == \(chapter) or (subject == '\(subject)' and range contains '\(range)' ) or (subject == '\(subject)' and range contains 'all' )" ).sorted(byKeyPath: "actName", ascending: true).sorted(byKeyPath: "time", ascending: true)
         self.anps = results.compactMap({ (anp) -> ANP03? in return anp })
 
     }

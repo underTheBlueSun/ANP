@@ -42,7 +42,8 @@ struct SetUp: View {
                 } // section
                 
                 Section {
-                    Text("사용자 설명서")
+//                    Text("사용자 설명서")
+                    Link("사용자 설명서", destination: URL(string: "https://www.youtube.com/watch?v=89dc3v5vQFY")!)
                 }
                 
                 Section {

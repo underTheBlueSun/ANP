@@ -22,10 +22,13 @@ struct DetailActView: View {
        
         Form {
             HStack {
-                if anp.grade == "공통" {
-                    Image(systemName: "square.grid.2x2.fill").foregroundColor(.eliBlue).font(.system(size: 30)).opacity(0.8)
+                // 공통인지 일부 공통인지등에 따라 아이콘 색깔 다르게
+                if anp.range == "all" {
+                    Image(systemName: "square.grid.2x2.fill").foregroundColor(.eliBlue).font(.system(size: 25)).opacity(0.8)
+                }else if anp.range == "없음" {
+                    Image(systemName: "square.grid.2x2.fill").foregroundColor(.pink).font(.system(size: 25)).opacity(0.8)
                 }else {
-                    Image(systemName: "square.grid.2x2.fill").foregroundColor(.pink).font(.system(size: 30)).opacity(0.8)
+                    Image(systemName: "square.grid.2x2.fill").foregroundColor(.green).font(.system(size: 25)).opacity(0.8)
                 }
                 Text(anp.actName).font(.system(size: 20))
                 Spacer()

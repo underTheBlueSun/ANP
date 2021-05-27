@@ -16,7 +16,7 @@ struct KoreanView: View {
             VStack {
                 HStack {
                     Spacer()
-                    Image("koreanTitleImage")
+                    Image("mathTitleImage")
                         .resizable()
                         .scaledToFit()
                         .frame(height: 50)

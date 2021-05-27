@@ -11,14 +11,24 @@ struct Test: View {
     
     var body: some View {
         NavigationView {
-            Text("aaaa11")
-            Form {
-                
-                Section {
+            VStack {
+                Text("aaaa11")
+                List {
+                    NavigationLink(
+                        destination: Text("Destination"),
+                        label: {
+                            Text("Navigate")
+                        })
                     Text("aaaa")
+//                    Section {
+//                        Text("aaaa")
+//                    }
                 }
-            }
-            Spacer()
+                .listStyle(InsetGroupedListStyle())
+                Spacer()
+                
+            }//vstack
+            
         }
     }
 }

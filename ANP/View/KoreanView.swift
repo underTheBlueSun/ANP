@@ -13,55 +13,48 @@ struct KoreanView: View {
     
     var body: some View {
         NavigationView {
-            
-            Form {
+            VStack {
                 HStack {
-        
-//                    Text("국어")
-//                        .font(.system(size: 25))
-//                        .foregroundColor(.white).padding(.vertical, 2).padding(.horizontal,2)
-//                        .background(RoundedRectangle(cornerRadius: 4).fill(Color.eliBlue).shadow(radius: 0))
-//                    Spacer()
+                    Spacer()
                     Image("koreanTitleImage")
                         .resizable()
                         .scaledToFit()
                         .frame(height: 50)
-                        .cornerRadius(7) // Inner corner radius
-//                        .padding(.vertical, 5)
+//                        .cornerRadius(7) // Inner corner radius
                 }
                 
-//                Image(systemName: "tray.and.arrow.down.fill")
-//
-//                Button(action: {
-//                    curriculumViewModel.deleteData()
-//                }, label: {
-//                     Text("컬리삭제").font(.title2)
-//                })
-                ForEach(curriculumViewModel.koreans) { korean in
+                List {
                     
-                    Section {
-                        HStack {
-                            Image(systemName: String(korean.chapter) + ".circle.fill").foregroundColor(.yellow).font(.system(size: 25))
-                            Text(korean.chapName).font(.system(size: 17))
-                            Spacer()
-                            Text(String(korean.page)).foregroundColor(.gray).font(.system(size: 13))
-                            NavigationLink(destination: ActivityView(subject: korean.subject, chapter: korean.chapter, chapName: korean.chapName)) {
-                                EmptyView()
-                            }
-                            .frame(width: 0, height: 0)
-                            .hidden()
-                        }
-                        .padding(.vertical, 5)
+                    
 
-                    } // section
+                    ForEach(curriculumViewModel.koreans) { korean in
                         
-              } // ForEach
-            } // form
+                        Section {
+                            HStack {
+                                Image(systemName: String(korean.chapter) + ".circle.fill").foregroundColor(.yellow).font(.system(size: 25))
+                                Text(korean.chapName).font(.system(size: 17))
+                                Spacer()
+                                Text(String(korean.page)).foregroundColor(.gray).font(.system(size: 13))
+                                NavigationLink(destination: ActivityView(subject: korean.subject, chapter: korean.chapter, chapName: korean.chapName)) {
+                                    EmptyView()
+                                }
+                                .frame(width: 0, height: 0)
+                                .hidden()
+                            }
+                            .padding(.vertical, 5)
+
+                        } // section
+                            
+                  } // ForEach
+                } // form
+                .listStyle(InsetGroupedListStyle())
+
+                
+            } // vstack
+
             .fullScreenCover(isPresented: $openNewPage) {
                 SearchAct()
             }
-            .background(Color.white)
-//            .navigationBarTitle(curriculumViewModel.grade + curriculumViewModel.semester, displayMode: .inline)
             .navigationBarTitle("다음수업뭐하지", displayMode: .inline)
             .navigationBarColor(backgroundColor: UIColor(Color.eliBlue), tintColor: .white)
             .toolbar {

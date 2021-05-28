@@ -149,9 +149,9 @@
 				FAFCFC2B26379F4100FA4988 /* ScienceView.swift */,
 				1545B22226354D480044CE04 /* SetUp.swift */,
 				1546E159263C063A007EB958 /* ActivityView.swift */,
+				15022F462659E631002C51E1 /* DetailActView.swift */,
 				1546E15C263C0662007EB958 /* KoreanActView.swift */,
 				15023F88263FE8D30093A764 /* AddActView.swift */,
-				15022F462659E631002C51E1 /* DetailActView.swift */,
 				15022F48265A1321002C51E1 /* SearchAct.swift */,
 			);
 			path = View;

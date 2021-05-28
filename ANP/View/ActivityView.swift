@@ -10,7 +10,7 @@ struct ActivityView: View {
     
     @EnvironmentObject var anpViewModel: ANPViewModel
 //    @EnvironmentObject var koreanViewModel: KoreanViewModel
-//    @StateObject var koreanViewModel = KoreanViewModel()
+//    @StateObject var anpViewModel = ANPViewModel()
     
     var subject: String
     var chapter: Int
@@ -71,8 +71,14 @@ struct ActivityView: View {
                 
             } // ForEach
         } // form
-        .navigationBarTitle(String(chapter)+"단원", displayMode: .inline)
+        .navigationBarTitle("", displayMode: .inline)
         .toolbar {
+            ToolbarItem(placement: .navigationBarLeading) {
+                HStack{
+                    Image(systemName: "book.fill").foregroundColor(.white).font(.system(size: 20))
+                    Text("국어").font(.system(size: 20)).foregroundColor(.white)
+                }
+            } // ToolbarItem
             ToolbarItem(placement: .navigationBarTrailing) {
                 HStack() {
                     Button(action: {
@@ -104,11 +110,16 @@ struct ActivityView: View {
                 }
         }
         .onAppear() {
-            anpViewModel.subject = self.subject
-            anpViewModel.chapter = self.chapter
-            anpViewModel.fetchData()
+            //if 안쓰고 그냥 fetch 하면 detail 에서 back(이전)하면 리스트 처음 row부터 reset 됨
+            if anpViewModel.subject == self.subject && anpViewModel.chapter == self.chapter {
+                return
+            }else {
+                anpViewModel.subject = self.subject
+                anpViewModel.chapter = self.chapter
+                anpViewModel.fetchData()
+            }
+            
         }
-
     }
 }
 

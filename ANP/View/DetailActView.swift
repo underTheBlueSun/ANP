@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct DetailActView: View {
+    
+//    @EnvironmentObject var anpViewModel: ANPViewModel
+    
     @State var openNewPage = false
     // sheet를 멀티로 띄우기 위해
     @State var activeSheet: ActiveSheet?
@@ -87,6 +90,12 @@ struct DetailActView: View {
         } // form
 //        .navigationBarTitle(String(chapter)+"단원", displayMode: .inline)
         .toolbar {
+            ToolbarItem(placement: .navigationBarLeading) {
+                HStack{
+                    Image(systemName: "book.fill").foregroundColor(.white).font(.system(size: 20))
+                    Text("국어").font(.system(size: 20)).foregroundColor(.white)
+                }
+            } // ToolbarItem
             ToolbarItem(placement: .navigationBarTrailing) {
                 HStack() {
                     Button(action: {
@@ -113,6 +122,10 @@ struct DetailActView: View {
                     SearchAct()
                 }
         }
+//        .onAppear(perform: {
+//            print("detail onappear")
+//            anpViewModel.listCheck = true
+//        })
         
     }
 }

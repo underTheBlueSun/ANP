@@ -13,15 +13,15 @@ struct KoreanView: View {
     
     var body: some View {
         NavigationView {
-            VStack {
-                HStack {
-                    Spacer()
-                    Image("mathTitleImage")
-                        .resizable()
-                        .scaledToFit()
-                        .frame(height: 50)
-//                        .cornerRadius(7) // Inner corner radius
-                }
+//            VStack {
+//                HStack {
+//                    Spacer()
+//                    Image("mathTitleImage")
+//                        .resizable()
+//                        .scaledToFit()
+//                        .frame(height: 50)
+////                        .cornerRadius(7) // Inner corner radius
+//                }
                 
                 List {
                     
@@ -50,14 +50,20 @@ struct KoreanView: View {
                 .listStyle(InsetGroupedListStyle())
 
                 
-            } // vstack
+//            } // vstack
 
             .fullScreenCover(isPresented: $openNewPage) {
                 SearchAct()
             }
-            .navigationBarTitle("다음수업뭐하지", displayMode: .inline)
+            .navigationBarTitle("", displayMode: .inline)
             .navigationBarColor(backgroundColor: UIColor(Color.eliBlue), tintColor: .white)
             .toolbar {
+                ToolbarItem(placement: .navigationBarLeading) {
+                    HStack{
+                        Image(systemName: "book.fill").foregroundColor(.white).font(.system(size: 20))
+                        Text("국어").font(.system(size: 20)).foregroundColor(.white)
+                    }
+                } // ToolbarItem
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button(action: {
                         openNewPage.toggle()

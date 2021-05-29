@@ -66,7 +66,7 @@ struct ActivityView: View {
                         }
                         .frame(width: 0, height: 0)
                         .hidden()
-                    }
+                    } // VStack
                 } // section
                 
             } // ForEach

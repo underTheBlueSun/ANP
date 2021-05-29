@@ -13,6 +13,11 @@
 		15023F87263E21790093A764 /* MathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15023F86263E21790093A764 /* MathView.swift */; };
 		15023F89263FE8D30093A764 /* AddActView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15023F88263FE8D30093A764 /* AddActView.swift */; };
 		15023F8D264019D80093A764 /* ANPData.json in Resources */ = {isa = PBXBuildFile; fileRef = 15023F8C264019D80093A764 /* ANPData.json */; };
+		150E1E092661B19F008CC605 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150E1E082661B19F008CC605 /* User.swift */; };
+		150E1E0B2661B20D008CC605 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150E1E0A2661B20D008CC605 /* Home.swift */; };
+		150E1E0D2661B565008CC605 /* SearchUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150E1E0C2661B565008CC605 /* SearchUser.swift */; };
+		150E1E0F2661D8B5008CC605 /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150E1E0E2661D8B5008CC605 /* CustomSearchBar.swift */; };
+		150E1E112661F888008CC605 /* searchANP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150E1E102661F888008CC605 /* searchANP.swift */; };
 		1545B21E263523120044CE04 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 1545B21D263523120044CE04 /* Realm */; };
 		1545B220263523120044CE04 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1545B21F263523120044CE04 /* RealmSwift */; };
 		1545B22326354D480044CE04 /* SetUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1545B22226354D480044CE04 /* SetUp.swift */; };
@@ -52,6 +57,11 @@
 		15023F86263E21790093A764 /* MathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathView.swift; sourceTree = "<group>"; };
 		15023F88263FE8D30093A764 /* AddActView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddActView.swift; sourceTree = "<group>"; };
 		15023F8C264019D80093A764 /* ANPData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ANPData.json; sourceTree = "<group>"; };
+		150E1E082661B19F008CC605 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		150E1E0A2661B20D008CC605 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		150E1E0C2661B565008CC605 /* SearchUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUser.swift; sourceTree = "<group>"; };
+		150E1E0E2661D8B5008CC605 /* CustomSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
+		150E1E102661F888008CC605 /* searchANP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchANP.swift; sourceTree = "<group>"; };
 		1545B22226354D480044CE04 /* SetUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUp.swift; sourceTree = "<group>"; };
 		1545B23E263961D50044CE04 /* Curriculum01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Curriculum01.swift; sourceTree = "<group>"; };
 		1545B241263962470044CE04 /* ANP01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANP01.swift; sourceTree = "<group>"; };
@@ -164,6 +174,7 @@
 				FAFCFC352637D4C200FA4988 /* JsonUpload.swift */,
 				FA79BCBD263A454200731CDF /* CurriculumViewModel.swift */,
 				1546E156263C05CB007EB958 /* ANPViewModel.swift */,
+				150E1E102661F888008CC605 /* searchANP.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -199,6 +210,10 @@
 			children = (
 				15963B042633F96A0063A634 /* ContentView.swift */,
 				15CCA9B6263D3F7900A5AB66 /* Test.swift */,
+				150E1E082661B19F008CC605 /* User.swift */,
+				150E1E0A2661B20D008CC605 /* Home.swift */,
+				150E1E0C2661B565008CC605 /* SearchUser.swift */,
+				150E1E0E2661D8B5008CC605 /* CustomSearchBar.swift */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -282,9 +297,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1546E160263C06C2007EB958 /* ANP03.swift in Sources */,
+				150E1E112661F888008CC605 /* searchANP.swift in Sources */,
 				15A4B1F22634017400B2919D /* KoreanView.swift in Sources */,
 				15963B052633F96A0063A634 /* ContentView.swift in Sources */,
 				15A4B1F82634064C00B2919D /* NavigationBarColor.swift in Sources */,
+				150E1E092661B19F008CC605 /* User.swift in Sources */,
 				FA79BCBA26392EC300731CDF /* SearchDefaultRealm.swift in Sources */,
 				FA79BCBE263A454200731CDF /* CurriculumViewModel.swift in Sources */,
 				15A4B20126350ACD00B2919D /* BundleExtension.swift in Sources */,
@@ -294,6 +311,9 @@
 				15963B162633FA4B0063A634 /* MainTabView.swift in Sources */,
 				15022F4B265A1729002C51E1 /* ActiveSheet.swift in Sources */,
 				FA550AEB264118FC00C54A60 /* PhotoPicker.swift in Sources */,
+				150E1E0B2661B20D008CC605 /* Home.swift in Sources */,
+				150E1E0D2661B565008CC605 /* SearchUser.swift in Sources */,
+				150E1E0F2661D8B5008CC605 /* CustomSearchBar.swift in Sources */,
 				1545B23F263961D50044CE04 /* Curriculum01.swift in Sources */,
 				1546E15A263C063A007EB958 /* ActivityView.swift in Sources */,
 				1546E157263C05CB007EB958 /* ANPViewModel.swift in Sources */,

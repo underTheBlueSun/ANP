@@ -12,12 +12,12 @@ struct ANPApp: App {
         
         WindowGroup {
             
-            MainTabView()
-                .environmentObject(JsonUpload())
-                .environmentObject(CurriculumViewModel())
-                .environmentObject(ANPViewModel())
+//            MainTabView()
+//                .environmentObject(JsonUpload())
+//                .environmentObject(CurriculumViewModel())
+//                .environmentObject(ANPViewModel())
 //            SearchDefaultRealm()
-//            ContentView()
+            ContentView()
             
         }
     }

@@ -16,11 +16,8 @@ struct AddActView: View {
     var chapName: String
     
     
-    // 활동을 입력해야 완료 버튼이 활성화 되게
+    // 놀이를 입력해야 완료 버튼이 활성화 되게
     @State private var isActivity = false
-    
-    let range = ["짝", "모둠", "전체"]
-    @State private var selectedRange = "짝"
     
     init(subject: String, chapter: Int, chapName: String) {
         self.subject = subject
@@ -42,9 +39,9 @@ struct AddActView: View {
 //                        TextField("준비물", text: $anpViewModel.needs).font(.system(size: 13)).foregroundColor(.gray)
                         
                         Image(systemName: "square.grid.2x2.fill").foregroundColor(.eliBlue).font(.system(size: 30)).opacity(0.8)
-                        TextField("제목", text: $anpViewModel.actName).font(.system(size: 20))
-                        Spacer()
-                        TextField("차시", text: $anpViewModel.time).foregroundColor(.gray).font(.system(size: 13)).keyboardType(.phonePad)
+                        TextField("제목", text: $anpViewModel.actName, onEditingChanged: { editing in self.isActivity = true}).font(.system(size: 18)).frame(width: 200)
+//                        Spacer()
+//                        TextField("차시", text: $anpViewModel.time).foregroundColor(.gray).font(.system(size: 13)).keyboardType(.phonePad)
                     }
                     
                 }
@@ -56,31 +53,21 @@ struct AddActView: View {
 //                            Spacer()
                             Image(systemName: "paintbrush.pointed.fill").foregroundColor(.yellow).font(.system(size: 15))
                             TextField("준비물", text: $anpViewModel.needs).font(.system(size: 13)).foregroundColor(.gray)
-                            Spacer()
-                            
-                            Picker("범위", selection: $anpViewModel.range) {
-                                ForEach(range, id: \.self) {
-                                    Text($0)
-                                }
-                            } // picker
-                            .pickerStyle(SegmentedPickerStyle())
-                            .frame(width: 100)
-                            .scaledToFit()
-                            .scaleEffect(CGSize(width: 0.9, height: 0.8))
+//                            Spacer()
+//
+//                            Picker("범위", selection: $anpViewModel.range) {
+//                                ForEach(range, id: \.self) {
+//                                    Text($0)
+//                                }
+//                            } // picker
+//                            .pickerStyle(SegmentedPickerStyle())
+//                            .frame(width: 100)
+//                            .scaledToFit()
+//                            .scaleEffect(CGSize(width: 0.9, height: 0.8))
                         } // hstack
                         
                         // 활동내용
-                        TextEditor(text: $anpViewModel.activity).frame(height: 320)
-//                        Divider()
-//                        HStack {
-//                            Image("IMG_7117")
-//                                .resizable()
-//                                .scaledToFit()
-//                                .frame(height: 110)
-//                                .cornerRadius(7) // Inner corner radius
-//                                .padding(.vertical, 5)
-//                            Spacer()
-//                        }
+                        TextEditor(text: $anpViewModel.activity).frame(height: 280)
                         
                     } // vstack
                 } // section
@@ -89,7 +76,7 @@ struct AddActView: View {
                     HStack(alignment: .top) {
                         // 팁
                         Text("Tip").foregroundColor(.yellow).font(.system(size: 13))
-                        TextEditor(text: $anpViewModel.tip).font(.system(size: 13)).padding(.vertical, 5)
+                        TextEditor(text: $anpViewModel.tip).frame(height: 50).font(.system(size: 13)).padding(.vertical, 5)
                     }
                     
                 } // section
@@ -107,12 +94,15 @@ struct AddActView: View {
                     })
                 } // ToolbarItem
                 ToolbarItem(placement: .navigationBarTrailing) {
-                    Button(action: {
-                        anpViewModel.addData(presentation: presentation)
+                    if isActivity == true {
+                        Button(action: {
+                            anpViewModel.addData(presentation: presentation)
 
-                    }, label: {
-                        Text("완료")
-                    })
+                        }, label: {
+                            Text("완료")
+                        })
+                    }
+                    
                 } // ToolbarItem
             } // toolbar
         } // navigationView
@@ -120,7 +110,8 @@ struct AddActView: View {
             anpViewModel.subject = self.subject
             anpViewModel.chapter = self.chapter
             anpViewModel.chapName = self.chapName
-            anpViewModel.fetchData()
+//            anpViewModel.fetchData()
+            anpViewModel.reset()
 //            print("chapter1=", chapter)
         }
 

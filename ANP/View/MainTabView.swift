@@ -48,12 +48,6 @@ private extension MainTabView {
     
     var korean: some View {
         KoreanView()
-            .onAppear(perform: {
-//                print("국어")
-                
-            })
-//            .environmentObject(koreanViewModel)
-//            .environmentObject(Store)
             .tag(Tabs.korean)
             .tabItem {
               Image(systemName: "book.fill")
@@ -62,13 +56,7 @@ private extension MainTabView {
     }
     
   var math: some View {
-
-//    Text("수학")
     MathView()
-        .onAppear(perform: {
-//            print("수학")
-            
-        })
         .tag(Tabs.math)
         .tabItem {
             Image(systemName: "chart.bar.xaxis")
@@ -78,13 +66,7 @@ private extension MainTabView {
   }
     
     var society: some View {
-//        Text("사회")
         SocietyView()
-            .onAppear(perform: { print("사회") })
-//        GrowthView()
-//            .environmentObject(homeViewModelData)
-//            .environmentObject(studentViewModelData)
-//            .environmentObject(growthViewModelData)
         .tag(Tabs.society)
           .tabItem {
               Image(systemName: "person.2.fill")
@@ -93,14 +75,7 @@ private extension MainTabView {
     }
   
   var science: some View {
-//    Text("과학")
     ScienceView()
-        .onAppear(perform: { print("과학") })
-//    SubjectView()
-//        .environmentObject(homeViewModelData) 
-//        .environmentObject(studentViewModelData)
-//        .environmentObject(subjectViewModelData)
-
       .tag(Tabs.science)
         .tabItem {
             Image(systemName: "gyroscope")
@@ -110,7 +85,6 @@ private extension MainTabView {
   
   var setup: some View {
     SetUp()
-    .onAppear(perform: { print("설정") })
     .tag(Tabs.setup)
     .tabItem {
         Image(systemName: "gearshape.fill")
@@ -124,7 +98,6 @@ private extension MainTabView {
 struct MainTabView_Previews: PreviewProvider {
   static var previews: some View {
     MainTabView()
-//        .environmentObject(KoreanViewModel())
         .environmentObject(CurriculumViewModel())
         .environmentObject(JsonUpload())
     

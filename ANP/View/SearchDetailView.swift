@@ -1,16 +1,15 @@
 //
-//  DetailActView.swift
+//  SearchDetailView.swift
 //  ANP
 //
-//  Created by underTheBlueSun on 2021/05/23.
+//  Created by underTheBlueSun on 2021/05/30.
 //
 
 import SwiftUI
 
-struct DetailActView: View {
+struct SearchDetailView: View {
     
-    @EnvironmentObject var anpViewModel: ANPViewModel
-//    @Environment(\.presentationMode) var presentation
+//    @EnvironmentObject var anpViewModel: ANPViewModel
     
     @State var openNewPage = false
     // sheet를 멀티로 띄우기 위해
@@ -33,8 +32,8 @@ struct DetailActView: View {
                     Image(systemName: "square.grid.2x2.fill").foregroundColor(.pink).font(.system(size: 25)).opacity(0.8)
                 }
                 Text(anp.actName).font(.system(size: 20))
-//                Spacer()
-//                Text(anp.time).foregroundColor(.gray).font(.system(size: 13))
+                Spacer()
+                Text(anp.time).foregroundColor(.gray).font(.system(size: 13))
             }
                 
             Section() {
@@ -50,15 +49,11 @@ struct DetailActView: View {
                     } // hstack
                     
                     // 놀이내용
-                    HStack {
-                        Text(anp.activity)
-                        Spacer()
-                    }
-                    
-                    
+//                    TextEditor(text: $activity).frame(height: 300)
+                    Text(anp.activity)
+                    Divider()
                     HStack {
                         if anp.picture != "없음" {
-                            Divider()
                             Image(anp.picture)
                                 .resizable()
                                 .scaledToFit()
@@ -89,24 +84,9 @@ struct DetailActView: View {
                 }
                 
             } // section
-  
+            
         } // form
 //        .navigationBarTitle(String(chapter)+"단원", displayMode: .inline)
-        .toolbar {
-            ToolbarItem(placement: .navigationBarLeading) {
-                Text(anp.subject).font(.system(size: 20)).foregroundColor(.white)
-            } // ToolbarItem
-            ToolbarItem(placement: .navigationBarTrailing) {
-                HStack() {
-                    Button(action: {
-                        activeSheet = .second
-                    }, label: {
-                         Image(systemName: "magnifyingglass").font(.title2).foregroundColor(.white)
-                    })
-                }
-                
-            } // ToolbarItem
-        } // toolbar
         .fullScreenCover(item: $activeSheet) { item in
                 switch item {
                 case .first:
@@ -122,11 +102,3 @@ struct DetailActView: View {
         
     }
 }
-
-//struct DetailActView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        DetailActView()
-//    }
-//}
-
-

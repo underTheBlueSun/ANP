@@ -3,91 +3,71 @@
 //  ANP
 //
 //  Created by underTheBlueSun on 2021/04/24.
-// 
-
-
+// ........
 import SwiftUI
 
 struct MathView: View {
-    
-    @State private var selectedGubun = "짝"
-    @State private var junbi = "필기구, A4종이"
-    @State private var activity = "1. ㅇㅇㅇㅇ \n2. dfdsfdsf\n3. fdsfdsfdsf\n4. dfdfdsds\n2. dfdsfdsf\n3. fdsfdsfdsf\n4. dfdfdsds"
-    @State private var tip = "오늘은 즐거운 토요일이야~~~~동해물과 백두산이 마르고 닳도록 하나님!\nsdfs111dfsdafsdfsdafsda"
-    
-    let gubun = ["짝", "모둠", "전체"]
-    
-    init() {
-        // picker
-        UISegmentedControl.appearance().selectedSegmentTintColor = UIColor(Color.eliBlue)
-        UISegmentedControl.appearance().setTitleTextAttributes([.foregroundColor: UIColor.white], for: .selected)
-        UISegmentedControl.appearance().setTitleTextAttributes([.foregroundColor: UIColor.gray], for: .normal)
-    }
+
+    @EnvironmentObject var curriculumViewModel: CurriculumViewModel
+    @State var openNewPage = false
     
     var body: some View {
-        Form {
-            Section() {
-                HStack {
-                    Image(systemName: "square.grid.2x2.fill").foregroundColor(.eliBlue).font(.system(size: 30)).opacity(0.8)
-                    Text("재미가 톡톡").font(.system(size: 20))
-                    Spacer()
-                    Text("1~2차시").foregroundColor(.gray).font(.system(size: 13))
-                }
-                
-            }
-            
-            
-            Section() {
-                VStack {
-                    HStack {
-                        Image(systemName: "paintbrush.pointed.fill").foregroundColor(.yellow).font(.system(size: 15))
-//                        Text("필기구, A4종이").font(.system(size: 13)).foregroundColor(.gray)
-                        TextField("준비물", text: $junbi).font(.system(size: 13)).foregroundColor(.gray)
-                        Spacer()
-                        Picker("tip Perentage", selection: $selectedGubun) {
-                            ForEach(gubun, id: \.self) {
-                                Text($0)
+        NavigationView {
+                List {
+                    ForEach(curriculumViewModel.maths) { math in
+                        
+                        Section {
+                            HStack {
+                                Image(systemName: String(math.chapter) + ".circle.fill").foregroundColor(.yellow).font(.system(size: 25))
+                                Text(math.chapName).font(.system(size: 17))
+                                Spacer()
+                                Text(String(math.page)).foregroundColor(.gray).font(.system(size: 13))
+                                NavigationLink(destination: ActivityView(subject: math.subject, chapter: math.chapter, chapName: math.chapName)) {
+                                    EmptyView()
+                                }
+                                .frame(width: 0, height: 0)
+                                .hidden()
                             }
-                        } // picker
-                        .pickerStyle(SegmentedPickerStyle())
-                        .frame(width: 100)
-                        .scaledToFit()
-                        .scaleEffect(CGSize(width: 0.9, height: 0.8))
-                    } // hstack
-                    
-                    // 놀이내용
-                    TextEditor(text: $activity).frame(height: 300)
-                    Divider()
-                    HStack {
-                        Image("apple")
-                            .resizable()
-                            .scaledToFit()
-                            .frame(height: 110)
-                            .cornerRadius(7) // Inner corner radius
                             .padding(.vertical, 5)
-                        Spacer()
-                    }
-                    
-                    
-                } // vstack
-            } // section
-            
-            Section() {
-                HStack(alignment: .top) {
-                    // 팁
-                    Text("Tip").foregroundColor(.yellow).font(.system(size: 13))
-                    TextEditor(text: $tip).font(.system(size: 13)).padding(.vertical, 5)
-                }
+
+                        } // section
+                            
+                  } // ForEach
+                } // form
+                .listStyle(InsetGroupedListStyle())
+
                 
-            } // section
-            
-        } // form
+//            } // vstack
+
+            .fullScreenCover(isPresented: $openNewPage) {
+                SearchActView()
+            }
+            .navigationBarTitle("", displayMode: .inline)
+            .navigationBarColor(backgroundColor: UIColor(Color.eliBlue), tintColor: .white)
+            .toolbar {
+                ToolbarItem(placement: .navigationBarLeading) {
+                    HStack{
+                        Image(systemName: "chart.bar.xaxis").foregroundColor(.white).font(.system(size: 20))
+                        Text("수학").font(.system(size: 20)).foregroundColor(.white)
+                    }
+                } // ToolbarItem
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button(action: {
+                        openNewPage.toggle()
+                    }, label: {
+                         Image(systemName: "magnifyingglass").font(.title2).foregroundColor(.white)
+                    })
+                } // ToolbarItem
+            } // toolbar
+        } // NavigationView
+        .navigationViewStyle(StackNavigationViewStyle())
+
     }
 }
 
 struct MathView_Previews: PreviewProvider {
     static var previews: some View {
         MathView()
+            .environmentObject(CurriculumViewModel())
     }
 }
-

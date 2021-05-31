@@ -21,14 +21,13 @@ struct SetUp: View {
     // UserDefaults
     @State private var tapCount = UserDefaults.standard.integer(forKey: "Tap")
     
-    let buttonLabel_31 = "3학년 1학기"
-    let buttonLabel_32 = "3학년 2학기"
+    @State var openNewPage = false
     
     var body: some View {
 
         NavigationView {
             Form {
-                Section (header: Text("PROFILE")) {
+//                Section {
                     Picker("학년 선택", selection: $selectedGrade) {
                         ForEach(grades, id: \.self) {
                             Text($0)
@@ -39,7 +38,7 @@ struct SetUp: View {
                             Text($0)
                         }
                     }
-                } // section
+//                } // section
                 
                 Section {
 //                    Text("사용자 설명서")
@@ -61,19 +60,27 @@ struct SetUp: View {
                 }
                 
             } // form
-            .navigationBarTitle("홈", displayMode: .inline)
+            .navigationBarTitle("", displayMode: .inline)
+            .toolbar {
+                ToolbarItem(placement: .navigationBarLeading) {
+                    HStack{
+                        Image(systemName: "gearshape.fill").foregroundColor(.white).font(.system(size: 20))
+                        Text("설정").font(.system(size: 20)).foregroundColor(.white)
+                    }
+                } // ToolbarItem
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button(action: {
+                        openNewPage.toggle()
+                    }, label: {
+                         Image(systemName: "magnifyingglass").font(.title2).foregroundColor(.white)
+                    })
+                } // ToolbarItem
+            } // toolbar
             .navigationBarColor(backgroundColor: UIColor(Color.eliBlue), tintColor: .white)
-//            .toolbar {
-//                ToolbarItem(placement: .navigationBarTrailing) {
-//                    Button(action: {
-//                        UserDefaults.standard.set(self.selectedGrade, forKey: "Grade")
-//                        UserDefaults.standard.set(self.selectedSemester, forKey: "Semester")
-//                        koreanViewModel.grade = UserDefaults.standard.string(forKey: "Grade") ?? ""
-//                        koreanViewModel.semester = UserDefaults.standard.string(forKey: "Semester") ?? ""
-//                    }, label: { Text("저장").font(.title2).foregroundColor(.white) })
-//                } // ToolbarItem
-//            } // toolbar
         } // NavigationView
+        .fullScreenCover(isPresented: $openNewPage) {
+            SearchActView()
+        }
         .navigationViewStyle(StackNavigationViewStyle())
         // userdefaults에 학년학기 저장
         .onDisappear(perform: {

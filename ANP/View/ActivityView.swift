@@ -5,12 +5,15 @@
 //  Created by macbook on 2021/04/30.
 // ....
 import SwiftUI
+import RealmSwift
 
 struct ActivityView: View {
     
     @EnvironmentObject var anpViewModel: ANPViewModel
 //    @EnvironmentObject var koreanViewModel: KoreanViewModel
 //    @StateObject var anpViewModel = ANPViewModel()
+    
+//    @Environment(\.presentationMode) var presentation
     
     var subject: String
     var chapter: Int
@@ -30,6 +33,8 @@ struct ActivityView: View {
         self.chapName = chapName
     }
     
+    
+        
     var body: some View {
         Form {
             HStack {
@@ -42,41 +47,54 @@ struct ActivityView: View {
             ForEach(anpViewModel.anps) { anp in
 
                 Section() {
-                    VStack {
-                        HStack {
-                            // 공통인지 일부 공통인지등에 따라 아이콘 색깔 다르게
-                            if anp.range == "all" {
-                                Image(systemName: "square.grid.2x2.fill").foregroundColor(.eliBlue).font(.system(size: 25)).opacity(0.8)
-                            }else if anp.range == "없음" {
-                                Image(systemName: "square.grid.2x2.fill").foregroundColor(.pink).font(.system(size: 25)).opacity(0.8)
-                            }else {
-                                Image(systemName: "square.grid.2x2.fill").foregroundColor(.green).font(.system(size: 25)).opacity(0.8)
-                            }
+                    
+                    ZStack {
+                        VStack {
                             
-                            Text(anp.actName).font(.system(size: 18))
-                            Spacer()
-                            Text(String(anp.time)).foregroundColor(.gray).font(.system(size: 13))
-                        }
-                        HStack {
-                            Text(String(anp.activity.replacingOccurrences(of: "\n\n", with: ""))).foregroundColor(.gray).frame(width: 300, height: 50, alignment: .leading).font(.system(size: 13)).padding(.horizontal, 3)
-                            Spacer()
-                        }
-                        NavigationLink(destination: DetailActView(anp: anp)) {
-                            EmptyView()
-                        }
-                        .frame(width: 0, height: 0)
-                        .hidden()
-                    } // VStack
+                            HStack {
+                                
+                                // 공통인지 일부 공통인지등에 따라 아이콘 색깔 다르게
+                                if anp.range == "all" {
+                                    Image(systemName: "square.grid.2x2.fill").foregroundColor(.eliBlue).font(.system(size: 25)).opacity(0.8)
+                                }else {
+                                    Image(systemName: "square.grid.2x2.fill").foregroundColor(.pink).font(.system(size: 25)).opacity(0.8)
+                                }
+                                
+                                Text(anp.actName).font(.system(size: 18))
+                                Spacer()
+//                                Text(String(anp.time)).foregroundColor(.gray).font(.system(size: 13))
+//                                Spacer()
+                                Button(action: {  }) {
+                                    Image(systemName: "trash").foregroundColor(.gray).opacity(0.3).font(.system(size: 11))
+                                }
+                                .onLongPressGesture(minimumDuration: 1) { anpViewModel.deleteData(object: anp) }
+                            }
+                            HStack {
+                                Text(String(anp.activity.replacingOccurrences(of: "\n\n", with: ""))).foregroundColor(.gray).frame(width: 300, height: 50, alignment: .leading).font(.system(size: 13)).padding(.horizontal, 3)
+                                Spacer()
+                            }
+                            NavigationLink(destination: DetailActView(anp: anp)) {
+                                EmptyView()
+                            }
+                            .frame(width: 0, height: 0)
+                            .hidden()
+                            
+                        } // VStack
+                        
+                    }
+                    
+                    
                 } // section
-                
+
             } // ForEach
+
         } // form
         .navigationBarTitle("", displayMode: .inline)
         .toolbar {
             ToolbarItem(placement: .navigationBarLeading) {
                 HStack{
-                    Image(systemName: "book.fill").foregroundColor(.white).font(.system(size: 20))
-                    Text("국어").font(.system(size: 20)).foregroundColor(.white)
+//                    Image(systemName: "book.fill").foregroundColor(.white).font(.system(size: 20))
+                    Text(self.subject).font(.system(size: 20)).foregroundColor(.white)
                 }
             } // ToolbarItem
             ToolbarItem(placement: .navigationBarTrailing) {
@@ -106,7 +124,7 @@ struct ActivityView: View {
                 case .first:
                     AddActView(subject: self.subject, chapter: self.chapter, chapName: self.chapName)
                 case .second:
-                    SearchAct()
+                    SearchActView()
                 }
         }
         .onAppear() {

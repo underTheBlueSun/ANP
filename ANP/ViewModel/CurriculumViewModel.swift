@@ -11,7 +11,6 @@ class CurriculumViewModel: ObservableObject {
     
     @Published var grade = UserDefaults.standard.string(forKey: "Grade") ?? ""
     @Published var semester = UserDefaults.standard.string(forKey: "Semester") ?? ""
-//    @Published var curriculums: [Curriculum03] = []
     @Published var koreans: [Curriculum03] = []
     @Published var maths: [Curriculum03] = []
     @Published var societys: [Curriculum03] = []
@@ -22,21 +21,12 @@ class CurriculumViewModel: ObservableObject {
         fetchMathData()
         fetchSocietyData()
         fetchScienceData()
-//        print("init")
     }
 
-//    func fetchData() {
-//        guard let dbRef = try? Realm() else { return }
-//        let results = dbRef.objects(Curriculum03.self)
-//        self.curriculums = results.compactMap({ (curriculum) -> Curriculum03? in return curriculum })
-//    }
     func fetchKorData() {
         guard let dbRef = try? Realm() else { return }
         let results = dbRef.objects(Curriculum03.self).filter("grade == '\(grade)' and semester == '\(semester)' and subject == '국어'")
         self.koreans = results.compactMap({ (korean) -> Curriculum03? in return korean })
-        print("1:",grade)
-        print("2:",semester)
-
     }
 
     func fetchMathData() {

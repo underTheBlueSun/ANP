@@ -3,33 +3,57 @@
 //  ANP
 //
 //  Created by underTheBlueSun on 2021/04/24.
-// .. ..
-
+// ........
 import SwiftUI
 
 struct SocietyView: View {
 
     @EnvironmentObject var curriculumViewModel: CurriculumViewModel
+    @State var openNewPage = false
     
     var body: some View {
         NavigationView {
-            List {
-                ForEach(curriculumViewModel.societys) { society in
-                HStack {
-                    Text(society.grade)
-                    Text(society.semester)
-                    Text(society.subject)
-//                    Text(society.chapter)
-                }
-              } // ForEach
-            } // List
-            .background(Color.white)
-            .navigationBarTitle("홈", displayMode: .inline)
+                List {
+                    ForEach(curriculumViewModel.societys) { society in
+                        
+                        Section {
+                            HStack {
+                                Image(systemName: String(society.chapter) + ".circle.fill").foregroundColor(.yellow).font(.system(size: 25))
+                                Text(society.chapName).font(.system(size: 17))
+                                Spacer()
+                                Text(String(society.page)).foregroundColor(.gray).font(.system(size: 13))
+                                NavigationLink(destination: ActivityView(subject: society.subject, chapter: society.chapter, chapName: society.chapName)) {
+                                    EmptyView()
+                                }
+                                .frame(width: 0, height: 0)
+                                .hidden()
+                            }
+                            .padding(.vertical, 5)
+
+                        } // section
+                            
+                  } // ForEach
+                } // form
+                .listStyle(InsetGroupedListStyle())
+
+                
+//            } // vstack
+
+            .fullScreenCover(isPresented: $openNewPage) {
+                SearchActView()
+            }
+            .navigationBarTitle("", displayMode: .inline)
             .navigationBarColor(backgroundColor: UIColor(Color.eliBlue), tintColor: .white)
             .toolbar {
+                ToolbarItem(placement: .navigationBarLeading) {
+                    HStack{
+                        Image(systemName: "person.2.fill").foregroundColor(.white).font(.system(size: 20))
+                        Text("사회").font(.system(size: 20)).foregroundColor(.white)
+                    }
+                } // ToolbarItem
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button(action: {
-//                        검색 기능 구현하기
+                        openNewPage.toggle()
                     }, label: {
                          Image(systemName: "magnifyingglass").font(.title2).foregroundColor(.white)
                     })
@@ -47,4 +71,3 @@ struct SocietyView_Previews: PreviewProvider {
             .environmentObject(CurriculumViewModel())
     }
 }
-

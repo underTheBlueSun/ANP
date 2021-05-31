@@ -48,11 +48,11 @@ class SearchUser: ObservableObject {
         
         
         DispatchQueue.main.async {
-            // removing data if its new request ...
-            if self.page == 1 {
-                self.searchedANP.removeAll()
-            }
-//            self.anps.append(contentsOf: users.items)
+//            // removing data if its new request ...
+//            if self.page == 1 {
+//                self.searchedANP.removeAll()
+//            }
+
             self.searchedANP = results.compactMap({ (anp) -> ANP03? in return anp })
         }
         

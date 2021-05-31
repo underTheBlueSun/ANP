@@ -53,7 +53,7 @@ struct KoreanView: View {
 //            } // vstack
 
             .fullScreenCover(isPresented: $openNewPage) {
-                SearchAct()
+                SearchActView()
             }
             .navigationBarTitle("", displayMode: .inline)
             .navigationBarColor(backgroundColor: UIColor(Color.eliBlue), tintColor: .white)

@@ -8,16 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		15022F472659E631002C51E1 /* DetailActView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15022F462659E631002C51E1 /* DetailActView.swift */; };
-		15022F49265A1321002C51E1 /* SearchAct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15022F48265A1321002C51E1 /* SearchAct.swift */; };
+		15022F49265A1321002C51E1 /* SearchActView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15022F48265A1321002C51E1 /* SearchActView.swift */; };
 		15022F4B265A1729002C51E1 /* ActiveSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15022F4A265A1729002C51E1 /* ActiveSheet.swift */; };
 		15023F87263E21790093A764 /* MathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15023F86263E21790093A764 /* MathView.swift */; };
 		15023F89263FE8D30093A764 /* AddActView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15023F88263FE8D30093A764 /* AddActView.swift */; };
 		15023F8D264019D80093A764 /* ANPData.json in Resources */ = {isa = PBXBuildFile; fileRef = 15023F8C264019D80093A764 /* ANPData.json */; };
+		1502DA8F2663097D00BF3E1A /* FirstResponderTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1502DA8E2663097D00BF3E1A /* FirstResponderTextField.swift */; };
 		150E1E092661B19F008CC605 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150E1E082661B19F008CC605 /* User.swift */; };
 		150E1E0B2661B20D008CC605 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150E1E0A2661B20D008CC605 /* Home.swift */; };
 		150E1E0D2661B565008CC605 /* SearchUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150E1E0C2661B565008CC605 /* SearchUser.swift */; };
 		150E1E0F2661D8B5008CC605 /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150E1E0E2661D8B5008CC605 /* CustomSearchBar.swift */; };
-		150E1E112661F888008CC605 /* searchANP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150E1E102661F888008CC605 /* searchANP.swift */; };
+		150E1E112661F888008CC605 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150E1E102661F888008CC605 /* SearchViewModel.swift */; };
 		1545B21E263523120044CE04 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 1545B21D263523120044CE04 /* Realm */; };
 		1545B220263523120044CE04 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1545B21F263523120044CE04 /* RealmSwift */; };
 		1545B22326354D480044CE04 /* SetUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1545B22226354D480044CE04 /* SetUp.swift */; };
@@ -27,6 +28,7 @@
 		1546E15A263C063A007EB958 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1546E159263C063A007EB958 /* ActivityView.swift */; };
 		1546E15D263C0662007EB958 /* KoreanActView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1546E15C263C0662007EB958 /* KoreanActView.swift */; };
 		1546E160263C06C2007EB958 /* ANP03.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1546E15F263C06C2007EB958 /* ANP03.swift */; };
+		157A665C266318AD00861CC7 /* SearchDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157A665B266318AD00861CC7 /* SearchDetailView.swift */; };
 		15963B032633F96A0063A634 /* ANPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15963B022633F96A0063A634 /* ANPApp.swift */; };
 		15963B052633F96A0063A634 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15963B042633F96A0063A634 /* ContentView.swift */; };
 		15963B072633F96A0063A634 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15963B062633F96A0063A634 /* Assets.xcassets */; };
@@ -34,7 +36,6 @@
 		15963B162633FA4B0063A634 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15963B152633FA4B0063A634 /* MainTabView.swift */; };
 		15963B1B2633FB060063A634 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15963B1A2633FB060063A634 /* ColorExtension.swift */; };
 		15A4B1F22634017400B2919D /* KoreanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A4B1F12634017400B2919D /* KoreanView.swift */; };
-		15A4B1F52634038D00B2919D /* KoreanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A4B1F42634038D00B2919D /* KoreanViewModel.swift */; };
 		15A4B1F82634064C00B2919D /* NavigationBarColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A4B1F72634064C00B2919D /* NavigationBarColor.swift */; };
 		15A4B20126350ACD00B2919D /* BundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A4B20026350ACD00B2919D /* BundleExtension.swift */; };
 		15CCA9B7263D3F7900A5AB66 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CCA9B6263D3F7900A5AB66 /* Test.swift */; };
@@ -52,16 +53,17 @@
 
 /* Begin PBXFileReference section */
 		15022F462659E631002C51E1 /* DetailActView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailActView.swift; sourceTree = "<group>"; };
-		15022F48265A1321002C51E1 /* SearchAct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAct.swift; sourceTree = "<group>"; };
+		15022F48265A1321002C51E1 /* SearchActView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchActView.swift; sourceTree = "<group>"; };
 		15022F4A265A1729002C51E1 /* ActiveSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveSheet.swift; sourceTree = "<group>"; };
 		15023F86263E21790093A764 /* MathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathView.swift; sourceTree = "<group>"; };
 		15023F88263FE8D30093A764 /* AddActView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddActView.swift; sourceTree = "<group>"; };
 		15023F8C264019D80093A764 /* ANPData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ANPData.json; sourceTree = "<group>"; };
+		1502DA8E2663097D00BF3E1A /* FirstResponderTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstResponderTextField.swift; sourceTree = "<group>"; };
 		150E1E082661B19F008CC605 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		150E1E0A2661B20D008CC605 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		150E1E0C2661B565008CC605 /* SearchUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUser.swift; sourceTree = "<group>"; };
 		150E1E0E2661D8B5008CC605 /* CustomSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
-		150E1E102661F888008CC605 /* searchANP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchANP.swift; sourceTree = "<group>"; };
+		150E1E102661F888008CC605 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		1545B22226354D480044CE04 /* SetUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUp.swift; sourceTree = "<group>"; };
 		1545B23E263961D50044CE04 /* Curriculum01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Curriculum01.swift; sourceTree = "<group>"; };
 		1545B241263962470044CE04 /* ANP01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANP01.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 		1546E159263C063A007EB958 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 		1546E15C263C0662007EB958 /* KoreanActView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoreanActView.swift; sourceTree = "<group>"; };
 		1546E15F263C06C2007EB958 /* ANP03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANP03.swift; sourceTree = "<group>"; };
+		157A665B266318AD00861CC7 /* SearchDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDetailView.swift; sourceTree = "<group>"; };
 		15963AFF2633F96A0063A634 /* ANP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ANP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15963B022633F96A0063A634 /* ANPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANPApp.swift; sourceTree = "<group>"; };
 		15963B042633F96A0063A634 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -78,7 +81,6 @@
 		15963B152633FA4B0063A634 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		15963B1A2633FB060063A634 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		15A4B1F12634017400B2919D /* KoreanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoreanView.swift; sourceTree = "<group>"; };
-		15A4B1F42634038D00B2919D /* KoreanViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoreanViewModel.swift; sourceTree = "<group>"; };
 		15A4B1F72634064C00B2919D /* NavigationBarColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarColor.swift; sourceTree = "<group>"; };
 		15A4B20026350ACD00B2919D /* BundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleExtension.swift; sourceTree = "<group>"; };
 		15CCA9B6263D3F7900A5AB66 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
@@ -162,7 +164,8 @@
 				15022F462659E631002C51E1 /* DetailActView.swift */,
 				1546E15C263C0662007EB958 /* KoreanActView.swift */,
 				15023F88263FE8D30093A764 /* AddActView.swift */,
-				15022F48265A1321002C51E1 /* SearchAct.swift */,
+				15022F48265A1321002C51E1 /* SearchActView.swift */,
+				157A665B266318AD00861CC7 /* SearchDetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -170,11 +173,10 @@
 		15963B132633F9F10063A634 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				15A4B1F42634038D00B2919D /* KoreanViewModel.swift */,
 				FAFCFC352637D4C200FA4988 /* JsonUpload.swift */,
 				FA79BCBD263A454200731CDF /* CurriculumViewModel.swift */,
 				1546E156263C05CB007EB958 /* ANPViewModel.swift */,
-				150E1E102661F888008CC605 /* searchANP.swift */,
+				150E1E102661F888008CC605 /* SearchViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -201,6 +203,7 @@
 				FA79BCB926392EC300731CDF /* SearchDefaultRealm.swift */,
 				FA550AEA264118FC00C54A60 /* PhotoPicker.swift */,
 				15022F4A265A1729002C51E1 /* ActiveSheet.swift */,
+				1502DA8E2663097D00BF3E1A /* FirstResponderTextField.swift */,
 			);
 			path = Support;
 			sourceTree = "<group>";
@@ -297,12 +300,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1546E160263C06C2007EB958 /* ANP03.swift in Sources */,
-				150E1E112661F888008CC605 /* searchANP.swift in Sources */,
+				157A665C266318AD00861CC7 /* SearchDetailView.swift in Sources */,
+				150E1E112661F888008CC605 /* SearchViewModel.swift in Sources */,
 				15A4B1F22634017400B2919D /* KoreanView.swift in Sources */,
 				15963B052633F96A0063A634 /* ContentView.swift in Sources */,
 				15A4B1F82634064C00B2919D /* NavigationBarColor.swift in Sources */,
 				150E1E092661B19F008CC605 /* User.swift in Sources */,
 				FA79BCBA26392EC300731CDF /* SearchDefaultRealm.swift in Sources */,
+				1502DA8F2663097D00BF3E1A /* FirstResponderTextField.swift in Sources */,
 				FA79BCBE263A454200731CDF /* CurriculumViewModel.swift in Sources */,
 				15A4B20126350ACD00B2919D /* BundleExtension.swift in Sources */,
 				15023F89263FE8D30093A764 /* AddActView.swift in Sources */,
@@ -321,10 +326,9 @@
 				15022F472659E631002C51E1 /* DetailActView.swift in Sources */,
 				FA79BCC2263A4CAA00731CDF /* Curriculum02.swift in Sources */,
 				15023F87263E21790093A764 /* MathView.swift in Sources */,
-				15A4B1F52634038D00B2919D /* KoreanViewModel.swift in Sources */,
 				1546E15D263C0662007EB958 /* KoreanActView.swift in Sources */,
 				1545B242263962470044CE04 /* ANP01.swift in Sources */,
-				15022F49265A1321002C51E1 /* SearchAct.swift in Sources */,
+				15022F49265A1321002C51E1 /* SearchActView.swift in Sources */,
 				FA79BCC5263A750800731CDF /* ANP02.swift in Sources */,
 				15963B1B2633FB060063A634 /* ColorExtension.swift in Sources */,
 				FAFCFC362637D4C200FA4988 /* JsonUpload.swift in Sources */,

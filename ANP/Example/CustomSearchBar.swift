@@ -97,7 +97,7 @@ struct CustomSearchBar: View {
                         } // section
                         
                     } // ForEach
-                }
+                } // form
                         
 //                    } // LazyVStack
 //                    .padding(.top)

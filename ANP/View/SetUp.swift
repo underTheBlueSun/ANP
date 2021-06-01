@@ -41,22 +41,29 @@ struct SetUp: View {
 //                } // section
                 
                 Section {
-//                    Text("사용자 설명서")
-                    Link("사용자 설명서", destination: URL(string: "https://www.youtube.com/watch?v=89dc3v5vQFY")!)
+                    NavigationLink(destination: SetUPDetail(gubun: "사용자 설명서")) {
+                        Text("사용자 설명서")
+                    }
                 }
                 
                 Section {
-                    Text("자주 묻는 질문")
+                    NavigationLink(destination: SetUPDetail(gubun: "개발자 정보")) {
+                        Text("개발자 정보")
+                    }
+                    
                 }
                 
                 Section {
-                    Text("1:1 문의")
+                    NavigationLink(destination: SetUPDetail(gubun: "참고 문헌")) {
+                        Text("참고 문헌")
+                    }
+                    
                 }
                 Section {
-                    Text("리뷰하기")
-                }
-                Section {
-                    Text("개발자 정보")
+                    NavigationLink(destination: SetUPDetail(gubun: "개인정보 정책")) {
+                        Text("개인정보 정책")
+                    }
+                    
                 }
                 
             } // form

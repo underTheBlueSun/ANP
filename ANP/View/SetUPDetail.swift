@@ -45,12 +45,12 @@ struct SetUPDetail: View {
             Form {
                 Section(header: Text("개발")) {
                     Text("e-mail: wind7129@naver.com").font(.system(size: 13))
-                    Text("블로그: blog.naver.com/wind7129").font(.system(size: 13))
+                    Text("블로그: 초등 수업놀이(blog.naver.com/wind7129)").font(.system(size: 13))
                 }
                 
                 Section(header: Text("자문")) {
-                    Text("e-mail: ").font(.system(size: 13))
-                    Text("블로그: band.us/@jiniplay").font(.system(size: 13))
+                    Text("e-mail: wlsoooo@hanmail.net").font(.system(size: 13))
+                    Text("밴드: 오늘의 초등 교실놀이(band.us/@jiniplay)").font(.system(size: 13))
                 }
                 
             }

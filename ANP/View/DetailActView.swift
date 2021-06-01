@@ -55,10 +55,11 @@ struct DetailActView: View {
                         Spacer()
                     }
                     
+                    Divider()
                     
                     HStack {
                         if anp.picture != "없음" {
-                            Divider()
+                            
                             Image(anp.picture)
                                 .resizable()
                                 .scaledToFit()

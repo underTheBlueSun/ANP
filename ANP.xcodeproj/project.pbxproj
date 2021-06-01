@@ -31,7 +31,6 @@
 		157A665C266318AD00861CC7 /* SearchDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157A665B266318AD00861CC7 /* SearchDetailView.swift */; };
 		157A66602665D31200861CC7 /* SetUPDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157A665F2665D31200861CC7 /* SetUPDetail.swift */; };
 		15963B032633F96A0063A634 /* ANPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15963B022633F96A0063A634 /* ANPApp.swift */; };
-		15963B052633F96A0063A634 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15963B042633F96A0063A634 /* ContentView.swift */; };
 		15963B072633F96A0063A634 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15963B062633F96A0063A634 /* Assets.xcassets */; };
 		15963B0A2633F96A0063A634 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15963B092633F96A0063A634 /* Preview Assets.xcassets */; };
 		15963B162633FA4B0063A634 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15963B152633FA4B0063A634 /* MainTabView.swift */; };
@@ -76,7 +75,6 @@
 		157A665F2665D31200861CC7 /* SetUPDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUPDetail.swift; sourceTree = "<group>"; };
 		15963AFF2633F96A0063A634 /* ANP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ANP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15963B022633F96A0063A634 /* ANPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANPApp.swift; sourceTree = "<group>"; };
-		15963B042633F96A0063A634 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		15963B062633F96A0063A634 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15963B092633F96A0063A634 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		15963B0B2633F96A0063A634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -214,7 +212,6 @@
 		FA79BCA9263910E400731CDF /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				15963B042633F96A0063A634 /* ContentView.swift */,
 				15CCA9B6263D3F7900A5AB66 /* Test.swift */,
 				150E1E082661B19F008CC605 /* User.swift */,
 				150E1E0A2661B20D008CC605 /* Home.swift */,
@@ -306,7 +303,6 @@
 				157A665C266318AD00861CC7 /* SearchDetailView.swift in Sources */,
 				150E1E112661F888008CC605 /* SearchViewModel.swift in Sources */,
 				15A4B1F22634017400B2919D /* KoreanView.swift in Sources */,
-				15963B052633F96A0063A634 /* ContentView.swift in Sources */,
 				15A4B1F82634064C00B2919D /* NavigationBarColor.swift in Sources */,
 				150E1E092661B19F008CC605 /* User.swift in Sources */,
 				FA79BCBA26392EC300731CDF /* SearchDefaultRealm.swift in Sources */,
@@ -467,7 +463,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"ANP/Preview Content\"";
 				DEVELOPMENT_TEAM = 27963V74Z7;
 				ENABLE_PREVIEWS = YES;
@@ -477,7 +473,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.underTheBlueSun.ANP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -491,7 +487,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"ANP/Preview Content\"";
 				DEVELOPMENT_TEAM = 27963V74Z7;
 				ENABLE_PREVIEWS = YES;
@@ -501,7 +497,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.underTheBlueSun.ANP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

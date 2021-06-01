@@ -7,34 +7,16 @@
 
 import SwiftUI
 
-struct Test: View {
+struct ContentView: View {
     
     var body: some View {
-        NavigationView {
-            VStack {
-                Text("aaaa11")
-                List {
-                    NavigationLink(
-                        destination: Text("Destination"),
-                        label: {
-                            Text("Navigate")
-                        })
-                    Text("aaaa")
-//                    Section {
-//                        Text("aaaa")
-//                    }
-                }
-                .listStyle(InsetGroupedListStyle())
-                Spacer()
-                
-            }//vstack
-            
-        }
+        Text("Hello, Teacher~")
     }
 }
 
-struct Test_Previews: PreviewProvider {
+struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        Test()
+        ContentView()
     }
 }
+

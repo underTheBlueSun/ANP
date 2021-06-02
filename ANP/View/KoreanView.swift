@@ -13,16 +13,13 @@ struct KoreanView: View {
     
     var body: some View {
         NavigationView {
-//            VStack {
-//                HStack {
-//                    Spacer()
-//                    Image("mathTitleImage")
-//                        .resizable()
-//                        .scaledToFit()
-//                        .frame(height: 50)
-////                        .cornerRadius(7) // Inner corner radius
-//                }
-                
+
+//            Button(action: {
+//                curriculumViewModel.deleteData()
+//            }, label: {
+//                 Text("완전삭제")
+//            })
+            
                 List {
                     
                     

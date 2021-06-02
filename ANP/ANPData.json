@@ -1,6 +1,6 @@
 [
    {
-      "uuid":"F76BD849-4B9F-46AD-9535-0DD57F92E8F0",
+      "uuid":"C56B7512-F770-4A73-AB6A-21BD4DA5FB87",
       "grade":"3학년",
       "semester":"1학기",
       "subject":"과학",
@@ -16,7 +16,7 @@
       "range":"없음"
    },
    {
-      "uuid":"89B4BE03-BF61-4482-8492-B5852553C88B",
+      "uuid":"71736DD9-D603-4F5B-AF08-19F772EFC306",
       "grade":"3학년",
       "semester":"1학기",
       "subject":"과학",
@@ -32,7 +32,7 @@
       "range":"없음"
    },
    {
-      "uuid":"986E28B0-9C1D-4D5D-A8E9-0BC200948E9D",
+      "uuid":"31C92552-D10A-4B0E-8A93-542BB67685AF",
       "grade":"3학년",
       "semester":"1학기",
       "subject":"과학",
@@ -48,7 +48,7 @@
       "range":"없음"
    },
    {
-      "uuid":"3F002DAF-6E10-4212-91A8-9803B068EF72",
+      "uuid":"EABED697-9B34-4FFB-AC5D-1FA2C1693342",
       "grade":"3학년",
       "semester":"1학기",
       "subject":"과학",
@@ -64,7 +64,7 @@
       "range":"없음"
    },
    {
-      "uuid":"F7592310-376F-46DA-900B-A68EA2C6AE0B",
+      "uuid":"29B618D5-0CBA-40B2-A4E9-BF844506C89F",
       "grade":"3학년",
       "semester":"2학기",
       "subject":"과학",
@@ -80,7 +80,7 @@
       "range":"없음"
    },
    {
-      "uuid":"92D2CD70-82BB-43D2-9C57-446F1329757F",
+      "uuid":"5B39E012-E225-4E79-9C2D-2313718150C1",
       "grade":"3학년",
       "semester":"2학기",
       "subject":"과학",
@@ -96,7 +96,7 @@
       "range":"없음"
    },
    {
-      "uuid":"4AC5DE2D-C6ED-4A23-AE1F-E6C634744410",
+      "uuid":"6A538C4C-5D4E-4493-B803-FC4EEEE89FF6",
       "grade":"3학년",
       "semester":"2학기",
       "subject":"과학",
@@ -112,7 +112,7 @@
       "range":"없음"
    },
    {
-      "uuid":"A05CCC6C-F241-4157-8E7E-B549266D94F9",
+      "uuid":"B2677E1A-46EF-4EB1-A0C1-DE9369992EF7",
       "grade":"3학년",
       "semester":"1학기",
       "subject":"과학",
@@ -128,7 +128,7 @@
       "range":"없음"
    },
    {
-      "uuid":"D906AB8C-AE07-42E4-A2A4-9CA2413250BB",
+      "uuid":"723E54AF-D374-4292-A6D7-02E75FB5AEDF",
       "grade":"3학년",
       "semester":"1학기",
       "subject":"과학",
@@ -144,7 +144,7 @@
       "range":"없음"
    },
    {
-      "uuid":"203E2724-4DCA-4588-8954-42BDB585744F",
+      "uuid":"665CB19F-F58F-4225-B97F-645305E89015",
       "grade":"3학년",
       "semester":"2학기",
       "subject":"과학",
@@ -160,7 +160,7 @@
       "range":"없음"
    },
    {
-      "uuid":"4D054E16-56B9-4BD4-BB7B-473278DFA37B",
+      "uuid":"CB550F1B-DE23-4E0B-AB8C-A4270748C9A3",
       "grade":"3학년",
       "semester":"1학기",
       "subject":"과학",
@@ -176,7 +176,7 @@
       "range":"없음"
    },
    {
-      "uuid":"93AF0A96-6DF3-4060-9718-1D43D38A7A60",
+      "uuid":"71E324DE-5AC7-4D62-85A7-78DAF3F0E666",
       "grade":"3학년",
       "semester":"2학기",
       "subject":"과학",
@@ -192,7 +192,7 @@
       "range":"없음"
    },
    {
-      "uuid":"D28CAD44-FE0C-4504-AEFE-CD7545DA96E2",
+      "uuid":"52E468A6-A28F-46EC-A221-A5BF1C67DCD1",
       "grade":"4학년",
       "semester":"1학기",
       "subject":"과학",
@@ -208,7 +208,7 @@
       "range":""
    },
    {
-      "uuid":"AC930A58-39D7-46D3-8970-F9162CB5886C",
+      "uuid":"382FE7F1-E48C-4867-AED9-4A10B0309905",
       "grade":"4학년",
       "semester":"2학기",
       "subject":"과학",
@@ -224,7 +224,7 @@
       "range":"없음"
    },
    {
-      "uuid":"EB036ADB-E316-4684-87CE-C3E28A8F8BC0",
+      "uuid":"9EC00530-C4DA-4334-9964-6C04C84FBF97",
       "grade":"4학년",
       "semester":"2학기",
       "subject":"과학",
@@ -240,7 +240,7 @@
       "range":"없음"
    },
    {
-      "uuid":"99C29FF8-9951-4E1E-B054-99D7A01B8222",
+      "uuid":"749436E1-3A9E-4497-82D8-536A2D96DC9E",
       "grade":"4학년",
       "semester":"2학기",
       "subject":"과학",
@@ -256,7 +256,7 @@
       "range":"없음"
    },
    {
-      "uuid":"26D21F10-322E-4351-9D45-A28401C00841",
+      "uuid":"536BB939-EF12-4DDF-B52B-9E0D3E9E9C87",
       "grade":"4학년",
       "semester":"2학기",
       "subject":"과학",
@@ -272,7 +272,7 @@
       "range":"없음"
    },
    {
-      "uuid":"781CB8BC-4A3F-4CCC-81A8-4B543C670C2E",
+      "uuid":"0759A264-EAB1-4016-BC97-C180EDCE30B6",
       "grade":"4학년",
       "semester":"2학기",
       "subject":"과학",
@@ -288,7 +288,7 @@
       "range":"없음"
    },
    {
-      "uuid":"8C9E3CC6-AAA2-4546-B5AD-F8C6CA1ECFFE",
+      "uuid":"97C4B02E-F61F-4DF1-B33A-B3A4F08CEC8F",
       "grade":"4학년",
       "semester":"2학기",
       "subject":"과학",
@@ -304,7 +304,7 @@
       "range":"없음"
    },
    {
-      "uuid":"F51B8C50-A93E-41C4-A346-14ABBA9917E0",
+      "uuid":"FFCA74A9-718B-4E9D-837B-FED693DA9487",
       "grade":"5학년",
       "semester":"1학기",
       "subject":"과학",
@@ -320,7 +320,7 @@
       "range":"없음"
    },
    {
-      "uuid":"D5AB5BE7-9F5A-433E-A193-DF8F5A4C1396",
+      "uuid":"D176F335-F26B-452F-9EBC-A134D74D8136",
       "grade":"5학년",
       "semester":"1학기",
       "subject":"과학",
@@ -336,7 +336,7 @@
       "range":"없음"
    },
    {
-      "uuid":"E3017893-BC69-46D9-8D58-CB3FD87C48B4",
+      "uuid":"46B645CC-A693-4511-B5A4-58925C9B2860",
       "grade":"5학년",
       "semester":"1학기",
       "subject":"과학",
@@ -352,7 +352,7 @@
       "range":"없음"
    },
    {
-      "uuid":"961D0464-24DC-4E01-AB51-59BA900FA0A7",
+      "uuid":"AC00DD8F-E714-4F45-854B-1DEDAF7E8D8D",
       "grade":"5학년",
       "semester":"2학기",
       "subject":"과학",
@@ -368,7 +368,7 @@
       "range":"없음"
    },
    {
-      "uuid":"EAF8BCA0-97AC-44E4-B96C-20B95E50D0E7",
+      "uuid":"6CB25991-7130-4132-B187-54B59AC42A62",
       "grade":"5학년",
       "semester":"2학기",
       "subject":"과학",
@@ -384,7 +384,7 @@
       "range":"없음"
    },
    {
-      "uuid":"B7D42835-FA77-4093-B206-C17324546962",
+      "uuid":"B6C4A158-C429-40CE-9812-49D583BF46CB",
       "grade":"5학년",
       "semester":"2학기",
       "subject":"과학",
@@ -400,7 +400,7 @@
       "range":"없음"
    },
    {
-      "uuid":"1E8C5BDA-86B1-4D05-A619-DA34A900808B",
+      "uuid":"012235A6-73A9-4160-947B-76B867CEAB27",
       "grade":"6학년",
       "semester":"1학기",
       "subject":"과학",
@@ -416,7 +416,7 @@
       "range":"없음"
    },
    {
-      "uuid":"060477A0-0CC5-4235-8819-20D3AA788EC4",
+      "uuid":"D0D7CD84-7E4A-4055-9B43-93D7D19916F8",
       "grade":"6학년",
       "semester":"1학기",
       "subject":"과학",
@@ -432,7 +432,7 @@
       "range":"없음"
    },
    {
-      "uuid":"93DD71FA-0675-4310-97A2-C525611D46BA",
+      "uuid":"05E74EAD-390D-480E-8AE8-FD46CAC982C0",
       "grade":"6학년",
       "semester":"2학기",
       "subject":"과학",
@@ -448,7 +448,7 @@
       "range":"없음"
    },
    {
-      "uuid":"5AE643F5-9A90-4E3C-9B90-E2053472149B",
+      "uuid":"5C6A25E7-0472-4024-875B-324970C69ED5",
       "grade":"6학년",
       "semester":"1학기",
       "subject":"과학",
@@ -464,7 +464,7 @@
       "range":"없음"
    },
    {
-      "uuid":"2B992120-A620-4F60-8A76-56D1C20C6A77",
+      "uuid":"4E8508BD-4F99-4DC3-9C40-B627A68A6D50",
       "grade":"6학년",
       "semester":"1학기",
       "subject":"과학",
@@ -480,7 +480,7 @@
       "range":"없음"
    },
    {
-      "uuid":"D83321FA-3BF4-49F8-AE15-23529D915DC0",
+      "uuid":"A977E308-5685-4037-BC8C-25B1EEEE2E04",
       "grade":"6학년",
       "semester":"1학기",
       "subject":"과학",
@@ -496,7 +496,7 @@
       "range":"없음"
    },
    {
-      "uuid":"AA3363DA-BA15-43C1-B3B6-5911C9339498",
+      "uuid":"4B9F1BF2-8CA2-4350-8592-69C158E9276E",
       "grade":"공통",
       "semester":"공통",
       "subject":"과학",
@@ -512,7 +512,7 @@
       "range":"all"
    },
    {
-      "uuid":"934FD934-F27D-4191-9856-CEC0DA37E05D",
+      "uuid":"4ADA77DB-76EB-4ADB-B381-62CF6FBF5E09",
       "grade":"공통",
       "semester":"공통",
       "subject":"과학",
@@ -528,7 +528,7 @@
       "range":"all"
    },
    {
-      "uuid":"C403653B-90F5-46DD-B029-75AB8C3B0A15",
+      "uuid":"52A2D51F-64E6-4B99-9225-AF86B1F267C0",
       "grade":"공통",
       "semester":"공통",
       "subject":"과학",
@@ -544,7 +544,7 @@
       "range":"all"
    },
    {
-      "uuid":"09F43D9F-B553-4C29-A364-676E29217A57",
+      "uuid":"C9D9DF41-AA60-4C99-831D-0D6EDFA6B806",
       "grade":"공통",
       "semester":"공통",
       "subject":"과학",
@@ -560,7 +560,7 @@
       "range":"all"
    },
    {
-      "uuid":"99C3FD8A-1731-4663-8B54-C29DDFE4C886",
+      "uuid":"5181204F-258D-41DE-8B90-C0079FD29BA4",
       "grade":"공통",
       "semester":"공통",
       "subject":"과학",
@@ -576,7 +576,7 @@
       "range":"all"
    },
    {
-      "uuid":"477100F8-DA60-416A-AF51-129D64E8046B",
+      "uuid":"8546F55C-0E37-4F5F-9A05-5CA48F9BB840",
       "grade":"공통",
       "semester":"공통",
       "subject":"과학",
@@ -592,7 +592,7 @@
       "range":"all"
    },
    {
-      "uuid":"D62E6300-61D2-4D20-959F-38DBA9E18AAF",
+      "uuid":"558F0D90-0F30-4DC1-B716-43B537D555CE",
       "grade":"공통",
       "semester":"공통",
       "subject":"과학",
@@ -608,7 +608,7 @@
       "range":"3-1-1/4-1-1"
    },
    {
-      "uuid":"9E508ACC-FF54-4302-8C7C-7F73AA8D0715",
+      "uuid":"19E9C95C-6F35-4AFD-8CCB-D15EDAE2449F",
       "grade":"공통",
       "semester":"공통",
       "subject":"과학",
@@ -624,7 +624,7 @@
       "range":"all"
    },
    {
-      "uuid":"EA33F14C-9E6D-410B-AE9C-FB490CACEE5A",
+      "uuid":"A5E3BF08-29C7-498D-AED9-D5C0B7567D48",
       "grade":"공통",
       "semester":"공통",
       "subject":"과학",
@@ -640,7 +640,7 @@
       "range":"all"
    },
    {
-      "uuid":"312C7BF4-F630-4E9F-9C4B-B6CF9379EBE6",
+      "uuid":"F620F3D2-2268-4A2B-A807-B09F0AFAE0BB",
       "grade":"공통",
       "semester":"공통",
       "subject":"과학",
@@ -656,7 +656,7 @@
       "range":"all"
    },
    {
-      "uuid":"9542A43B-85CC-4CF8-B0ED-6AD0CE4DD5B0",
+      "uuid":"9FC722D8-2039-4523-A108-069ABBD23185",
       "grade":"공통",
       "semester":"공통",
       "subject":"과학",
@@ -672,7 +672,7 @@
       "range":"3-1-3/3-2-2/4-1-2/5-2-2"
    },
    {
-      "uuid":"CA47838D-F8F7-435A-B674-D454891AD6EC",
+      "uuid":"18B40A74-F637-4E8C-9ADB-5F33D4A92C2C",
       "grade":"공통",
       "semester":"공통",
       "subject":"과학",
@@ -688,7 +688,7 @@
       "range":"all"
    },
    {
-      "uuid":"F7A9DBD0-F29E-4E71-8449-03056DF92CA7",
+      "uuid":"D0D4B1E1-4645-4A17-9DBB-0655F91950C5",
       "grade":"공통",
       "semester":"공통",
       "subject":"과학",
@@ -704,7 +704,7 @@
       "range":"all"
    },
    {
-      "uuid":"32E73158-80D8-4C9B-9365-9B31BB97A59E",
+      "uuid":"53F50A36-34E7-4AE1-85F5-0A01AB2593CC",
       "grade":"공통",
       "semester":"공통",
       "subject":"과학",
@@ -720,7 +720,7 @@
       "range":"all"
    },
    {
-      "uuid":"80423797-3B5C-441B-AC20-0A26566409D9",
+      "uuid":"4CE4D1DA-207F-4A7C-8B0D-1FED6623CFC1",
       "grade":"공통",
       "semester":"공통",
       "subject":"과학",
@@ -736,7 +736,7 @@
       "range":"all"
    },
    {
-      "uuid":"3094F3B5-D3D3-49C9-B1A3-FEA655B13CF8",
+      "uuid":"BC51CA26-3478-4E0D-825F-1292DF797089",
       "grade":"공통",
       "semester":"공통",
       "subject":"과학",
@@ -752,7 +752,7 @@
       "range":"all"
    },
    {
-      "uuid":"5C4D978E-472E-45E6-8A85-57957DBD94C7",
+      "uuid":"F8006A8C-1CF3-4781-8346-62380BA30AB7",
       "grade":"공통",
       "semester":"공통",
       "subject":"과학",
@@ -768,7 +768,7 @@
       "range":"all"
    },
    {
-      "uuid":"E794209A-C9D2-4EED-A97F-B41D1EFB76F0",
+      "uuid":"9528938E-4B52-4042-8AE3-E8D6EB12127F",
       "grade":"공통",
       "semester":"공통",
       "subject":"과학",
@@ -784,7 +784,7 @@
       "range":"all"
    },
    {
-      "uuid":"25191A89-B407-4913-BBA5-C32E74CBFED7",
+      "uuid":"DF9FE011-C922-4847-A83D-6DBFA0B4A356",
       "grade":"공통",
       "semester":"공통",
       "subject":"과학",
@@ -800,7 +800,7 @@
       "range":"all"
    },
    {
-      "uuid":"32A731E0-7E77-44C8-8599-9A57E0B25DFA",
+      "uuid":"8FFAEE64-CD37-4F72-BDC6-B6713D6F32DC",
       "grade":"3학년",
       "semester":"1학기",
       "subject":"국어",
@@ -816,7 +816,7 @@
       "range":"없음"
    },
    {
-      "uuid":"46125156-E57F-4251-A441-3E24AC5ECBB9",
+      "uuid":"9BC21B67-B396-483C-89AA-E867623F4CAB",
       "grade":"3학년",
       "semester":"1학기",
       "subject":"국어",
@@ -832,7 +832,7 @@
       "range":"없음"
    },
    {
-      "uuid":"42BC1E09-C680-430E-B358-7D681E0B2058",
+      "uuid":"423952CD-AFE7-451E-84CF-A2A0BB172C68",
       "grade":"3학년",
       "semester":"1학기",
       "subject":"국어",
@@ -848,7 +848,7 @@
       "range":"없음"
    },
    {
-      "uuid":"B7DD2E57-C34A-4271-A8B6-3CF5B0CA0E89",
+      "uuid":"1C8D6BD4-EFB6-41BC-88A5-B5ED1DECC5A6",
       "grade":"3학년",
       "semester":"2학기",
       "subject":"국어",
@@ -864,7 +864,7 @@
       "range":"없음"
    },
    {
-      "uuid":"095F05C4-A9D4-49E5-B2F0-1105079E7C05",
+      "uuid":"EDC2C853-7A64-4C76-8197-403E5EC95962",
       "grade":"3학년",
       "semester":"2학기",
       "subject":"국어",
@@ -880,7 +880,7 @@
       "range":"없음"
    },
    {
-      "uuid":"E2E50A34-19BB-4FFD-B510-3C8DE8AF84CE",
+      "uuid":"7324CE3F-4D47-4047-8278-C3A14D43D0E4",
       "grade":"4학년",
       "semester":"1학기",
       "subject":"국어",
@@ -896,7 +896,7 @@
       "range":"없음"
    },
    {
-      "uuid":"53F81DC3-A976-402F-97BC-E33DC3E682E7",
+      "uuid":"049EAA0E-3147-4CBF-A643-3ED3DA4106BC",
       "grade":"4학년",
       "semester":"1학기",
       "subject":"국어",
@@ -912,7 +912,7 @@
       "range":"없음"
    },
    {
-      "uuid":"671E9618-51AD-4AAB-8A5E-2CCBE7258F43",
+      "uuid":"B2F2B480-921D-4B08-8C85-C3EE19019560",
       "grade":"4학년",
       "semester":"1학기",
       "subject":"국어",
@@ -928,7 +928,7 @@
       "range":"없음"
    },
    {
-      "uuid":"A3973C9E-0AFB-4456-B05C-9191A0A1AEB1",
+      "uuid":"91E6A6D8-C57D-4AAE-A101-9D598CF07586",
       "grade":"4학년",
       "semester":"1학기",
       "subject":"국어",
@@ -944,7 +944,7 @@
       "range":"없음"
    },
    {
-      "uuid":"F80E5A9D-997A-4866-BBE6-6E48E5EBC550",
+      "uuid":"1CBF8A9D-4639-41C3-B1EE-DFC2B1730004",
       "grade":"4학년",
       "semester":"2학기",
       "subject":"국어",
@@ -960,7 +960,7 @@
       "range":"없음"
    },
    {
-      "uuid":"AD8911B6-E080-49F3-9C9C-9440936C16B1",
+      "uuid":"0B4902BF-EEEE-40EB-8536-276DE7065774",
       "grade":"4학년",
       "semester":"1학기",
       "subject":"국어",
@@ -976,7 +976,7 @@
       "range":"없음"
    },
    {
-      "uuid":"F815BC5B-E894-424B-935C-03CE648B5590",
+      "uuid":"4AAD5536-DE59-4277-9D8C-4006A0438A63",
       "grade":"4학년",
       "semester":"1학기",
       "subject":"국어",
@@ -992,7 +992,7 @@
       "range":"없음"
    },
    {
-      "uuid":"43578E46-3267-4464-8DE5-CADFB745F189",
+      "uuid":"F76E8175-3B8B-4F49-922C-F4B3856B3986",
       "grade":"4학년",
       "semester":"1학기",
       "subject":"국어",
@@ -1008,7 +1008,7 @@
       "range":"없음"
    },
    {
-      "uuid":"DAA16EB9-A0CE-4998-B270-0A719F767A2C",
+      "uuid":"CA6F4981-E743-4170-9DEC-29C57B234E32",
       "grade":"5학년",
       "semester":"2학기",
       "subject":"국어",
@@ -1024,7 +1024,7 @@
       "range":"없음"
    },
    {
-      "uuid":"87E3C54D-E13C-4DFD-9EB9-EBEE509A75FF",
+      "uuid":"03F5955B-3FF8-47F1-966E-6B176BE39BF9",
       "grade":"5학년",
       "semester":"1학기",
       "subject":"국어",
@@ -1040,7 +1040,7 @@
       "range":"없음"
    },
    {
-      "uuid":"EC1784F8-5755-4990-9926-9E12A3FB3769",
+      "uuid":"4DDA23A7-0CA9-419A-826C-213C4DE5D51E",
       "grade":"5학년",
       "semester":"1학기",
       "subject":"국어",
@@ -1072,7 +1072,7 @@
       "range":"없음"
    },
    {
-      "uuid":"02EC7DAA-FD7A-422E-988C-572C257776D1",
+      "uuid":"C7598D05-2BBE-47A4-A855-A2A7F01DA82F",
       "grade":"5학년",
       "semester":"1학기",
       "subject":"국어",
@@ -1088,7 +1088,7 @@
       "range":"없음"
    },
    {
-      "uuid":"4A020C37-0525-4E6C-8639-F9D0A1D1E624",
+      "uuid":"F45A5681-F489-4B16-B14B-345B5224A383",
       "grade":"5학년",
       "semester":"2학기",
       "subject":"국어",
@@ -1104,7 +1104,7 @@
       "range":"없음"
    },
    {
-      "uuid":"F5001489-FC08-4357-9FAE-62D29FF60F41",
+      "uuid":"314045CC-A4B9-4A83-ADF4-5E4973A62F15",
       "grade":"5학년",
       "semester":"2학기",
       "subject":"국어",
@@ -1120,7 +1120,7 @@
       "range":"없음"
    },
    {
-      "uuid":"1AE5B796-28D2-4FD7-9DC1-114045BC4E9E",
+      "uuid":"72EC0551-1C65-4461-B515-A1FCE40DC900",
       "grade":"5학년",
       "semester":"2학기",
       "subject":"국어",
@@ -1136,7 +1136,7 @@
       "range":"없음"
    },
    {
-      "uuid":"CC33EA0B-D927-4D3B-AA33-DB3D753C7751",
+      "uuid":"56BEBBC2-AA1D-4A11-A1CE-25F97E5A7B3B",
       "grade":"5학년",
       "semester":"1학기",
       "subject":"국어",
@@ -1152,7 +1152,7 @@
       "range":"없음"
    },
    {
-      "uuid":"2F97BB31-B882-4245-8FE4-B13A0B509673",
+      "uuid":"4AF5EAF8-00F8-4CD2-9FEB-5FA13B2A0348",
       "grade":"5학년",
       "semester":"1학기",
       "subject":"국어",
@@ -1168,7 +1168,7 @@
       "range":"없음"
    },
    {
-      "uuid":"9DAC1D6C-D728-4228-B299-A98A370566D3",
+      "uuid":"E0CE1898-748D-4754-9CA4-C0FA2EB56531",
       "grade":"5학년",
       "semester":"1학기",
       "subject":"국어",
@@ -1184,7 +1184,7 @@
       "range":"없음"
    },
    {
-      "uuid":"16985E06-8800-4AFB-97EB-2C85C4E426C3",
+      "uuid":"1BF8BC98-AF44-4BA7-9C61-1EA198512AA8",
       "grade":"5학년",
       "semester":"2학기",
       "subject":"국어",
@@ -1200,7 +1200,7 @@
       "range":"없음"
    },
    {
-      "uuid":"81F83BFF-AF6D-488E-853A-950EB0705004",
+      "uuid":"890F770B-E03A-4274-81B4-C5825176925B",
       "grade":"5학년",
       "semester":"2학기",
       "subject":"국어",
@@ -1216,7 +1216,7 @@
       "range":"없음"
    },
    {
-      "uuid":"0D58DA60-9158-4C37-8579-FC8A74715D07",
+      "uuid":"68F68FB6-46FD-4D5C-BEF9-F113E2C38C41",
       "grade":"5학년",
       "semester":"2학기",
       "subject":"국어",
@@ -1232,7 +1232,7 @@
       "range":"없음"
    },
    {
-      "uuid":"510FD9D7-FF5F-4F0A-8554-7A32CA7D6556",
+      "uuid":"8AA2FF22-1CCC-45E5-BF39-4455DE36FCC1",
       "grade":"6학년",
       "semester":"1학기",
       "subject":"국어",
@@ -1248,7 +1248,7 @@
       "range":"없음"
    },
    {
-      "uuid":"209705A5-38DD-411F-8B96-401E3EC900C7",
+      "uuid":"0EB454CC-F42C-4C60-B5B7-E8F84D6CE625",
       "grade":"6학년",
       "semester":"1학기",
       "subject":"국어",
@@ -1264,7 +1264,7 @@
       "range":"없음"
    },
    {
-      "uuid":"D098E16E-15B5-4B07-A4EE-DEBDC9A614AD",
+      "uuid":"507F6F38-D7CC-4D84-814D-7D4823D1D8AD",
       "grade":"6학년",
       "semester":"1학기",
       "subject":"국어",
@@ -1280,7 +1280,7 @@
       "range":"없음"
    },
    {
-      "uuid":"973689FE-E3BA-4641-8B12-95A82AD62963",
+      "uuid":"E2580EF7-BF07-48AC-AFB3-9B9A8A5E9A2E",
       "grade":"6학년",
       "semester":"1학기",
       "subject":"국어",
@@ -1296,7 +1296,7 @@
       "range":"없음"
    },
    {
-      "uuid":"CB119993-A593-49DB-B87C-3241AED680AC",
+      "uuid":"A260C2DB-9876-445A-8DE9-C50375CAFAA9",
       "grade":"6학년",
       "semester":"1학기",
       "subject":"국어",
@@ -1312,7 +1312,7 @@
       "range":"없음"
    },
    {
-      "uuid":"60232BBF-4550-4BBC-865D-36B6F6D279AB",
+      "uuid":"95BD98CD-51DD-4020-BF88-BEA03443E4FD",
       "grade":"6학년",
       "semester":"1학기",
       "subject":"국어",
@@ -1328,7 +1328,7 @@
       "range":"없음"
    },
    {
-      "uuid":"70964AA5-2819-4A18-92AA-E3907EE59DC6",
+      "uuid":"AA4E9A18-E4F8-45AD-B8AA-C824A2AE9C6B",
       "grade":"6학년",
       "semester":"1학기",
       "subject":"국어",
@@ -1344,7 +1344,7 @@
       "range":"없음"
    },
    {
-      "uuid":"77E27566-6577-4122-B8E6-929A213C7832",
+      "uuid":"37C3CB5C-6B9A-4FA4-8A6C-1382831806DB",
       "grade":"6학년",
       "semester":"2학기",
       "subject":"국어",
@@ -1360,7 +1360,7 @@
       "range":"없음"
    },
    {
-      "uuid":"BBFC762C-4023-4AFC-B32F-E2342684AE4B",
+      "uuid":"1152C74D-1763-49AB-B279-2FD7AB24FFCA",
       "grade":"6학년",
       "semester":"2학기",
       "subject":"국어",
@@ -2016,7 +2016,7 @@
       "range":"4-1-3/5-1-1/5-2-1"
    },
    {
-      "uuid":"A722FB97-2F15-4ECD-99F6-B70CEF4F8783",
+      "uuid":"35BB8913-C57B-4B8E-BF88-2A77E0B0953C",
       "grade":"3학년",
       "semester":"1학기",
       "subject":"사회",
@@ -2032,7 +2032,7 @@
       "range":"없음"
    },
    {
-      "uuid":"7ACCE8AF-3834-407A-8609-B0613C6A1216",
+      "uuid":"542DE816-4D64-4C35-A8D1-9FAD1E39D8A0",
       "grade":"3학년",
       "semester":"1학기",
       "subject":"사회",
@@ -2048,7 +2048,7 @@
       "range":"없음"
    },
    {
-      "uuid":"C3F1A244-74A4-4C5D-B780-3224B114D94C",
+      "uuid":"3700D830-0B45-4353-963A-0635DABED7AE",
       "grade":"3학년",
       "semester":"1학기",
       "subject":"사회",
@@ -2064,7 +2064,7 @@
       "range":"없음"
    },
    {
-      "uuid":"AC6C86E6-B48F-4BBD-A381-1763141A2FA5",
+      "uuid":"4EF80787-A4E5-49BB-8424-6BD8FABED926",
       "grade":"3학년",
       "semester":"2학기",
       "subject":"사회",
@@ -2080,7 +2080,7 @@
       "range":"없음"
    },
    {
-      "uuid":"6E54A437-AC9A-40BA-A910-EFB212C20792",
+      "uuid":"15D7A879-95EC-4074-B601-D674E1EBE3CD",
       "grade":"3학년",
       "semester":"2학기",
       "subject":"사회",
@@ -2096,7 +2096,7 @@
       "range":"없음"
    },
    {
-      "uuid":"7BAC297B-0D65-4AAE-992D-161CABB90F5E",
+      "uuid":"65CC92F3-BD0C-4F61-A5B5-955EA31A35BA",
       "grade":"3학년",
       "semester":"2학기",
       "subject":"사회",
@@ -2112,7 +2112,7 @@
       "range":"없음"
    },
    {
-      "uuid":"AF7533D1-592D-4C4C-A4FA-314FC0AC7491",
+      "uuid":"228D7648-52EC-4D57-AC9B-F9C1745169D1",
       "grade":"3학년",
       "semester":"1학기",
       "subject":"사회",
@@ -2128,7 +2128,7 @@
       "range":"없음"
    },
    {
-      "uuid":"4B0CB93E-0BCD-4062-A204-6F7B3BA934D2",
+      "uuid":"F5F6AD37-C2AB-495B-ADAB-1366904D0274",
       "grade":"3학년",
       "semester":"2학기",
       "subject":"사회",
@@ -2144,7 +2144,7 @@
       "range":"없음"
    },
    {
-      "uuid":"C3BC6902-AFE9-4B39-970B-8B314A164FCD",
+      "uuid":"CD71D550-7BDC-46C2-8805-8D93EDA387C7",
       "grade":"3학년",
       "semester":"2학기",
       "subject":"사회",
@@ -2160,7 +2160,7 @@
       "range":"없음"
    },
    {
-      "uuid":"075E8587-8CCC-4268-AA2B-615D724AC6EF",
+      "uuid":"E1177F1B-DEB6-4119-9361-21881B9F8F5D",
       "grade":"3학년",
       "semester":"2학기",
       "subject":"사회",
@@ -2176,7 +2176,7 @@
       "range":"없음"
    },
    {
-      "uuid":"8F988932-37DF-4F94-8502-C2DF70E4A753",
+      "uuid":"D32F9EA8-5106-4220-8998-BB46B5FABDF6",
       "grade":"3학년",
       "semester":"2학기",
       "subject":"사회",
@@ -2192,7 +2192,7 @@
       "range":"없음"
    },
    {
-      "uuid":"823AB2B5-C0B4-4B76-B330-68AE5846CCC6",
+      "uuid":"DD5AA40A-9178-46ED-91A8-448A282A1729",
       "grade":"3학년",
       "semester":"1학기",
       "subject":"사회",
@@ -2208,7 +2208,7 @@
       "range":"없음"
    },
    {
-      "uuid":"A17C7701-9B11-448F-90C1-F7B3002A9851",
+      "uuid":"44B57901-CF62-49B4-B6B6-83636A9DD262",
       "grade":"3학년",
       "semester":"1학기",
       "subject":"사회",
@@ -2224,7 +2224,7 @@
       "range":"없음"
    },
    {
-      "uuid":"5B3D7E8C-D5FB-4ADE-9700-DA95F1FBAD3C",
+      "uuid":"87676B5A-721F-41D8-94DD-6F61723D8E4D",
       "grade":"3학년",
       "semester":"2학기",
       "subject":"사회",
@@ -2240,7 +2240,7 @@
       "range":"없음"
    },
    {
-      "uuid":"9A4D018D-2B0E-43B8-A53A-2400F9C730D8",
+      "uuid":"85763B43-12A3-4C3A-9C81-2FACE7AD30A3",
       "grade":"3학년",
       "semester":"1학기",
       "subject":"사회",
@@ -2256,7 +2256,7 @@
       "range":"없음"
    },
    {
-      "uuid":"0480CD0A-A4C0-45DD-8128-CBCD7EB0D1CD",
+      "uuid":"27BE5B49-1C56-473C-8216-53DCD70941C1",
       "grade":"3학년",
       "semester":"2학기",
       "subject":"사회",
@@ -2272,7 +2272,7 @@
       "range":"없음"
    },
    {
-      "uuid":"7E5ACD88-7B2A-48AD-A76F-233D86395A00",
+      "uuid":"4D4CA4F8-0625-481B-93BD-7291D2FF3593",
       "grade":"3학년",
       "semester":"2학기",
       "subject":"사회",
@@ -2288,7 +2288,7 @@
       "range":"없음"
    },
    {
-      "uuid":"AD34E2E6-6EA9-446E-B3C2-3177F8432DF6",
+      "uuid":"FF9A0A5C-177A-4C83-8614-4213A2C01577",
       "grade":"3학년",
       "semester":"2학기",
       "subject":"사회",
@@ -2304,7 +2304,7 @@
       "range":"없음"
    },
    {
-      "uuid":"86F1DAF1-65AA-4A89-B2E3-B28AD53E397A",
+      "uuid":"FD218472-AE35-49E7-9C57-BCAFF44F80AF",
       "grade":"4학년",
       "semester":"1학기",
       "subject":"사회",
@@ -2320,7 +2320,7 @@
       "range":"없음"
    },
    {
-      "uuid":"6480AA5F-E6FB-4200-A256-BD9C73D13BD2",
+      "uuid":"9ABAD526-D6D3-49B3-9B28-B14DC7D9B296",
       "grade":"4학년",
       "semester":"1학기",
       "subject":"사회",
@@ -2336,7 +2336,7 @@
       "range":"없음"
    },
    {
-      "uuid":"6EB4DB31-CB7C-47CC-A5B8-C0799EE731A2",
+      "uuid":"9C552370-F205-4640-B99F-3C724E1AF468",
       "grade":"4학년",
       "semester":"1학기",
       "subject":"사회",
@@ -2352,7 +2352,7 @@
       "range":"없음"
    },
    {
-      "uuid":"14624EAF-2FC2-490E-B9DC-2DFC87102F7F",
+      "uuid":"77EE6E0D-8680-40B5-BEA9-5993AF2C070D",
       "grade":"4학년",
       "semester":"1학기",
       "subject":"사회",
@@ -2368,7 +2368,7 @@
       "range":"없음"
    },
    {
-      "uuid":"982C3DA4-D7D8-409F-94B7-6AA15E0B8947",
+      "uuid":"7594C6BC-D403-4C9C-803C-969B13001E9D",
       "grade":"4학년",
       "semester":"1학기",
       "subject":"사회",
@@ -2384,7 +2384,7 @@
       "range":"없음"
    },
    {
-      "uuid":"A6C024D5-CBDA-4A89-9A75-12E18D5BBA5D",
+      "uuid":"8FD044F6-165E-4622-97E8-DF48C96BADF2",
       "grade":"4학년",
       "semester":"1학기",
       "subject":"사회",
@@ -2400,7 +2400,7 @@
       "range":"없음"
    },
    {
-      "uuid":"F8564BCB-DC88-4BEF-95B5-FB075EA16938",
+      "uuid":"385FC68C-9F89-4BB1-A2E4-0159291BE0B0",
       "grade":"4학년",
       "semester":"1학기",
       "subject":"사회",
@@ -2416,7 +2416,7 @@
       "range":"없음"
    },
    {
-      "uuid":"DA0CD5A4-2D12-42BF-897E-78BE24945CFE",
+      "uuid":"79C338B3-5EEE-4A56-AF41-11A8D434D681",
       "grade":"4학년",
       "semester":"2학기",
       "subject":"사회",
@@ -2432,7 +2432,7 @@
       "range":"없음"
    },
    {
-      "uuid":"6DC79A91-7B33-40C5-8B0C-BCBEF5FDDE7F",
+      "uuid":"E9449E64-868D-4695-A20E-58A868227984",
       "grade":"4학년",
       "semester":"2학기",
       "subject":"사회",
@@ -2448,7 +2448,7 @@
       "range":"없음"
    },
    {
-      "uuid":"31E6E5BF-9020-43E5-A5DF-2D542C99215A",
+      "uuid":"8D92BC6B-D2BB-4546-B4AA-1D274716CF14",
       "grade":"4학년",
       "semester":"2학기",
       "subject":"사회",
@@ -2464,7 +2464,7 @@
       "range":"없음"
    },
    {
-      "uuid":"85956A00-2AE6-4979-A57E-917D4EAD6BBD",
+      "uuid":"05D1AE86-CFB9-40FC-B652-77E2199023DD",
       "grade":"4학년",
       "semester":"1학기",
       "subject":"사회",
@@ -2480,7 +2480,7 @@
       "range":"없음"
    },
    {
-      "uuid":"81DE1D64-77C9-4716-87DD-603AE20C3668",
+      "uuid":"8ED5A643-DFA7-4A89-94B9-C01A644AF617",
       "grade":"4학년",
       "semester":"2학기",
       "subject":"사회",
@@ -2496,7 +2496,7 @@
       "range":"없음"
    },
    {
-      "uuid":"1AC3DAC4-605D-4192-BC59-CF3A1F7533A1",
+      "uuid":"AFE4B004-3BC6-4A5A-A9AC-9422941EF95A",
       "grade":"4학년",
       "semester":"2학기",
       "subject":"사회",
@@ -2512,7 +2512,7 @@
       "range":"없음"
    },
    {
-      "uuid":"558A8EA9-93B1-495C-B9D0-6A58DA27CCF3",
+      "uuid":"12414E99-B414-4245-804A-6C278600A494",
       "grade":"4학년",
       "semester":"2학기",
       "subject":"사회",
@@ -2528,7 +2528,7 @@
       "range":"없음"
    },
    {
-      "uuid":"C5FFEECA-03BA-453A-8271-C89499566DBD",
+      "uuid":"116FF2CA-C2C9-4B39-AA71-1A57FA6ABEA7",
       "grade":"4학년",
       "semester":"2학기",
       "subject":"사회",
@@ -2544,7 +2544,7 @@
       "range":"없음"
    },
    {
-      "uuid":"8EEFD2F9-26B7-4C60-8199-D9A109BC3299",
+      "uuid":"E2B12923-29F8-4B63-9EB6-0BA2CCC1977D",
       "grade":"4학년",
       "semester":"1학기",
       "subject":"사회",
@@ -2560,7 +2560,7 @@
       "range":"없음"
    },
    {
-      "uuid":"65FF08EC-B109-4EBC-B573-6A636457B413",
+      "uuid":"5CBEF382-0278-4383-B11E-315DAE8F4032",
       "grade":"5학년",
       "semester":"1학기",
       "subject":"사회",
@@ -2576,7 +2576,7 @@
       "range":"없음"
    },
    {
-      "uuid":"4B5A9677-FB7B-43CA-9F0D-F9F84FB92232",
+      "uuid":"0906218D-F692-4AA9-B3B9-57A7257BA7CF",
       "grade":"5학년",
       "semester":"2학기",
       "subject":"사회",
@@ -2592,7 +2592,7 @@
       "range":"없음"
    },
    {
-      "uuid":"F139F9CB-5D1F-4D72-90BE-5A20CA0AA2E3",
+      "uuid":"E0EFB7C0-2E3C-4EB7-ACD6-8ED3C795CED8",
       "grade":"5학년",
       "semester":"2학기",
       "subject":"사회",
@@ -2608,7 +2608,7 @@
       "range":"없음"
    },
    {
-      "uuid":"50BE9D97-22F8-44A8-9BAE-5628385C49F3",
+      "uuid":"7020B1D9-295D-4B68-9F02-16E56E0A83E0",
       "grade":"5학년",
       "semester":"2학기",
       "subject":"사회",
@@ -2624,7 +2624,7 @@
       "range":"없음"
    },
    {
-      "uuid":"05B7F723-8141-4E0F-B6E5-70FB7CCB6ADF",
+      "uuid":"4EC04C57-72DE-48F1-B8B0-9EBF650E81F8",
       "grade":"5학년",
       "semester":"2학기",
       "subject":"사회",
@@ -2640,7 +2640,7 @@
       "range":"없음"
    },
    {
-      "uuid":"2C1246C1-D32C-48D0-9026-BDC41F152854",
+      "uuid":"D4904EC2-ED5F-4A8B-9940-20A768E88039",
       "grade":"5학년",
       "semester":"2학기",
       "subject":"사회",
@@ -2656,7 +2656,7 @@
       "range":"없음"
    },
    {
-      "uuid":"AC450B5D-1048-4D4C-BB8B-DE55C180D379",
+      "uuid":"7A98802E-92A1-4319-B8B1-8980143C76AB",
       "grade":"5학년",
       "semester":"1학기",
       "subject":"사회",
@@ -2672,7 +2672,7 @@
       "range":"없음"
    },
    {
-      "uuid":"E878D3AA-FDE3-4D49-A144-4615043F28BB",
+      "uuid":"99865715-8F05-4D50-AD8F-AA1DBE1E2283",
       "grade":"5학년",
       "semester":"1학기",
       "subject":"사회",
@@ -2688,7 +2688,7 @@
       "range":"없음"
    },
    {
-      "uuid":"BFB19C2A-C63E-47F5-8578-F4997074BBE0",
+      "uuid":"86D30AD7-CD8F-4CC6-AC67-143E5D4B9CFC",
       "grade":"5학년",
       "semester":"1학기",
       "subject":"사회",
@@ -2704,7 +2704,7 @@
       "range":"없음"
    },
    {
-      "uuid":"58E7D1E6-9554-4067-82A1-81D38395171E",
+      "uuid":"E4BF0863-E187-4DDB-AA01-90666CDCD9D0",
       "grade":"6학년",
       "semester":"1학기",
       "subject":"사회",
@@ -2720,7 +2720,7 @@
       "range":"없음"
    },
    {
-      "uuid":"411F73DE-43B5-4403-8F09-9450A647F2AC",
+      "uuid":"20C5E0E9-9702-475D-81C5-59E0D46B4239",
       "grade":"6학년",
       "semester":"2학기",
       "subject":"사회",
@@ -2736,7 +2736,7 @@
       "range":"없음"
    },
    {
-      "uuid":"4C347E8F-D23A-4D37-86A5-E7B3797FCA90",
+      "uuid":"D82BF7C5-A5D8-46C2-9C79-7D69197224B9",
       "grade":"6학년",
       "semester":"2학기",
       "subject":"사회",
@@ -2752,7 +2752,7 @@
       "range":"없음"
    },
    {
-      "uuid":"0EC093F1-C163-4A86-8B83-0704D2BD68B3",
+      "uuid":"193B0763-7C38-4D04-89B4-483872691A40",
       "grade":"6학년",
       "semester":"2학기",
       "subject":"사회",
@@ -2768,7 +2768,7 @@
       "range":"없음"
    },
    {
-      "uuid":"4DBD0630-DE43-4DCA-9DB4-2AB99513A21A",
+      "uuid":"CC834633-6DBA-4A20-A9EA-3843AB70018A",
       "grade":"6학년",
       "semester":"1학기",
       "subject":"사회",
@@ -2784,7 +2784,7 @@
       "range":"없음"
    },
    {
-      "uuid":"A9C062F1-BC64-472A-BFA8-A373B9623E18",
+      "uuid":"2CD62027-8349-4A3E-8E65-2F97E00D5C48",
       "grade":"6학년",
       "semester":"1학기",
       "subject":"사회",
@@ -2800,7 +2800,7 @@
       "range":"없음"
    },
    {
-      "uuid":"F42D95D9-FC97-489A-A244-300E520137C7",
+      "uuid":"FC15BF29-6923-44BA-9314-9E1A0086C3F0",
       "grade":"6학년",
       "semester":"1학기",
       "subject":"사회",
@@ -2816,7 +2816,7 @@
       "range":"없음"
    },
    {
-      "uuid":"A01432BA-A1F5-4BBC-91F1-ABFECC9F9326",
+      "uuid":"CA34AF1B-AB08-4F5C-BAE9-F61C97D83217",
       "grade":"6학년",
       "semester":"1학기",
       "subject":"사회",
@@ -2832,7 +2832,7 @@
       "range":"없음"
    },
    {
-      "uuid":"6B40DEF6-D5E7-42D6-9B56-0D735B69D72C",
+      "uuid":"B1BD6F45-6392-4EBC-9AA8-D22B082AE606",
       "grade":"6학년",
       "semester":"2학기",
       "subject":"사회",
@@ -2848,7 +2848,7 @@
       "range":"없음"
    },
    {
-      "uuid":"65C0FCDD-AC10-4143-8A17-4A20E502407D",
+      "uuid":"992DC7FD-86C8-4A1E-B3F9-311CB493E6E7",
       "grade":"공통",
       "semester":"공통",
       "subject":"사회",
@@ -2864,7 +2864,7 @@
       "range":"all"
    },
    {
-      "uuid":"226614D9-9A38-478F-A133-A905D7D90994",
+      "uuid":"D2926A01-12B1-4214-A97E-625B8933448A",
       "grade":"공통",
       "semester":"공통",
       "subject":"사회",
@@ -2880,7 +2880,7 @@
       "range":"all"
    },
    {
-      "uuid":"04E02DC2-5912-47FB-B0B4-CDAEF2BD02D9",
+      "uuid":"828301A0-93B3-4CEA-A38E-EFC5A03F1A43",
       "grade":"공통",
       "semester":"공통",
       "subject":"사회",
@@ -2896,7 +2896,7 @@
       "range":"all"
    },
    {
-      "uuid":"F10F12BB-3139-4805-87E8-406EBAC6B8AC",
+      "uuid":"F591607A-84A0-44A5-B374-D4D9BEB1249E",
       "grade":"공통",
       "semester":"공통",
       "subject":"사회",
@@ -2912,7 +2912,7 @@
       "range":"3-1-2/4-1-2"
    },
    {
-      "uuid":"0026DE52-0077-4100-B6FC-CE86D8F04AC3",
+      "uuid":"BFAF1586-DE32-4CAC-B79B-6753071AB57D",
       "grade":"공통",
       "semester":"공통",
       "subject":"사회",
@@ -2928,7 +2928,7 @@
       "range":"all"
    },
    {
-      "uuid":"9DF20AFE-948C-4B3A-86FC-10C181EFB90D",
+      "uuid":"56D42525-E967-4D81-A906-7521DA557FF6",
       "grade":"공통",
       "semester":"공통",
       "subject":"사회",
@@ -2944,7 +2944,7 @@
       "range":"all"
    },
    {
-      "uuid":"A442A96F-861B-4FFD-975E-6D25C6F76D01",
+      "uuid":"8E76374E-4675-4DEA-BA16-0544409E9DB5",
       "grade":"공통",
       "semester":"공통",
       "subject":"사회",
@@ -2960,7 +2960,7 @@
       "range":"all"
    },
    {
-      "uuid":"14A7AC5E-71C2-41F6-9126-7E17B166EC5A",
+      "uuid":"8B8B0781-D7DB-419A-A70E-BC9537F88708",
       "grade":"공통",
       "semester":"공통",
       "subject":"사회",
@@ -2976,7 +2976,7 @@
       "range":"all"
    },
    {
-      "uuid":"9B0C8178-CFF2-4A95-A2A1-13C0F1F8AFB8",
+      "uuid":"86563979-EB28-4F22-82F5-C54A9A59E477",
       "grade":"공통",
       "semester":"공통",
       "subject":"사회",
@@ -2992,7 +2992,7 @@
       "range":"all"
    },
    {
-      "uuid":"ADFE8239-F70E-46B9-B88A-EA7EF1F525F1",
+      "uuid":"8011910C-86AC-42C5-98F3-672A9D6DAC82",
       "grade":"공통",
       "semester":"공통",
       "subject":"사회",
@@ -3008,7 +3008,7 @@
       "range":"all"
    },
    {
-      "uuid":"1002D1AB-ECB5-4EFD-B6EA-D3D6C949F2E3",
+      "uuid":"91E67A71-BAFC-409F-8ED8-C86B73D29BFF",
       "grade":"공통",
       "semester":"공통",
       "subject":"사회",
@@ -3024,7 +3024,7 @@
       "range":"all"
    },
    {
-      "uuid":"BA371379-8A3A-4912-B072-9742396F2478",
+      "uuid":"26916818-6D65-40EA-8037-D71409453E1B",
       "grade":"공통",
       "semester":"공통",
       "subject":"사회",
@@ -3040,7 +3040,7 @@
       "range":"all"
    },
    {
-      "uuid":"C2059DCF-6043-410C-9345-16DD961EC16D",
+      "uuid":"94B39D8D-1CBA-42FF-82FC-3A085751AB44",
       "grade":"공통",
       "semester":"공통",
       "subject":"사회",
@@ -3056,7 +3056,7 @@
       "range":"all"
    },
    {
-      "uuid":"95949523-B5FA-4288-AB9E-DBA382C6FFFA",
+      "uuid":"6F63A78B-CA89-4AA5-85DC-B0BCE1C916D9",
       "grade":"공통",
       "semester":"공통",
       "subject":"사회",
@@ -3072,7 +3072,7 @@
       "range":"all"
    },
    {
-      "uuid":"3383C10F-215B-4D3A-96D7-5CB8C4E6155A",
+      "uuid":"0336A8E8-6BFE-4639-8F51-F6E364FC1709",
       "grade":"공통",
       "semester":"공통",
       "subject":"사회",
@@ -3088,7 +3088,7 @@
       "range":"all"
    },
    {
-      "uuid":"2ED8273B-F8DF-43EA-918A-844D71944776",
+      "uuid":"3762ECB5-23C6-4AA0-8A5B-128622E92D19",
       "grade":"공통",
       "semester":"공통",
       "subject":"사회",
@@ -3104,7 +3104,7 @@
       "range":"5-2-1/5-2-2"
    },
    {
-      "uuid":"42B0196D-41C8-404A-A857-3563D42CAEBF",
+      "uuid":"3FABD545-10A5-4835-804C-0319D0DE02FF",
       "grade":"공통",
       "semester":"공통",
       "subject":"사회",
@@ -3120,7 +3120,7 @@
       "range":"all"
    },
    {
-      "uuid":"68FB800F-6DC1-4369-B485-86C864114629",
+      "uuid":"6DA56416-19DE-4C49-A865-90F6B43D1C02",
       "grade":"공통",
       "semester":"공통",
       "subject":"사회",
@@ -3136,7 +3136,7 @@
       "range":"all"
    },
    {
-      "uuid":"20208EF8-9076-4415-A826-13695515F0A4",
+      "uuid":"E1846B9B-46E1-40FE-BB6E-2802B16FDC15",
       "grade":"공통",
       "semester":"공통",
       "subject":"사회",
@@ -3152,7 +3152,7 @@
       "range":"all"
    },
    {
-      "uuid":"D03C8327-0CFA-4768-AE31-4DCE915ED4AC",
+      "uuid":"687D641E-AE15-4C58-8D33-AFE390A5D384",
       "grade":"공통",
       "semester":"공통",
       "subject":"사회",
@@ -3168,7 +3168,7 @@
       "range":"all"
    },
    {
-      "uuid":"53691412-F55F-4C75-A0BB-DBC102C8800C",
+      "uuid":"F28EBAAB-D1B9-40AC-9695-5AAA9721D503",
       "grade":"3학년",
       "semester":"1학기",
       "subject":"수학",
@@ -3184,7 +3184,7 @@
       "range":"없음"
    },
    {
-      "uuid":"5EB5E946-D6C3-4891-A276-CE0CAE90D10B",
+      "uuid":"FD141557-A7A4-4B59-A23B-45C4F87E6352",
       "grade":"3학년",
       "semester":"1학기",
       "subject":"수학",
@@ -3200,7 +3200,7 @@
       "range":"없음"
    },
    {
-      "uuid":"3AAAC295-19BA-4EDD-8506-02E9012B78D4",
+      "uuid":"B4E948F3-EEB6-4671-A587-5AA14FECB7A1",
       "grade":"3학년",
       "semester":"1학기",
       "subject":"수학",
@@ -3216,7 +3216,7 @@
       "range":"없음"
    },
    {
-      "uuid":"58FEE1B3-96C1-45E9-A0DC-DF98162DB1F0",
+      "uuid":"4B811319-03C1-47BE-BF64-3167FB17F207",
       "grade":"3학년",
       "semester":"1학기",
       "subject":"수학",
@@ -3232,7 +3232,7 @@
       "range":"없음"
    },
    {
-      "uuid":"7A4278A5-9ADF-4337-8367-DC4A04F657E6",
+      "uuid":"496A96C5-8963-4453-82DA-F51978827701",
       "grade":"3학년",
       "semester":"1학기",
       "subject":"수학",
@@ -3248,7 +3248,7 @@
       "range":"없음"
    },
    {
-      "uuid":"B3243B97-10EE-4959-9792-AA36FC49CC07",
+      "uuid":"C1F95723-C437-4622-AE9C-8B2AC10AAD52",
       "grade":"3학년",
       "semester":"2학기",
       "subject":"수학",
@@ -3264,7 +3264,7 @@
       "range":"없음"
    },
    {
-      "uuid":"170C001A-9483-4BD3-9DB2-898F1E2B77B6",
+      "uuid":"9658EEFA-B9F6-429C-A221-2F140E401DBC",
       "grade":"3학년",
       "semester":"2학기",
       "subject":"수학",
@@ -3280,7 +3280,7 @@
       "range":"없음"
    },
    {
-      "uuid":"C573C487-67B1-40D2-B384-D8B3766647F5",
+      "uuid":"A465E861-3BDC-4892-B346-E423F7AD385A",
       "grade":"3학년",
       "semester":"2학기",
       "subject":"수학",
@@ -3296,7 +3296,7 @@
       "range":"없음"
    },
    {
-      "uuid":"1B3A7DFC-15A8-4895-BC3F-60C79830E3D0",
+      "uuid":"4B949501-B36C-43A1-BB79-F313D9801D8F",
       "grade":"3학년",
       "semester":"2학기",
       "subject":"수학",
@@ -3312,7 +3312,7 @@
       "range":"없음"
    },
    {
-      "uuid":"5338B42D-D76D-4FCA-A23D-5C75E375BAB1",
+      "uuid":"FADDFFE8-4FC9-4E42-8613-7FB00CA74919",
       "grade":"3학년",
       "semester":"2학기",
       "subject":"수학",
@@ -3328,7 +3328,7 @@
       "range":"없음"
    },
    {
-      "uuid":"B7AE0265-0114-4639-917B-31C476B6266F",
+      "uuid":"D70669E6-ACEE-4D7B-9E6E-F409F3CA7EEB",
       "grade":"3학년",
       "semester":"2학기",
       "subject":"수학",
@@ -3344,7 +3344,7 @@
       "range":"없음"
    },
    {
-      "uuid":"FCCE85D5-2C37-44D4-ADDC-3E7227F2602A",
+      "uuid":"3EFC70DC-98BF-41FC-8A68-456B0E68CFF5",
       "grade":"3학년",
       "semester":"1학기",
       "subject":"수학",
@@ -3360,7 +3360,7 @@
       "range":"없음"
    },
    {
-      "uuid":"4A708981-AC92-4DDE-AB6F-F905E56F33C9",
+      "uuid":"974E8B7C-E0D5-4CE2-91FC-24E167BD898C",
       "grade":"3학년",
       "semester":"2학기",
       "subject":"수학",
@@ -3376,7 +3376,7 @@
       "range":"없음"
    },
    {
-      "uuid":"138642BC-FC6E-4CEA-8628-B5D09DF1DDBA",
+      "uuid":"06049E56-B7BB-47AA-8540-872AFCFB2C16",
       "grade":"3학년",
       "semester":"2학기",
       "subject":"수학",
@@ -3392,7 +3392,7 @@
       "range":"없음"
    },
    {
-      "uuid":"5DE01FF6-AE4B-4A9F-9D20-BEDA53F3F788",
+      "uuid":"54E7DCD0-F2EA-4C5A-9701-2608162ACF7E",
       "grade":"4학년",
       "semester":"1학기",
       "subject":"수학",
@@ -3408,7 +3408,7 @@
       "range":"없음"
    },
    {
-      "uuid":"FFC16FCA-3DFA-45DA-846A-75B79507FF2F",
+      "uuid":"9B0763A9-06B1-4942-B633-E63D72A72B5D",
       "grade":"4학년",
       "semester":"1학기",
       "subject":"수학",
@@ -3424,7 +3424,7 @@
       "range":"없음"
    },
    {
-      "uuid":"9100F7F2-0FF0-4F3E-BD97-4A4AA006CBA3",
+      "uuid":"FADD57DF-6770-48EA-9266-4EDBC7055A39",
       "grade":"4학년",
       "semester":"1학기",
       "subject":"수학",
@@ -3440,7 +3440,7 @@
       "range":"없음"
    },
    {
-      "uuid":"935DDF86-D65B-4698-B230-FCE33DE4DB95",
+      "uuid":"81E5BB8F-419B-408F-A012-1114C89B03D9",
       "grade":"4학년",
       "semester":"1학기",
       "subject":"수학",
@@ -3456,7 +3456,7 @@
       "range":"없음"
    },
    {
-      "uuid":"0A5AABB3-E48E-42A5-A885-69AA09AF170E",
+      "uuid":"AE6D2CD6-57A3-41A3-A3EA-B2D09AD44B51",
       "grade":"4학년",
       "semester":"1학기",
       "subject":"수학",
@@ -3472,7 +3472,7 @@
       "range":"없음"
    },
    {
-      "uuid":"8C4739E3-ABFC-496A-A42B-4114B66E9390",
+      "uuid":"DDDCECE9-8C3B-454B-BF21-CAF5D6472DFB",
       "grade":"4학년",
       "semester":"1학기",
       "subject":"수학",
@@ -3488,7 +3488,7 @@
       "range":"없음"
    },
    {
-      "uuid":"269A0F3B-ED9D-4727-AD49-BE737F70E9F5",
+      "uuid":"30E4707D-4E13-4B7B-B684-41B6C8917A11",
       "grade":"4학년",
       "semester":"1학기",
       "subject":"수학",
@@ -3504,7 +3504,7 @@
       "range":"없음"
    },
    {
-      "uuid":"4F6B569C-FE17-4134-819F-830FB3320B0D",
+      "uuid":"10D54EBB-8EF0-4C25-BAB4-9DB6D66414B2",
       "grade":"4학년",
       "semester":"2학기",
       "subject":"수학",
@@ -3520,7 +3520,7 @@
       "range":"없음"
    },
    {
-      "uuid":"CC37A448-8F76-4202-830D-3E8FEAEC2019",
+      "uuid":"D10A1755-A5CB-4900-A698-0DC28D0919C3",
       "grade":"5학년",
       "semester":"1학기",
       "subject":"수학",
@@ -3536,7 +3536,7 @@
       "range":"없음"
    },
    {
-      "uuid":"6D6DEDDA-289B-4344-AC43-2A1410A02169",
+      "uuid":"1A6777FE-2509-44F4-AAA2-86957A2FBFBF",
       "grade":"5학년",
       "semester":"1학기",
       "subject":"수학",
@@ -3552,7 +3552,7 @@
       "range":"없음"
    },
    {
-      "uuid":"70F0CFA4-398E-41C8-B397-D8BF82BDBEB8",
+      "uuid":"F2DAA650-58EF-4EB6-BCB1-C94F8A8DA644",
       "grade":"5학년",
       "semester":"2학기",
       "subject":"수학",
@@ -3568,7 +3568,7 @@
       "range":"없음"
    },
    {
-      "uuid":"DDAF2B9C-76AA-4B6A-A5F1-73E73073CAF9",
+      "uuid":"F3291D9A-A7F4-4299-ABB8-4FFBFBA6D2DF",
       "grade":"5학년",
       "semester":"2학기",
       "subject":"수학",
@@ -3584,7 +3584,7 @@
       "range":"없음"
    },
    {
-      "uuid":"57571E2B-3D4B-4DD3-AA15-8D01F3121920",
+      "uuid":"9D12BDF6-CE3E-47AE-A56B-C9221B6E79F3",
       "grade":"5학년",
       "semester":"1학기",
       "subject":"수학",
@@ -3600,7 +3600,7 @@
       "range":"없음"
    },
    {
-      "uuid":"F9512AED-3A34-48C7-B487-1902B6F998E4",
+      "uuid":"A182E1D4-9D19-48E4-B3EA-005A7C2D3762",
       "grade":"5학년",
       "semester":"1학기",
       "subject":"수학",
@@ -3616,7 +3616,7 @@
       "range":"없음"
    },
    {
-      "uuid":"4A19F791-25A7-479B-8A5C-23392DA45065",
+      "uuid":"1F90270B-7D55-46E5-8158-766A33C5959C",
       "grade":"5학년",
       "semester":"1학기",
       "subject":"수학",
@@ -3632,7 +3632,7 @@
       "range":"없음"
    },
    {
-      "uuid":"9CBBC132-885E-4D4A-AB9B-415D45DE388F",
+      "uuid":"108518AE-30DC-4AEF-8DE5-FC470A211D3F",
       "grade":"5학년",
       "semester":"1학기",
       "subject":"수학",
@@ -3648,7 +3648,7 @@
       "range":"없음"
    },
    {
-      "uuid":"4A20C276-21CD-4584-80AB-ECA961749BBA",
+      "uuid":"0E776888-841D-4303-9F12-FA8F260B646B",
       "grade":"5학년",
       "semester":"1학기",
       "subject":"수학",
@@ -3664,7 +3664,7 @@
       "range":"없음"
    },
    {
-      "uuid":"0E959568-508F-4E49-8A2F-82EBB61EC208",
+      "uuid":"45982D91-42E7-4858-8C6F-ED9BFCC86D8C",
       "grade":"6학년",
       "semester":"1학기",
       "subject":"수학",
@@ -3680,7 +3680,7 @@
       "range":"없음"
    },
    {
-      "uuid":"4AA22212-EEE1-4221-9DB3-696AE939FE21",
+      "uuid":"B770DD47-D306-4A42-B6A3-80F550F0C91E",
       "grade":"공통",
       "semester":"공통",
       "subject":"수학",
@@ -3696,7 +3696,7 @@
       "range":"3-1-1/3-1-4/3-2-1/4-1-3/5-1-1"
    },
    {
-      "uuid":"317D0DA0-B9CB-4512-893E-C78DA385C797",
+      "uuid":"1FF464C7-CF42-42F4-9799-0A2373411FC0",
       "grade":"공통",
       "semester":"공통",
       "subject":"수학",
@@ -3712,7 +3712,7 @@
       "range":"all"
    },
    {
-      "uuid":"C1459696-943F-4D8A-A8C1-2773C400385B",
+      "uuid":"34F9827B-CFA6-4401-905E-E9A1DB373858",
       "grade":"공통",
       "semester":"공통",
       "subject":"수학",
@@ -3728,7 +3728,7 @@
       "range":"3-1-1/3-2-5/4-1-1/4-1-2/4-2-1/4-2-3/5-1-1/5-1-5/5-1-6/"
    },
    {
-      "uuid":"C86CB955-0DC1-415B-AA6C-D6DEF2D13951",
+      "uuid":"DC6AB531-E18B-4965-AB90-7A0FE6BE7E27",
       "grade":"공통",
       "semester":"공통",
       "subject":"수학",
@@ -3744,7 +3744,7 @@
       "range":"all"
    },
    {
-      "uuid":"3FDBEF1D-BFF1-434D-AD04-36536FF28490",
+      "uuid":"FE319B03-247C-465D-9BD6-8806C85E63F6",
       "grade":"공통",
       "semester":"공통",
       "subject":"수학",
@@ -3760,7 +3760,7 @@
       "range":"all"
    },
    {
-      "uuid":"1578D3F8-53EA-4D3C-8013-44B5FD49B79B",
+      "uuid":"85A3BD3F-C1F4-4662-8233-5215C1AB6E67",
       "grade":"공통",
       "semester":"공통",
       "subject":"수학",
@@ -3776,7 +3776,7 @@
       "range":"3-1-6/3-2-4/4-2-1/5-1-5"
    },
    {
-      "uuid":"723224F7-B666-4640-8B4B-A83BC00091BD",
+      "uuid":"21F10091-3E64-4B77-A5E2-AC5D38A84944",
       "grade":"공통",
       "semester":"공통",
       "subject":"수학",
@@ -3792,7 +3792,7 @@
       "range":"3-1-1/3-1-3/3-1-4/3-2-1/3-2-2/4-1-3/4-2-3/5-1-1/5-2-4/6-1-3/6-2-2"
    },
    {
-      "uuid":"90EB8565-B455-4EE0-B739-EA4344DACF38",
+      "uuid":"DD7C1189-9B48-4CC9-B5BF-4904F194A580",
       "grade":"공통",
       "semester":"공통",
       "subject":"수학",
@@ -3808,7 +3808,7 @@
       "range":"all"
    },
    {
-      "uuid":"F92A3C21-3926-4C9A-966F-8ED7F91703D0",
+      "uuid":"2A13602F-78AE-411B-961D-91922BFE4326",
       "grade":"공통",
       "semester":"공통",
       "subject":"수학",
@@ -3824,7 +3824,7 @@
       "range":"all"
    },
    {
-      "uuid":"FE92DC79-BEBC-4E1F-8B1A-D6156D29BD2F",
+      "uuid":"CEE679C9-72A6-496D-B64D-40117440866D",
       "grade":"공통",
       "semester":"공통",
       "subject":"수학",
@@ -3840,7 +3840,7 @@
       "range":"all"
    },
    {
-      "uuid":"1B4B6512-C77C-4E85-902B-ACC35908130D",
+      "uuid":"CBE04D4C-628E-475D-9CD6-EEEFF038481E",
       "grade":"공통",
       "semester":"공통",
       "subject":"수학",
@@ -3856,7 +3856,7 @@
       "range":"4-1-6/5-1-3"
    },
    {
-      "uuid":"8288C361-14A3-4670-8323-3ABED59D9DB5",
+      "uuid":"30930651-FF79-4B91-9F5F-B965354DC67A",
       "grade":"공통",
       "semester":"공통",
       "subject":"수학",
@@ -3872,7 +3872,7 @@
       "range":"3-1-1/3-1-3/3-1-4/3-2-1/3-2-2/3-2-5/4-1-1/4-1-3/5-1-1/5-2-1"
    },
    {
-      "uuid":"831536B2-DFE8-4F5B-87FF-5716517578D0",
+      "uuid":"5AB9AD25-7A76-4905-A7BA-ED58106D8FE5",
       "grade":"공통",
       "semester":"공통",
       "subject":"수학",
@@ -3888,7 +3888,7 @@
       "range":"3-1-1/3-1-3/3-1-4/3-1-6/3-2-1/3-2-2/3-2-4/4-1-1/4-1-3/4-2-1/4-2-3/5-1-1/5-1-2/5-1-4/5-1-5/5-2-2/5-2-4/6-1-1/6-1-3/6-2-1/6-2-2"
    },
    {
-      "uuid":"AC7E3887-ECF5-4A04-A928-E037D730B347",
+      "uuid":"68AE7122-0635-42A3-A03F-1238111EE2B4",
       "grade":"공통",
       "semester":"공통",
       "subject":"수학",
@@ -3904,7 +3904,7 @@
       "range":"all"
    },
    {
-      "uuid":"E1422CD7-7CFF-4F36-9257-4C86991CB913",
+      "uuid":"80697801-09BB-4EC4-9665-1F52CD029B0B",
       "grade":"공통",
       "semester":"공통",
       "subject":"수학",
@@ -3920,7 +3920,7 @@
       "range":"all"
    },
    {
-      "uuid":"E88D210D-DAEA-4A71-815B-1BD3BCD122A9",
+      "uuid":"E4F23FE8-3560-43D8-85FC-603036EAE749",
       "grade":"공통",
       "semester":"공통",
       "subject":"수학",

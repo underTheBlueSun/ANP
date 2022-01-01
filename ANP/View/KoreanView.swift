@@ -12,6 +12,8 @@ struct KoreanView: View {
     @State var openNewPage = false
     
     var body: some View {
+        
+    
         NavigationView {
 
 //            Button(action: {
@@ -19,34 +21,27 @@ struct KoreanView: View {
 //            }, label: {
 //                 Text("완전삭제")
 //            })
-            
+
                 List {
-                    
-                    
 
                     ForEach(curriculumViewModel.koreans) { korean in
-                        
+
                         Section {
                             HStack {
                                 Image(systemName: String(korean.chapter) + ".circle.fill").foregroundColor(.yellow).font(.system(size: 25))
-                                Text(korean.chapName).font(.system(size: 17))
-                                Spacer()
-                                Text(String(korean.page)).foregroundColor(.gray).font(.system(size: 13))
                                 NavigationLink(destination: ActivityView(subject: korean.subject, chapter: korean.chapter, chapName: korean.chapName)) {
-                                    EmptyView()
+                                    Text(korean.chapName).font(.system(size: 17))
                                 }
-                                .frame(width: 0, height: 0)
-                                .hidden()
                             }
                             .padding(.vertical, 5)
 
                         } // section
-                            
+
                   } // ForEach
                 } // form
                 .listStyle(InsetGroupedListStyle())
 
-                
+
 //            } // vstack
 
             .fullScreenCover(isPresented: $openNewPage) {

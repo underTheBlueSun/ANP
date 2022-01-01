@@ -18,8 +18,8 @@ final class JsonUpload: ObservableObject {
 //  init(filename: String = "CurriculumData.json") {
     init() {
         
-//        if isUploaded == true {
-        if isUploaded == false {
+//        if isUploaded == true { // 테스트용
+        if isUploaded == false { // 실제용
             self.curriculums = Bundle.main.decode(filename: "CurriculumData.json", as: [Curriculum03].self)
             self.anps = Bundle.main.decode(filename: "ANPData.json", as: [ANP03].self)
             addCurriData()

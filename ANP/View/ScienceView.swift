@@ -19,14 +19,14 @@ struct ScienceView: View {
                         Section {
                             HStack {
                                 Image(systemName: String(science.chapter) + ".circle.fill").foregroundColor(.yellow).font(.system(size: 25))
-                                Text(science.chapName).font(.system(size: 17))
-                                Spacer()
-                                Text(String(science.page)).foregroundColor(.gray).font(.system(size: 13))
+//                                Text(science.chapName).font(.system(size: 17))
+//                                Spacer()
+//                                Text(String(science.page)).foregroundColor(.gray).font(.system(size: 13))
                                 NavigationLink(destination: ActivityView(subject: science.subject, chapter: science.chapter, chapName: science.chapName)) {
-                                    EmptyView()
+                                    Text(science.chapName).font(.system(size: 17))
                                 }
-                                .frame(width: 0, height: 0)
-                                .hidden()
+//                                .frame(width: 0, height: 0)
+//                                .hidden()
                             }
                             .padding(.vertical, 5)
 

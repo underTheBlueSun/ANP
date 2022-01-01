@@ -19,14 +19,14 @@ struct MathView: View {
                         Section {
                             HStack {
                                 Image(systemName: String(math.chapter) + ".circle.fill").foregroundColor(.yellow).font(.system(size: 25))
-                                Text(math.chapName).font(.system(size: 17))
-                                Spacer()
-                                Text(String(math.page)).foregroundColor(.gray).font(.system(size: 13))
+//                                Text(math.chapName).font(.system(size: 17))
+//                                Spacer()
+//                                Text(String(math.page)).foregroundColor(.gray).font(.system(size: 13))
                                 NavigationLink(destination: ActivityView(subject: math.subject, chapter: math.chapter, chapName: math.chapName)) {
-                                    EmptyView()
+                                    Text(math.chapName).font(.system(size: 17))
                                 }
-                                .frame(width: 0, height: 0)
-                                .hidden()
+//                                .frame(width: 0, height: 0)
+//                                .hidden()
                             }
                             .padding(.vertical, 5)
 

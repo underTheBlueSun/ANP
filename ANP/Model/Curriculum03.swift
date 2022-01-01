@@ -11,6 +11,7 @@ import RealmSwift
 class Curriculum03: Object,Identifiable, Codable{
     @objc dynamic var uuid: String = UUID().uuidString
     @objc dynamic var grade = ""
+//    @objc dynamic var grade: String?
     @objc dynamic var semester = ""
     @objc dynamic var subject = ""
     @objc dynamic var chapter = 0

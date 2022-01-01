@@ -19,14 +19,14 @@ struct SocietyView: View {
                         Section {
                             HStack {
                                 Image(systemName: String(society.chapter) + ".circle.fill").foregroundColor(.yellow).font(.system(size: 25))
-                                Text(society.chapName).font(.system(size: 17))
-                                Spacer()
-                                Text(String(society.page)).foregroundColor(.gray).font(.system(size: 13))
+//                                Text(society.chapName).font(.system(size: 17))
+//                                Spacer()
+//                                Text(String(society.page)).foregroundColor(.gray).font(.system(size: 13))
                                 NavigationLink(destination: ActivityView(subject: society.subject, chapter: society.chapter, chapName: society.chapName)) {
-                                    EmptyView()
+                                    Text(society.chapName).font(.system(size: 17))
                                 }
-                                .frame(width: 0, height: 0)
-                                .hidden()
+//                                .frame(width: 0, height: 0)
+//                                .hidden()
                             }
                             .padding(.vertical, 5)
 
